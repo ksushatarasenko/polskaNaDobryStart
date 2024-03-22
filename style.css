@@ -46,3 +46,42 @@ li a{
 .two img{
     width: 50%;
 }
+
+/* IMAGE */
+.image{
+    width: 80%;
+    margin: 0 auto;
+}
+img{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.otwet{
+    margin: 0 auto;
+    width: 50%;
+}
+/* TEXT */
+h1{
+    font-size: 44px;
+    text-align: center;
+    color: red;
+    margin: 2%;
+}
+h2{
+    font-size: 34px;
+    text-align: center;
+    color: green;
+    margin: 2%;
+}
+h3{
+    font-size: 28px;
+    text-align: center;
+    color: green;
+    margin: 2%;
+}
+
+.p{
+    font-size: 24px;
+    margin: 2%;
+}
