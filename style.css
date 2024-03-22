@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: rgb(197, 161, 231);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 3%;
+}
+/* LIST */
+.list{
+    display: flex;
+    
+}
+.list li{
+    font-size: 30px;
+    list-style-type: none;
+    margin: 5%;
+    cursor: pointer;
+}
+li a{
+    text-decoration: none;
+}
+
+.li{
+    list-style-type: none;
+    font-size: 20px;
+    margin: 1%;
+}
+/*  */
+
+.two{
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+}
+.two img{
+    width: 50%;
+}
