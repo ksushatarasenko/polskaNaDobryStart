@@ -29,12 +29,25 @@
 }
 li a{
     text-decoration: none;
+    
+}
+li input{
+    margin-right: 5%;
 }
 
 .li{
     list-style-type: none;
     font-size: 20px;
-    margin: 1%;
+    margin: 0.5%;
+}
+/* checkbox */
+.liLesson{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+ }
+ .checkbox {
+    transform: scale(1.5); /* Увеличиваем размер чекбокса */
 }
 /*  */
 
