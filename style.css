@@ -40,6 +40,9 @@ li input{
     font-size: 20px;
     margin: 0.5%;
 }
+ol>li{
+    font-size: 26px;
+}
 /* checkbox */
 .liLesson{
     flex-wrap: wrap;
