@@ -118,6 +118,12 @@ h3{
     color: blueviolet;
     font-weight: 900;
 }
+.blue{
+    color: blue;
+}
+.bold{
+    font-weight: bold;
+}
 /* VIDEO */
 .video{
     width: 100%;
