@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lekcija 29</title>
+    <link rel="stylesheet" href="../../style.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+        .category {
+            cursor: pointer;
+            color: blue;
+            /* text-decoration: underline; */
+        }
+        #menu{
+            display: flex;
+            gap: 2%;
+            justify-content: space-between;
+            padding: 3%;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <ul class="list">
+                <li><a href="../../index.html">Home</a></li>
+            </ul>
+            <ul class="list">
+                <li><a href="./../indexA1.html">A1</a></li>
+                <li><a href="./../../A2/indexA2.html">A2</a></li>
+                <li><a href="./../../B1/indexB1.html">B1</a></li>
+                <li><a href="./../../B2/indexB2.html">B2</a></li>
+                <li><a href="../indexPolskaKyrylo.html">Polska Kyrylo</a></li>
+                <li><a href="./../../autoPolish/indexAutoPolish.html">AutoPolish</a></li>
+                <li><a href="../indexPolskaKyrylo.html">Krok Po Kroku</a></li>
+
+            </ul>
+        </header>
+        <main class="main">
+            <h1>Lekcja 29 Lubię owoce i warzywa. </h1>
+            <h2>Wprowadzenie mianownika liczby mnogiej (rodzaj niemęskoosobowy) oraz utrwalenie słownictwa związanego z produktami spożywczymi. </h2>
+            <h2>Введение именительного падежа множественного числа (немужского личного рода) и закрепление лексики, связанной с продуктами питания.</h2>
+           <h2 class="blue">1. Tamara i Ruslan są z rodzicami w restauracji. Proszę uzupełnić menu, które dostali.</h2>
+           <div class="image">
+            <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126869&authkey=%21ABm0YyYdTj41kqM&width=3214&height=156" alt="1">
+           </div>
+           <div id="menu" class="p">
+            <div>
+                <ul id="soups" class="titleUl">
+                    <li>ZUPY</li>
+                </ul>
+                <span class="category" onclick="toggleAnswer('soups')">----------------</span>
+                <ul>
+                    <li>- zupa pomidorowa </li>
+                    <li>- rosół</li>
+                    <li>- zupa ogórkowa</li>
+                </ul>
+            </div>
+            <div>
+                <ul id="vegetarian" class="hidden titleUl">
+                    <li>DANIA WEGETARIAŃSKIE</li>
+                </ul>
+                <span class="category" onclick="toggleAnswer('vegetarian')">----------------</span>
+                <ul>
+                    <li>- naleśniki z serem</li>
+                    <li>- grillowane warzywa</li>
+                    <li>- pierogi ze śliwkami</li>
+                </ul>
+            </div>
+            <div>
+                <ul id="hot-drinks" class="hidden titleUl">
+                    <li>NAPOJE GORĄCE</li>
+                </ul>
+                <span class="category" onclick="toggleAnswer('hot-drinks')">----------------</span>
+                <ul>
+                    <li>- herbata</li>
+                    <li>- kawa</li>
+                    <li>- kakao</li>
+                </ul>
+            </div>
+            <div>
+                <ul id="meat-dishes" class="hidden titleUl">
+                    <li>DANIA MIĘSNE</li>
+                </ul>
+                <span class="category" onclick="toggleAnswer('meat-dishes')">----------------</span>
+                <ul>
+                    <li>- kotlet schabowy z surówką i ziemniakami </li>
+                    <li>- filet z kurczaka z ryżem i surówką</li>
+                    <li>- kotlet mielony z surówką i ziemniakami</li>
+                </ul>
+            </div>
+            <div>
+                <ul id="desserts" class="hidden titleUl">
+                    <li>DESERY</li>
+                </ul>
+                <span class="category" onclick="toggleAnswer('desserts')">----------------</span>
+                <ul>
+                    <li>- sernik</li>
+                    <li>- szarlotka z lodami</li>
+                    <li>- lody owocowe</li>
+                </ul>
+            </div>
+            <div>
+                <ul id="cold-drinks" class="hidden titleUl">
+                    <li>NAPOJE ZIMNE</li>
+                </ul>
+                <span class="category" onclick="toggleAnswer('cold-drinks')">----------------</span>
+                <ul>
+                    <li>- woda niegazowana / gazowana</li>
+                    <li>- sok jabłkowy</li>
+                    <li>- sok pomarańczowy</li>
+                </ul>
+            </div>
+        </div>
+      <!-- 2 -->
+        <h2>Proszę połączyć.</h2>
+        <div class="video">
+            <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/903864e90c0a41379bf924499bb20b22?themeId=43&templateId=3&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <!-- 3 -->
+         <h2><a href="https://1drv.ms/p/s!Av5Voug-ar1TgdF2vbZvwnQZpjlDpQ?e=iaOmGj" target="_blank">3. PREZENTATION</a></h2>
+         <!-- 4 -->
+          <h2>4. Proszę rozwiązać quiz.</h2>
+          <div class="video">
+            <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/8607d0eba44244caa6745eca363c3361?themeId=50&templateId=5&fontStackId=0"  frameborder="0" allowfullscreen></iframe>
+          </div>
+          <!-- 5 -->
+           <h2>5. Jakie lubisz owoce i warzywa? Proszę wymienić minimum 4.</h2>
+           <p class="p blue">Lubię jabłka, banany, ogórki i pomidory.</p>
+           <!-- 6 -->
+            <h2>6. Proszę przeanalizować tabelkę i dopisaćliczbę mnogą rzeczownika i przymiotnika.</h2>
+            <div class="video">
+                <iframe src="https://learningapps.org/watch?v=p5fptd0ij24" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+            </div>
+            <!-- 7 -->
+             <h2>7. Przed wizytą w restauracji, mama Tamary i Rusłana dzwoni do lokalu, aby zapytać o menu. Proszę uzupełnić dialog formami liczby mnogiej.
+            </h2>
+            <div class="video">
+                <iframe src="https://learningapps.org/watch?v=ps6uyxoo524" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+            </div>
+            <!-- 10 -->
+            <h2>Proszę powtórzyć za lektorem.</h2>
+            <div>
+                <p class="p">
+                    a. dobry – dobra – dobre <br>
+                    b. pyszny – pyszna – pyszne <br>
+                    c. smaczny – smaczna – smaczne <br>
+                    d. świeży – świeża – świeże <br>
+                    e. słodki – słodka – słodkie <br>
+                    f. dojrzały – dojrzała – dojrzałe <br>
+                    g. czekoladowy – czekoladowa – czekoladowe <br>
+                    h. cebula – cebuli – cebule <br>
+                    i. pomarańcza – pomarańczy – pomarańcze <br>
+                    j. brzoskwinia – brzoskwini – brzoskwinie</p>
+            </div>
+             <!-- ZADANIE DOMOWE -->
+            <h1 class="red">ZADANIE DOMOWE</h1>
+            <h2>Proszę zaznaczyć 10 rzeczowników w liczby mnogiej i odpowiadające im rzeczowniki w liczbie pojedynczej:</h2>
+            <div class="video">
+                <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/8fe0e9453a474eacaa67d74b6bdd657b?themeId=2&templateId=10&fontStackId=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            
+            <div class="image">
+                <img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2126354&authkey=%21AOsPLbjO09rNkH8&width=1067&height=465" alt="">
+            </div>
+    <script>
+         function toggleAnswer(id) {
+        var element = document.getElementById(id);
+        if (element.classList.contains('hidden')) {
+            element.classList.remove('hidden');
+        } else {
+            element.classList.add('hidden');
+        }
+    }
+    </script>
+        </main>
+    </div>
+    
+</body>
+</html>

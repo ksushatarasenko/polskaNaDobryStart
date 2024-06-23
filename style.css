@@ -43,6 +43,17 @@ li input{
 ol>li{
     font-size: 26px;
 }
+/*  */
+.titleUl{
+    color: rgb(10, 162, 162);
+    font-style: italic;
+    font-weight: bold;
+}
+.titleUl li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
 /* checkbox */
 .liLesson{
     flex-wrap: wrap;
