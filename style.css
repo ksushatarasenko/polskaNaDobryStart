@@ -116,6 +116,11 @@ h3{
     font-size: 24px;
     margin: 2%;
 }
+.link{
+    font-size: 34px;
+    color: rgb(129, 7, 243);
+    text-align: center;
+}
 .pravilo{
     font-size: 30px;
 }
