@@ -41,7 +41,7 @@ li input{
     margin: 0.5%;
 }
 ol>li{
-    font-size: 26px;
+    font-size: 22px;
 }
 /*  */
 .titleUl{
@@ -119,7 +119,7 @@ img{
 
 /*  */
 .blockZadanie{
-    width: 95%;
+    width: 90%;
    border: 1px solid gray;
    padding: 5px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* небольшая тень */
@@ -251,4 +251,7 @@ button{
  }
  
  /* ---------- END POKAZ OTWETA OPTIMA ------------------ */
- 
+ .marginLeft{
+    margin-left: 3%;
+    width: 100%;
+ }

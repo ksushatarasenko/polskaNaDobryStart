@@ -287,3 +287,50 @@
     <span class="coral">zaraz</span> | <span class="coral">często</span> | <span
     class="coral">dzisiaj</span> | <span class="coral">zwykle</span> | <span class="coral">zawsze</span>
 </p>
+
+<!-- выпадающий список -->
+<form id="quiz-form-1" class="marginLeft">
+    <ol>
+        <li style="margin-top: 2%;">
+            <select name="q1">
+                <option value="">-- Select --</option>
+                <option value="correct">Wielu</option>
+                <option value="incorrect">Mało</option>
+                <option value="incorrect">Inne</option>
+            </select>
+            pasażerów
+            <select name="q2">
+                <option value="">-- Select --</option>
+                <option value="correct">czekało</option>
+                <option value="incorrect">czekają</option>
+                <option value="incorrect">czekam</option>
+            </select>
+            na dworcu.
+        </li>
+        <li style="margin-top: 7px">
+            <select name="q3">
+                <option value="">-- Select --</option>
+                <option value="correct">Ile</option>
+                <option value="incorrect">Dużo</option>
+                <option value="incorrect">Wiele</option>
+            </select>
+            porcji
+            <select name="q4">
+                <option value="">-- Select --</option>
+                <option value="correct">zamówić</option>
+                <option value="incorrect">zamawia</option>
+                <option value="incorrect">zamówione</option>
+            </select>?
+        </li>
+    </ol>
+    
+    <div class="flex">
+        <button type="button" onclick="checkAnswersForm('quiz-form-1')">Sprawdź</button>
+        <div class="hint2-container" onclick="toggleHint2(this)">
+            <div class="hint2-header"></div>
+            <div class="hint2-content">
+                Число ділиться на 5, якщо воно закінчується на 0 або 5.
+            </div>
+        </div>
+    </div>
+</form>

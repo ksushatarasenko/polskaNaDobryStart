@@ -101,4 +101,18 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
- 
+ // функция для выпадающего списка
+function checkAnswersForm(formId) {
+    const form = document.getElementById(formId);
+    const selects = form.querySelectorAll('select');
+
+    selects.forEach(select => {
+        if (select.value === "correct") {
+            select.classList.remove('incorrect');
+            select.classList.add('correct');
+        } else {
+            select.classList.remove('correct');
+            select.classList.add('incorrect');
+        }
+    });
+}
