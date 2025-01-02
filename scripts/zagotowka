@@ -1,0 +1,291 @@
+<!-- pole dla wpisania -->
+ 
+<div class="question-set" id="set2">
+    <div class="dialog italic ">
+        <div class="colors">
+            <p class="p20 italic ">- zielona, ale też niebieska jak woda i żółta jak słonce. => <span
+                    class="blue">lato</span></p>
+        </div>
+        <div class="colors">
+            <p class="p20">- bardzo zielona, ale też różowa, żółta, biała jak kwiaty. => <input type="text"
+                    data-answer="lubię" class="line_1"></p>
+        </div>
+    </div>
+</div>
+<div class="flex">
+    <button onclick="checkAnswers('set6')">Sprawdź</button>
+    <div>
+        <button onclick="toggleHints('hints6')">Wskazówka</button>
+        <div id="hints6" style="display: none;">
+            <p>1. Mama jest szczupła i niska.</p>
+            <p>2. Tata ma brązowe oczy.</p>
+            <p>3. Tata z zawodu jest informatykiem.</p>
+        </div>
+    </div>
+</div>
+<!-- tablica wpisać-->
+<div class="question-set" id="set3">
+    <table class="dialog italic ">
+        <tr>
+            <td><span class="weight">pora roku</span> <br>mianownik (kto?, co?)</td>
+            <td><span class="weight">kiedy?</span> <br>narzednik (kim?, czim? (коли?))</td>
+        </tr>
+        <tr>
+            <td>wiosna</td>
+            <td><input type="text" data-answer="wiosną" class="line_1"></td>
+        </tr>
+        <tr>
+            <td>lato</td>
+            <td><input type="text" data-answer="latem" class="line_1"></td>
+        </tr>
+        <tr>
+            <td>jesień</td>
+            <td><span class="blue">jesieni</span><span class="red">ą</span></td>
+        </tr>
+        <tr>
+            <td>zima</td>
+            <td><input type="text" data-answer="zimą" class="line_1"></td>
+        </tr>
+    </table>
+    <button onclick="checkAnswers('set3')">Check</button>
+    <button onclick="toggleHints('hints3')">Wskazówka</button>
+    <div id="hints3" style="display: none;">
+        <img src="https://1drv.ms/i/s!Av5Voug-ar1TgfRUYFZoEPE2GLQDNg?embed=1&width=2440&height=228" alt="poryRoku">
+    </div>
+</div>
+<!-- ż -->
+<!-- &nbsp;  probel -->
+
+<h3 class="italic "> <span class="coral">Toru</span> | <span class="coral">Lukas</span> | <span
+        class="coral">Sophie</span> | <span class="coral">Maja</span></h3>
+
+<!-- wybor Otweta -->
+
+<div>
+    <div class="questions">
+        <div class="two_1">
+            <div>
+                <div>
+                    <div class="options italic blue">
+                        <div class="option" data-index="0">a. nowy | </div>
+                        <div class="option" data-index="1" style="text-decoration: underline;">
+                            &nbsp;niebieski | </div>
+                        <div class="option" data-index="2">&nbsp;stary </div>
+                    </div>
+                </div>
+                <div class="question" data-correct="2">
+                    <div class="options">
+                        <div class="option" data-index="0">b. zły | </div>
+                        <div class="option" data-index="1"> &nbsp;dobry | </div>
+                        <div class="option" data-index="2">&nbsp;duży </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="checkAnswers">Sprawdź</button>
+</div>
+
+<!-- выбор ответа + вписание слова -->
+<div class="question-set" id="set5">
+    <div class="dialog  questions">
+        <div class="colors questionOption" data-correct="2">
+            <p class="p20" style="width: 20%;">1. Ten <span class="blue italic">plecak</span> jest </p>
+            <div class="displayFlex italic" style="width: 30%;">
+                <p class="p20 option" data-index="0">&nbsp;żółty |</p>
+                <p class="p20 option" data-index="1">&nbsp;stary |</p>
+                <p class="p20 option selected" data-index="2">&nbsp;nowy</p>
+            </div>
+            <img src="https://1drv.ms/i/s!Av5Voug-ar1TgfwpI7Aog7NLH-iLZg?embed=1&width=574&height=580"
+                alt="5-1" style="width: 7%;border-radius: 50%;">
+        </div>
+        <div class="colors questionOption" data-correct="2">
+            <p class="p20" style="width: 20%;">2. Ten <input type="text" data-answer="ołówek"
+                    class="line_1"> jest </p>
+            <div class="displayFlex italic" style="width: 30%;">
+                <p class="p20 option" data-index="0">&nbsp;krótki |</p>
+                <p class="p20 option" data-index="1">&nbsp;czerwony |</p>
+                <p class="p20 option" data-index="2">&nbsp;długi</p>
+            </div>
+            <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgfwqb4O6Q2e4j7p5QA?embed=1&width=572&height=580"
+                alt="5-3" style="width: 7%;border-radius: 50%;">
+        </div>
+    </div>
+</div>
+<div class="flex">
+    <button class="checkAnswersBtn" data-set-id="set5">Sprawdź</button>
+    <p class="result"></p>
+</div>
+
+
+<!-- -------------------------------------------------------- -->
+<!-- RADIO -->
+
+<div>
+    <div id="task6">
+        <div class="task">
+            <div class="options">
+                <p class="p20">Mathis ogląda fajny program.</p>
+                <div class="boxRadio">
+                    <label><input type="radio" name="question1" value="1"> P</label>
+                    <label><input type="radio" name="question1" value="2"> N</label>
+                </div>
+            </div>
+        </div>
+        <div class="task">
+            <div class="options">
+                <p class="p20">Mathis kupuje na Allegro nowy album.</p>
+                <div class="boxRadio">
+                    <label><input type="radio" name="question1" value="1"> P</label>
+                    <label><input type="radio" name="question1" value="2"> N</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button onclick="checkRadio('task6')">Chek</button>
+</div>
+<!--  -->
+
+<!-- Radio tablica -->
+<table class="italic table" id="task507A4">
+    <tr>
+        <th><img src="https://1drv.ms/i/s!Av5Voug-ar1TgfRVeYeInCabGno76w?embed=1&width=1308&height=526" alt="507A4"
+                style="width: 250px;"></th>
+        <td class="td">WIOSNA</td>
+        <td class="td">LATEM</td>
+        <td class="td">JESIENIĄ</td>
+        <td class="td">ZIMĄ</td>
+    </tr>
+    <tr class="task">
+        <td>1. Mamy wakacje.</td>
+        <div class="options">
+            <td><label><input type="radio" name="question1" value="1"></label></td>
+            <td><label><input type="radio" name="question1" value="2"></label></td>
+            <td><label><input type="radio" name="question1" value="3"></label></td>
+            <td><label><input type="radio" name="question1" value="4"></label></td>
+        </div>
+    </tr>
+    <tr class="task">
+        <td>6. Zaczyna się nowy rok szkolny.</td>
+        <div class="options">
+            <td><label><input type="radio" name="question6" value="1"></label></td>
+            <td><label><input type="radio" name="question6" value="2"></label></td>
+            <td><label><input type="radio" name="question6" value="3"></label></td>
+            <td><label><input type="radio" name="question6" value="4"></label></td>
+        </div>
+    </tr>
+</table>
+<button onclick="checkRadio('task507A4')">Chek</button>
+
+------- checkbox ----
+<table id="task1">
+    <tr>
+        <td></td>
+        <td><img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2131171&authkey=%21ADRZske5GRf9Dto&width=460&height=352"
+                alt="artem" style="width: 150px;"></td>
+        <td><img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2131172&authkey=%21AE42c_IJPHQMItA&width=276&height=364"
+                alt="lukas" style="width: 150px;"></td>
+        <td><img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2131173&authkey=%21ALOXsiBYLefyTEU&width=280&height=334"
+                alt="misaki" style="width: 150px;"></td>
+        <td><img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2131174&authkey=%21AMuViAnxnyQSaww&width=286&height=324"
+                alt="oliwia" style="width: 150px;"></td>
+    </tr>
+    <tr class="task">
+        <td>a. pływac</td>
+        <td><label><input type="checkbox" name="question1" value="1"> opcja 1</label></td>
+        <td><label><input type="checkbox" name="question1" value="2"> opcja 2</label></td>
+        <td><label><input type="checkbox" name="question1" value="3"> opcja 3</label></td>
+        <td><label><input type="checkbox" name="question1" value="4"> opcja 4</label></td>
+    </tr>
+
+    <tr class="task">
+        <td>d. iść do kina</td>
+        <td><label><input type="checkbox" name="question4" value="1"> opcja 1</label></td>
+        <td><label><input type="checkbox" name="question4" value="2"> opcja 2</label></td>
+        <td><label><input type="checkbox" name="question4" value="3"> opcja 3</label></td>
+        <td><label><input type="checkbox" name="question4" value="4"> opcja 4</label></td>
+    </tr>
+    <tr class="task">
+        <td>e. grać w tenisa</td>
+        <td><label><input type="checkbox" name="question5" value="1"> opcja 1</label></td>
+        <td><label><input type="checkbox" name="question5" value="2"> opcja 2</label></td>
+        <td><label><input type="checkbox" name="question5" value="3"> opcja 3</label></td>
+        <td><label><input type="checkbox" name="question5" value="4"> opcja 4</label></td>
+    </tr>
+</table>
+</div>
+<button onclick="checkCheckbox('task1')">Chek</button>
+<!-- CHECKBOX  -->
+<div id="task506E3">
+    <div class="task italic p20">
+        <div>1. Kraj:</div>
+        <div class="p18"><input type="checkbox" name="question1" value="1">Czechy i Szwecja
+        </div>
+        <div class="p18"><input type="checkbox" name="question1" value="2">Polska i
+            Szwecja</label></div>
+        <div class="p18"><input type="checkbox" name="question1" value="3">Polska i
+            Czechy</label></div>
+    </div>
+    <div class="task italic p20">
+        <div>2. Język:</div>
+        <div class="p18"><input type="checkbox" name="question2" value="1">czeski i szwedzki
+        </div>
+        <div class="p18"><input type="checkbox" name="question2" value="2">polski i szwedzki</label></div>
+        <div class="p18"><input type="checkbox" name="question2" value="3">polski i czeski
+            </label></div>
+    </div>
+</div>
+<button onclick="checkCheckbox('task1')">Chek</button>
+
+
+
+    ----------- Glagol-----------
+        <div class="question-set" id="set3">
+            <div class="dialog italic ">
+                <div class="colors">
+                    <p class="p22 italic ">(ja) <input type="text" data-answer="rysuję"
+                        class="line_2"></p>
+                </div>
+                <div class="colors">
+                    <p class="p22">(ty) <input type="text" data-answer="rysujesz" class="line_2">
+                    </p>
+                </div>
+                <div class="colors">
+                    <p class="p22"> (on/ ona/ ono) <input type="text" data-answer="rysuje"
+                        class="line_2">
+                    </p>
+                </div>
+                <div class="colors">
+                    <p class="p22"> (my) <input type="text" data-answer="rysujemy" class="line_2">
+                    </p>
+                </div>
+                <div class="colors">
+                    <p class="p22"> (wy) <span class="blue">rysujecie</span>
+                    </p>
+                </div>
+                <div class="colors">
+                    <p class="p22"> (oni/ one) <input type="text" data-answer="rysują"
+                        class="line_2"></p>
+                </div>
+            </div>
+            <button onclick="checkAnswers('set3')">Check</button>
+            <button onclick="toggleHints('hints3')">Wskazówka</button>
+            <div id="hints3" style="display: none;">
+                <p>ja => rysuję
+                </p>
+                <p>ty => rysujesz</p>
+                <p>on/ona/ono => rysuje</p>
+                <p>my => rysujemy</p>
+                <p>wy => rysujecie</p>
+                <p>oni/one => rysują</p>
+            </div>
+        </div>
+
+<!-- SLOWA -->
+<p class="slowa"><span class="coral">regularnie</span> | <span class="coral">w ten piątek</span> | <span
+    class="coral">codziennie</span> | <span class="coral">teraz </span> | <span class="coral">w tę
+    sobotę</span> | <span class="coral">rzadko</span> | <span class="coral">za chwilę</span> | <span
+    class="coral">czasem</span> | <span class="coral">nigdy</span> | <span class="coral">jutro</span> |
+    <span class="coral">zaraz</span> | <span class="coral">często</span> | <span
+    class="coral">dzisiaj</span> | <span class="coral">zwykle</span> | <span class="coral">zawsze</span>
+</p>
