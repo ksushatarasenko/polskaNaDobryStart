@@ -17,10 +17,26 @@ h3{
     color: green;
     margin: 2%;
 }
-
+h4{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(90, 0, 128);
+    margin: 2%;
+}
+.text{
+    padding: 30px;
+}
+em{
+    margin-right: 30px;
+}
 .p{
     font-size: 24px;
     margin: 2%;
+}
+.p18{
+    font-size: 18px;
+    padding: 3px;
+    text-indent: 50px;
 }
 .p20{
     font-size: 20px;
@@ -31,6 +47,11 @@ h3{
 .p22{
     font-size: 22px;
     padding: 2%;
+}
+.p16{
+    font-size: 16px;
+    padding: 2%;
+    font-style: italic;
 }
 .link{
     font-size: 34px;
@@ -56,3 +77,40 @@ h3{
 .bold{
     font-weight: bold;
 }
+
+/* line */
+.line_1{
+    width: 100px;
+    font-size: 16px;
+    color: blue;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+ }
+ .line_2{
+    width: 150px;
+    font-size: 16px;
+    color: blue;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+ }
+ .line_3{
+    width: 300px;
+    font-size: 16px;
+    color: blue;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+
+ }
+ .line_4{
+    width: 40px;
+    font-size: 16px;
+    color: blue;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0 2px;
+    text-align: center;
+
+ }

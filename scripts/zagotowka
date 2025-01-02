@@ -14,12 +14,10 @@
 </div>
 <div class="flex">
     <button onclick="checkAnswers('set6')">Sprawdź</button>
-    <div>
-        <button onclick="toggleHints('hints6')">Wskazówka</button>
-        <div id="hints6" style="display: none;">
-            <p>1. Mama jest szczupła i niska.</p>
-            <p>2. Tata ma brązowe oczy.</p>
-            <p>3. Tata z zawodu jest informatykiem.</p>
+    <div class="hint2-container" onclick="toggleHint2(this)">
+        <div class="hint2-header"></div>
+        <div class="hint2-content">
+            Число ділиться на 5, якщо воно закінчується на 0 або 5.
         </div>
     </div>
 </div>
