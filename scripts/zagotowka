@@ -54,9 +54,9 @@
 <!-- ż -->
 <!-- &nbsp;  probel -->
 
-<h3 class="italic "> <span class="coral">Toru</span> | <span class="coral">Lukas</span> | <span
-        class="coral">Sophie</span> | <span class="coral">Maja</span></h3>
-
+<p class="slowa p22"> <span class="coral">za</span> | <span class="coral">po</span> | <span
+    class="coral">do</span> | <span class="coral">wpół</span></p>
+    
 <!-- wybor Otweta -->
 
 <div>
@@ -334,3 +334,26 @@
         </div>
     </div>
 </form>
+<!-- выбор правильной кнопки -->
+<div>
+    <div id="question-1" class="button-container">
+        <button onclick="selectAnswer('question-1', this)" class="answerBtn" data-correct="true">8:45</button>
+        <button onclick="selectAnswer('question-1', this)" class="answerBtn" data-correct="false">9:45</button>
+    </div>
+
+    <div id="question-2" class="button-container">
+        <button onclick="selectAnswer('question-2', this)" class="answerBtn" data-correct="false">9:30</button>
+        <button onclick="selectAnswer('question-2', this)" class="answerBtn" data-correct="true">11:30</button>
+    </div>
+
+    <div class="flex">
+        <button onclick="checkAllAnswersBtn()">Проверить ответы</button>
+        <div class="hint2-container" onclick="toggleHint2(this)">
+            <div class="hint2-header"></div>
+            <div class="hint2-content">
+                <div class="text">
+                    <p>8:45 <br>11:30 <br>6:05 <br>1:30 <br>5:40 <br>4:20</p>
+                </div>
+            </div>
+        </div>
+    </div>

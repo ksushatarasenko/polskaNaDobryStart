@@ -156,7 +156,7 @@ button{
     gap: 1px;
     font-size: 20px;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
  }
  
  .option {
@@ -165,6 +165,10 @@ button{
    
  }
 
+ .bigRadio{
+    width: 150px;
+    height: 20px;
+ }
  /* -------------- POKAZ OTWETA OPTIMA -------------*/
 .hint2-container {
     background-color: #e8f4fd;
@@ -255,3 +259,22 @@ button{
     margin-left: 3%;
     width: 100%;
  }
+
+ /* стили к заданию выбор правильной кнопки */
+ .button-container {
+    margin: 10px 0;
+}
+
+.answerBtn {
+    padding: 5px;
+    padding-bottom: 10px;
+    margin: 0 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+.selected {
+    border-color: blue;
+}
+/*  */

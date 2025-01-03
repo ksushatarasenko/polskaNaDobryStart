@@ -227,11 +227,11 @@
             </div>
             <!-- 12 -->
             <div class="blockZadanie">
-                <h4>11. Выберите правильное время из списка.</h4>
+                <h4>str 12. Выберите правильное время из списка.</h4>
                 <form id="quiz-form-12" class="marginLeft">
                     <ol>
                         <li style="margin-top: 2%;">
-                            Zwykle wstaję o wpół do siódmej – 
+                            Zwykle wstaję o wpół do siódmej –
                             <select name="q1">
                                 <option value="">-- Select --</option>
                                 <option value="correct">6:30</option>
@@ -249,7 +249,7 @@
                             </select>
                         </li>
                         <li style="margin-top: 7px">
-                            Moja mama wychodzi z domu dziesięć po siódmej – 
+                            Moja mama wychodzi z domu dziesięć po siódmej –
                             <select name="q3">
                                 <option value="">-- Select --</option>
                                 <option value="correct">7:10</option>
@@ -258,7 +258,7 @@
                             </select>
                         </li>
                         <li style="margin-top: 7px">
-                            Wykład zaczyna się o wpół do dziewiątej – 
+                            Wykład zaczyna się o wpół do dziewiątej –
                             <select name="q3">
                                 <option value="">-- Select --</option>
                                 <option value="incorrect">9:30</option>
@@ -276,7 +276,7 @@
                             </select>
                         </li>
                         <li style="margin-top: 7px">
-                            Irina ma kurs tańca w piątek piętnaście po szóstej – 
+                            Irina ma kurs tańca w piątek piętnaście po szóstej –
                             <select name="q3">
                                 <option value="">-- Select --</option>
                                 <option value="incorrect">18:50</option>
@@ -292,11 +292,11 @@
                             <div class="hint2-header"></div>
                             <div class="hint2-content">
                                 <div class="text">
-                                    <p>Zwykle wstaję o wpół do siódmej – 
+                                    <p>Zwykle wstaję o wpół do siódmej –
                                         6:30. <br>
                                         Oni jedzą śniadanie za piętnaście ósma – 7:45 . <br>
                                         Moja mama wychodzi z domu dziesięć po siódmej – 7:10 . <br>
-                                        Wykład zaczyna się o wpół do dziewiątej –  8:30 . <br>
+                                        Wykład zaczyna się o wpół do dziewiątej – 8:30 . <br>
                                         Oni jedzą obiad za piętnaście czwarta – 15:45 . <br>
                                         Irina ma kurs tańca w piątek piętnaście po szóstej – 18:15 .</p>
                                 </div>
@@ -305,13 +305,408 @@
                     </div>
                 </form>
             </div>
+            <!-- 13 -->
+            <div class="blockZadanie">
+                <h4>str 13 - вставьте в предложения пропущенные слова.</h4>
+                <p class="slowa p22"> <span class="coral">za</span> | <span class="coral">po</span> | <span
+                        class="coral">do</span> | <span class="coral">wpół</span></p>
 
+                <div class="question-set" id="set13">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20 italic ">- pięć => <span class="blue">po</span> ósmej</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">- <input type="text" data-answer="za" class="line_1"> dziesięć czwarta</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">- <input type="text" data-answer="wpół" class="line_1"> do drugiej</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">- wpół <input type="text" data-answer="do" class="line_1"> dziesiątej</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set13')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="text">
+                                <p>- pięć <b>po</b> ósmej <br>
+                                    - <b>za</b> dziesięć czwarta <br>
+                                    <b>wpół</b> do drugiej <br>
+                                    wpół <b>do</b> dziesiątej
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 14 -->
+            <div class="blockZadanie">
+                <h4>str 14 - Отметьте время, которое слышите.</h4>
 
+                <div>
+                    <audio src="../audio/lekc01/a2-l1-e14.mp3" controls></audio>
+                    <div id="question-1" class="button-container">
+                        <button onclick="selectAnswer('question-1', this)" class="answerBtn"
+                            data-correct="true">8:45</button>
+                        <button onclick="selectAnswer('question-1', this)" class="answerBtn"
+                            data-correct="false">9:45</button>
+                    </div>
+
+                    <div id="question-2" class="button-container">
+                        <button onclick="selectAnswer('question-2', this)" class="answerBtn"
+                            data-correct="false">9:30</button>
+                        <button onclick="selectAnswer('question-2', this)" class="answerBtn"
+                            data-correct="true">11:30</button>
+                    </div>
+
+                    <div id="question-3" class="button-container">
+                        <button onclick="selectAnswer('question-3', this)" class="answerBtn"
+                            data-correct="true">6:05</button>
+                        <button onclick="selectAnswer('question-3', this)" class="answerBtn"
+                            data-correct="false">6:25</button>
+                    </div>
+
+                    <div id="question-4" class="button-container">
+                        <button onclick="selectAnswer('question-4', this)" class="answerBtn"
+                            data-correct="false">11:30</button>
+                        <button onclick="selectAnswer('question-4', this)" class="answerBtn"
+                            data-correct="true">1:30</button>
+                    </div>
+
+                    <div id="question-5" class="button-container">
+                        <button onclick="selectAnswer('question-5', this)" class="answerBtn"
+                            data-correct="true">5:40</button>
+                        <button onclick="selectAnswer('question-5', this)" class="answerBtn"
+                            data-correct="false">6:20</button>
+                    </div>
+
+                    <div id="question-6" class="button-container">
+                        <button onclick="selectAnswer('question-6', this)" class="answerBtn"
+                            data-correct="true">4:20</button>
+                        <button onclick="selectAnswer('question-6', this)" class="answerBtn"
+                            data-correct="false">4:12</button>
+                    </div>
+
+                    <div class="flex">
+                        <button onclick="checkAllAnswersBtn()">Sprawdź</button>
+                        <div class="hint2-container" onclick="toggleHint2(this)">
+                            <div class="hint2-header"></div>
+                            <div class="hint2-content">
+                                <div class="text">
+                                    <p>8:45 <br>11:30 <br>6:05 <br>1:30 <br>5:40 <br>4:20</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 15 -->
+            <div class="blockZadanie">
+                <h4>str 15 - Дополните предложения правильными формами.</h4>
+                <div class="question-set" id="set15">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20 italic ">8:45 - za piętnaście <span class="blue">dziewiąta</span></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">10:20 – dwadzieścia po
+                                <input type="text" data-answer="dziesiątej" class="line_1">
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">17:50 - za dziesięć <input type="text" data-answer="szósta" class="line_1">
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">7:30 - wpół do <input type="text" data-answer="ósmej" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">20:15 - piętnaście po <input type="text" data-answer="ósmej" class="line_1">
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">12:55 - za pięć <input type="text" data-answer="pierwsza" class="line_1"></p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">23:30 - wpół do <input type="text" data-answer="dwunastej" class="line_1">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set15')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="text">
+                                <p>
+                                    8:45 – za piętnaście dziewiąta. <br>
+                                    10:20 – dwadzieścia po
+                                    dziesiątej. <br>
+                                    17:50 – za dziesięć
+                                    szósta. <br>
+                                    7:30 – wpół do
+                                    ósmej. <br>
+                                    20:15 – piętnaście po
+                                    ósmej. <br>
+                                    12:55 – za pięć
+                                    pierwsza. <br>
+                                    23:30 – wpół do
+                                    dwunastej.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 17 -->
+            <div class="blockZadanie">
+                <h4>str 17 - Прослушайте запись и отметьте высказывание, которое слышите.</h4>
+                <audio
+                    src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9mTUNB7WtBnaE_l0VaGhao)/userfiles/kursy/lektorzy_a2/l1/a2-l1-e16.mp3"
+                    controls></audio>
+                <div id="task2_01_17">
+                    <div class="task italic p20">
+                        <div class="p20"><input type="checkbox" name="question1" value="1"> Mam dzisiaj dobry dzień.
+                            Wpół do dziesiątej mam spotkanie z koleżanką, idziemy na zakupy i do baru. Po południu o
+                            szesnastej idę z kolegami na mecz i wracam do domu późno, po jedenastej.
+                        </div>
+                        <div class="p20"><input type="checkbox" name="question1" value="2"> Mam dzisiaj dobry dzień.
+                            Wpół do jedenastej mam spotkanie z koleżanką, idziemy na zakupy i do baru. Po południu o
+                            szesnastej idę z koleżankami na mecz i wracam do domu późno, po jedenastej. </label></div>
+                        <div class="p20"><input type="checkbox" name="question1" value="3"> Mam dzisiaj dobry dzień.
+                            Wpół do dziesiątej mam spotkanie z koleżanką, idziemy na zakupy i do baru. Po południu o
+                            siedemnastej idę z kolegami na mecz i wracam do domu późno, po dwunastej.</label></div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkCheckbox('task2_01_17')">Chek</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <p class="p20">Mam dzisiaj dobry dzień. Wpół do dziesiątej mam spotkanie z koleżanką,
+                                idziemy na zakupy i do baru. Po południu o siedemnastej idę z kolegami na mecz i wracam
+                                do domu późno, po dwunastej.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 18 -->
+            <div class="blockZadanie">
+                <h4>str 18</h4>
+                <div class="image">
+                    <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9mTUdB7W9BnaU_oz4qGhao)/userfiles/kursy/tabelki_i_wykresy_a2/l1/a2.l1.e17.png"
+                        alt="str18">
+                    <audio
+                        src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB7WtBnaU7mklHRumCNca8)/userfiles/kursy/lektorzy_a2/l1/a2-l1-e17-n1.mp3"
+                        controls></audio>
+                </div>
+                <div class="text">
+                    <p class="italic">Примеры:</p>
+                    <p class="p18"><b>Najpierw</b> idziemy do kina, a <b>potem</b> zapraszam cię do siebie. <br>
+                        <b>Najpierw</b> czytamy teksty, a <b>później</b> robimy ćwiczenia.
+                    </p>
+                    <audio
+                        src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB7WtBnaU7mk1HRumCNca8)/userfiles/kursy/lektorzy_a2/l1/a2-l1-e17-n2.mp3"
+                        controls></audio>
+                </div>
+            </div>
+            <!-- 19 -->
+            <div class="blockZadanie">
+                <h4>str 19 - Выберите утверждение «истина» или «ложь» для предложенных вариантов.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/cb854fad09f946f294380bdfd5029fe8?themeId=55&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 20 -->
+            <div class="blockZadanie">
+                <h4>str 20 </h4>
+                <div class="image">
+                    <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9mTUdB7W9Bna0_oz4qGhao)/userfiles/kursy/tabelki_i_wykresy_a2/l1/a2.l1.e19.png"
+                        alt="str20" style="width: 80%;">
+                    <div class="gridSix">
+                        <audio
+                            src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9mTUNB7WtBna07mkoSSt52eWG2e)/userfiles/kursy/lektorzy_a2/l1/a2-l1-e19-n1a.mp3"
+                            controls></audio>
+                        <audio
+                            src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9mTUNB7WtBna07mkoWSt52eWG2e)/userfiles/kursy/lektorzy_a2/l1/a2-l1-e19-n1b.mp3"
+                            controls></audio>
+                        <audio
+                            src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9mTUNB7WtBna07mkoaSt52eWG2e)/userfiles/kursy/lektorzy_a2/l1/a2-l1-e19-n1c.mp3"
+                            controls></audio>
+                        <audio
+                            src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9mTUNB7WtBna07mkoeSt52eWG2e)/userfiles/kursy/lektorzy_a2/l1/a2-l1-e19-n1d.mp3"
+                            controls></audio>
+                        <audio
+                            src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9mTUNB7WtBna07mkoiSt52eWG2e)/userfiles/kursy/lektorzy_a2/l1/a2-l1-e19-n1e.mp3"
+                            controls></audio>
+                        <audio
+                            src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9mTUNB7WtBna07mkomSt52eWG2e)/userfiles/kursy/lektorzy_a2/l1/a2-l1-e19-n1f.mp3"
+                            controls></audio>
+                    </div>
+                </div>
+                <div class="text">
+                    <p class="p20">Согласно спряжению <b>–m, –sz</b> спрягаются глаголы, среди которых: <em>mieć,
+                            pamiętać,
+                            przepraszać, kochać, czytać, oglądać, słuchać, spotykać się, ubierać się, mieszkać, pomagać,
+                            pytać, odpowiadać, zaczynać, witać, żegnać</em> и многие другие.</p>
+                    <p class="italic">Примеры:</p>
+                    <p class="p18">
+                        Zawsze <b>wracam do domu</b> za piętnaście trzecia. <br>
+                        Czy <b>pamiętasz</b>, o której godzinie jest mecz? <br>
+                        Tomek wieczorami <b>słucha</b> muzyki.
+                    </p>
+                    <audio
+                        src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB7WtBna07mk1HRumCNca8)/userfiles/kursy/lektorzy_a2/l1/a2-l1-e19-n2.mp3"
+                        controls></audio>
+                    <p class="p20">
+                        Согласно спряжению <b>–ę, –isz/–ysz</b> спрягаются глаголы, среди которых: <em>budzić się,
+                            mówić, myśleć,
+                            cieszyć się, ćwiczyć, lubić, nudzić się, śpieszyć się, chodzić, jeździć, tańczyć, uczyć,
+                            uczyć
+                            się</em>.
+                    </p>
+                    <p class="italic">Примеры:</p>
+                    <p class="p18">
+                        Kilka lat <b>uczymy się</b> języka angielskiego. <br>
+                        Czy <b>śpieszycie się</b> na wykład? <br>
+                        Oni <b>tańczą</b> salsę w każdy weekend.
+                    </p>
+                    <audio
+                        src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB7WtBna07mlFHRumCNca8)/userfiles/kursy/lektorzy_a2/l1/a2-l1-e19-n3.mp3"
+                        controls></audio>
+                    <p class="p20">Согласно спряжению <b>–ę, –esz </b>спрягаются глаголы, среди которых: <em>pić, myć,
+                            pisać, brać</em>
+                        и глаголы с суффиксом <b>–owa–/–ywa–</b> в инфинитиве, например. <em>studiować, pracować,
+                            gotować, trenować,
+                            fotografować, sprzedawać, podpisywać</em>. Суффикс –owa–/–ywa– в личных формах заменяем
+                        на–uj,
+                        напр. <em>gotować – gotuję, gotujesz, pracować – pracuję, pracujesz</em>.</p>
+                    <p class="italic">Примеры:</p>
+                    <p class="p18">
+                        <b>Piję</b> herbatę i <b>wracam</b> do pracy. <br>
+                        Profesor <b>podpisuje</b> indeksy. <br>
+                        Oni <b>piszą</b> test z matematyki. <br>
+                        My <b>pracujemy</b> w kawiarni i <b>studiujemy</b> zaocznie.
+                    </p>
+                    <audio
+                        src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB7WtBna07mlVHRumCNca8)/userfiles/kursy/lektorzy_a2/l1/a2-l1-e19-n4.mp3"
+                        controls></audio>
+                </div>
+            </div>
+            <!-- 21 -->
+            <div class="blockZadanie">
+                <h4>str 21 - Выберите и вставьте соответствующую форму глагола.
+                </h4>
+                <form id="quiz-form-21" class="marginLeft">
+                    <ol>
+                        <li style="margin-top: 2%;">
+                            Najpierw spacerujecie w parku, a później
+                            <select name="q1">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">uczyć się</option>
+                                <option value="correct">uczycie się</option>
+                                <option value="incorrect">uczysz się</option>
+                            </select>.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Ona najpierw kończy oglądać serial, a następnie
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">przygotowują</option>
+                                <option value="correct">przygotowuje</option>
+                                <option value="incorrect">przygotowuję</option>
+                            </select>
+                            kolację.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Najpierw trenujemy, a potem
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">jeść</option>
+                                <option value="incorrect">jedzą</option>
+                                <option value="correct">jemy</option>
+                            </select>
+                            pizzę.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Najpierw myjesz zęby, a później
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">ubiera się</option>
+                                <option value="correct">ubierasz się</option>
+                                <option value="incorrect">ubierać się</option>
+                            </select>.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Najpierw wychodzę z domu, a następnie
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">czekać</option>
+                                <option value="incorrect">czekasz</option>
+                                <option value="correct">czekam</option>
+                            </select> na tramwaj.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Najpierw jecie obiad, a potem
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">wracamy</option>
+                                <option value="incorrect">wracasz</option>
+                                <option value="correct">wracacie</option>
+                            </select>
+                            kolację.
+                        </li>
+                    </ol>
+
+                    <div class="flex">
+                        <button type="button" onclick="checkAnswersForm('quiz-form-21')">Sprawdź</button>
+                        <div class="hint2-container" onclick="toggleHint2(this)">
+                            <div class="hint2-header"></div>
+                            <div class="hint2-content">
+                                <div class="text">
+                                    <p class="p18">
+                                        Najpierw spacerujecie w parku, a później <b>uczycie się</b> . <br>
+                                        Ona najpierw kończy oglądać serial, a następnie <b>przygotowuje</b>  kolację. <br>
+                                        Najpierw trenujemy, a potem <b>jemy </b>pizzę. <br>
+                                        Najpierw myjesz zęby, a później <b>ubierasz się</b>. <br>
+                                        Najpierw wychodzę z domu, a następnie <b>czekam</b> na <tramwaj class="br"></tramwaj>
+                                        Najpierw jecie obiad, a potem <b>wracacie</b> do domu.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- 22 -->
+            <div class="blockZadanie">
+                <h4>str 22 - Слова из списка разделите на три группы так, чтобы соответствовали указанным ниже спряжениям.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/90f91bdf980346e38e22026addcd33d5?themeId=62&templateId=2&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 23 -->
+            <div class="blockZadanie">
+                <h4>str 23 - Пользуясь списком, вставьте в предложения пропущенные слова.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/f6defda0db5e45879c34ba41b375db2d?themeId=52&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 24 -->
 
         </main>
     </div>
 
     <script src="../../scripts/script.js"></script>
+    <script src="../../scripts/scriptchexBox.js"></script>
+
 </body>
 
 </html>

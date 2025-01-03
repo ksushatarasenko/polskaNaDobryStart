@@ -2,15 +2,8 @@
 
 function checkCheckbox(taskId) {
     const correctAnswers = {
-        task506E3: {
+        task2_01_17: {
             question1: ['3'], 
-            question2: ['3'],     
-            question3: ['3'],    
-            question4: ['3'],    
-            question5: ['3'], 
-            question6: ['2'],    
-            question7: ['3'],   
-            question8: ['3']  
         }
     };
 

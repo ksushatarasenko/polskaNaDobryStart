@@ -30,7 +30,7 @@ function checkAll(setId) {
 function checkAnswers(setId) {
     const set = document.getElementById(setId);
     const inputs = set.querySelectorAll('input[data-answer]');
-    
+
     inputs.forEach(input => {
         const correctAnswer = input.getAttribute('data-answer').toLowerCase();
         const userAnswer = input.value.trim().toLowerCase();
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
- // функция для выпадающего списка
+// функция для выпадающего списка
 function checkAnswersForm(formId) {
     const form = document.getElementById(formId);
     const selects = form.querySelectorAll('select');
@@ -116,3 +116,45 @@ function checkAnswersForm(formId) {
         }
     });
 }
+
+// функция выбора ответа на кнопке
+
+// Для хранения выбранных ответов
+let selectedAnswers = {};
+
+function selectAnswer(questionId, btnElement) {
+    // Убираем с других кнопок синие бордеры
+    const buttons = document.querySelectorAll(`#${questionId} .answerBtn`);
+    buttons.forEach(btn => btn.classList.remove('selected'));
+
+    // Добавляем синий бордер на выбранную кнопку
+    btnElement.classList.add('selected');
+
+    // Сохраняем выбранный ответ (правильный или неправильный)
+    selectedAnswers[questionId] = btnElement.dataset.correct === 'true';
+}
+
+function checkAllAnswersBtn() {
+    // Перебираем все вопросы
+    const questions = document.querySelectorAll('.button-container');
+    questions.forEach(question => {
+        const questionId = question.id;
+        const buttons = question.querySelectorAll('.answerBtn');
+
+        // Перебираем кнопки каждого вопроса
+        buttons.forEach(btn => {
+            const isSelected = btn.classList.contains('selected');
+            const isCorrect = btn.dataset.correct === 'true';
+
+            // Подсвечиваем правильный или неправильный ответ
+            if (isSelected && isCorrect) {
+                btn.classList.add('correct'); // Зеленый бордер для правильных ответов
+            } else if (isSelected && !isCorrect) {
+                btn.classList.add('incorrect'); // Красный бордер для неправильных
+            }
+        });
+    });
+}
+
+
+// 
