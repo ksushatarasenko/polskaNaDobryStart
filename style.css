@@ -142,13 +142,15 @@ button{
     height: 30px;
  }
  .correct {
-    background-color: green;
+    background-color: rgb(183, 224, 183);
     color: white;
+    border: 2px solid green;
  }
  
  .incorrect {
-    background-color: red;
+    background-color: rgb(250, 198, 198);
     color: white;
+    border: 2px solid red;
  }
  
  .options {
@@ -169,6 +171,7 @@ button{
     width: 150px;
     height: 20px;
  }
+ 
  /* -------------- POKAZ OTWETA OPTIMA -------------*/
 .hint2-container {
     background-color: #e8f4fd;
@@ -277,4 +280,16 @@ button{
 .selected {
     border-color: blue;
 }
-/*  */
+/* texteria */
+.answer-input {
+    width: 600px;
+    height: 100px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

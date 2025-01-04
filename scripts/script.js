@@ -158,3 +158,36 @@ function checkAllAnswersBtn() {
 
 
 // 
+// texteria
+
+document.getElementById('checkAnswersButton').addEventListener('click', function () {
+    // Находим все текстовые поля с атрибутом data-correct
+    const answers = document.querySelectorAll('.answer-input');
+    let correctCount = 0;
+
+    answers.forEach(answer => {
+        const userAnswer = answer.value.trim(); // Получаем введённый текст
+        const correctAnswer = answer.getAttribute('data-correct'); // Ожидаемый ответ
+
+        if (userAnswer === correctAnswer) {
+            // Если ответ верный
+            answer.classList.add('correct');
+            answer.classList.remove('incorrect');
+            correctCount++;
+        } else {
+            // Если ответ неверный
+            answer.classList.add('incorrect');
+            answer.classList.remove('correct');
+        }
+    });
+
+    // Отображаем результат проверки
+    const resultDiv = document.getElementById('result');
+    if (correctCount === answers.length) {
+        resultDiv.textContent = 'Все ответы правильные! Молодец!';
+        resultDiv.style.color = 'green';
+    } else {
+        resultDiv.textContent = `Правильных ответов: ${correctCount} из ${answers.length}`;
+        resultDiv.style.color = 'red';
+    }
+});
