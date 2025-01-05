@@ -1,5 +1,9 @@
+<!-- ż -->
+
+
+
 <!-- pole dla wpisania -->
- 
+
 <div class="question-set" id="set2">
     <div class="dialog italic ">
         <div class="colors">
@@ -54,9 +58,9 @@
 <!-- ż -->
 <!-- &nbsp;  probel -->
 
-<p class="slowa p22"> <span class="coral">za</span> | <span class="coral">po</span> | <span
-    class="coral">do</span> | <span class="coral">wpół</span></p>
-    
+<p class="slowa p22"> <span class="coral">za</span> | <span class="coral">po</span> | <span class="coral">do</span> |
+    <span class="coral">wpół</span></p>
+
 <!-- wybor Otweta -->
 
 <div>
@@ -94,19 +98,18 @@
                 <p class="p20 option" data-index="1">&nbsp;stary |</p>
                 <p class="p20 option selected" data-index="2">&nbsp;nowy</p>
             </div>
-            <img src="https://1drv.ms/i/s!Av5Voug-ar1TgfwpI7Aog7NLH-iLZg?embed=1&width=574&height=580"
-                alt="5-1" style="width: 7%;border-radius: 50%;">
+            <img src="https://1drv.ms/i/s!Av5Voug-ar1TgfwpI7Aog7NLH-iLZg?embed=1&width=574&height=580" alt="5-1"
+                style="width: 7%;border-radius: 50%;">
         </div>
         <div class="colors questionOption" data-correct="2">
-            <p class="p20" style="width: 20%;">2. Ten <input type="text" data-answer="ołówek"
-                    class="line_1"> jest </p>
+            <p class="p20" style="width: 20%;">2. Ten <input type="text" data-answer="ołówek" class="line_1"> jest </p>
             <div class="displayFlex italic" style="width: 30%;">
                 <p class="p20 option" data-index="0">&nbsp;krótki |</p>
                 <p class="p20 option" data-index="1">&nbsp;czerwony |</p>
                 <p class="p20 option" data-index="2">&nbsp;długi</p>
             </div>
-            <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgfwqb4O6Q2e4j7p5QA?embed=1&width=572&height=580"
-                alt="5-3" style="width: 7%;border-radius: 50%;">
+            <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgfwqb4O6Q2e4j7p5QA?embed=1&width=572&height=580" alt="5-3"
+                style="width: 7%;border-radius: 50%;">
         </div>
     </div>
 </div>
@@ -175,44 +178,83 @@
 </table>
 <button onclick="checkRadio('task507A4')">Chek</button>
 
-------- checkbox ----
-<table id="task1">
-    <tr>
-        <td></td>
-        <td><img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2131171&authkey=%21ADRZske5GRf9Dto&width=460&height=352"
-                alt="artem" style="width: 150px;"></td>
-        <td><img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2131172&authkey=%21AE42c_IJPHQMItA&width=276&height=364"
-                alt="lukas" style="width: 150px;"></td>
-        <td><img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2131173&authkey=%21ALOXsiBYLefyTEU&width=280&height=334"
-                alt="misaki" style="width: 150px;"></td>
-        <td><img src="https://onedrive.live.com/embed?resid=53BD6A3EE8A255FE%2131174&authkey=%21AMuViAnxnyQSaww&width=286&height=324"
-                alt="oliwia" style="width: 150px;"></td>
-    </tr>
-    <tr class="task">
-        <td>a. pływac</td>
-        <td><label><input type="checkbox" name="question1" value="1"> opcja 1</label></td>
-        <td><label><input type="checkbox" name="question1" value="2"> opcja 2</label></td>
-        <td><label><input type="checkbox" name="question1" value="3"> opcja 3</label></td>
-        <td><label><input type="checkbox" name="question1" value="4"> opcja 4</label></td>
-    </tr>
+<!-- выпадающий список -->
+<form id="quiz-form-12" class="marginLeft">
+    <ol>
+        <li style="margin-top: 2%;">
+            Zwykle wstaję o wpół do siódmej –
+            <select name="q1">
+                <option value="">-- Select --</option>
+                <option value="correct">6:30</option>
+                <option value="incorrect">7:30</option>
+                <option value="incorrect">8:30</option>
+            </select>
+        </li>
+        <li style="margin-top: 7px">
+            Oni jedzą śniadanie za piętnaście ósma –
+            <select name="q3">
+                <option value="">-- Select --</option>
+                <option value="incorrect">7:15</option>
+                <option value="correct">7:45</option>
+                <option value="incorrect">8:45</option>
+            </select>
+        </li>
+        <li style="margin-top: 7px">
+            Moja mama wychodzi z domu dziesięć po siódmej –
+            <select name="q3">
+                <option value="">-- Select --</option>
+                <option value="correct">7:10</option>
+                <option value="incorrect">7:50</option>
+                <option value="incorrect">8:10</option>
+            </select>
+        </li>
+        <li style="margin-top: 7px">
+            Wykład zaczyna się o wpół do dziewiątej –
+            <select name="q3">
+                <option value="">-- Select --</option>
+                <option value="incorrect">9:30</option>
+                <option value="incorrect">21:30</option>
+                <option value="correct">8:30</option>
+            </select>
+        </li>
+        <li style="margin-top: 7px">
+            Oni jedzą obiad za piętnaście czwarta –
+            <select name="q3">
+                <option value="">-- Select --</option>
+                <option value="incorrect">16:45</option>
+                <option value="correct">15:45</option>
+                <option value="incorrect">14:45</option>
+            </select>
+        </li>
+        <li style="margin-top: 7px">
+            Irina ma kurs tańca w piątek piętnaście po szóstej –
+            <select name="q3">
+                <option value="">-- Select --</option>
+                <option value="incorrect">18:50</option>
+                <option value="incorrect">16:15</option>
+                <option value="correct">18:15</option>
+            </select>
+        </li>
+    </ol>
 
-    <tr class="task">
-        <td>d. iść do kina</td>
-        <td><label><input type="checkbox" name="question4" value="1"> opcja 1</label></td>
-        <td><label><input type="checkbox" name="question4" value="2"> opcja 2</label></td>
-        <td><label><input type="checkbox" name="question4" value="3"> opcja 3</label></td>
-        <td><label><input type="checkbox" name="question4" value="4"> opcja 4</label></td>
-    </tr>
-    <tr class="task">
-        <td>e. grać w tenisa</td>
-        <td><label><input type="checkbox" name="question5" value="1"> opcja 1</label></td>
-        <td><label><input type="checkbox" name="question5" value="2"> opcja 2</label></td>
-        <td><label><input type="checkbox" name="question5" value="3"> opcja 3</label></td>
-        <td><label><input type="checkbox" name="question5" value="4"> opcja 4</label></td>
-    </tr>
-</table>
-</div>
-<button onclick="checkCheckbox('task1')">Chek</button>
+    <div class="flex">
+        <button type="button" onclick="checkAnswersForm('quiz-form-12')">Sprawdź</button>
+        <div class="hint2-container" onclick="toggleHint2(this)">
+            <div class="hint2-header"></div>
+            <div class="hint2-content">
+                <div class="text">
+                    <p>Zwykle wstaję o wpół do siódmej –
+                        6:30. <br>
+                        Oni jedzą śniadanie za piętnaście ósma – 7:45 . <br>
+                        Moja mama wychodzi z domu dziesięć po siódmej – 7:10 . <br>
+                        Wykład zaczyna się o wpół do dziewiątej – 8:30 . <br>
+                        Oni jedzą obiad za piętnaście czwarta – 15:45 . <br>
+                        Irina ma kurs tańca w piątek piętnaście po szóstej – 18:15 .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
 <!-- CHECKBOX  -->
 <div id="task506E3">
     <div class="task italic p20">
@@ -237,103 +279,55 @@
 
 
 
-    ----------- Glagol-----------
-        <div class="question-set" id="set3">
-            <div class="dialog italic ">
-                <div class="colors">
-                    <p class="p22 italic ">(ja) <input type="text" data-answer="rysuję"
-                        class="line_2"></p>
-                </div>
-                <div class="colors">
-                    <p class="p22">(ty) <input type="text" data-answer="rysujesz" class="line_2">
-                    </p>
-                </div>
-                <div class="colors">
-                    <p class="p22"> (on/ ona/ ono) <input type="text" data-answer="rysuje"
-                        class="line_2">
-                    </p>
-                </div>
-                <div class="colors">
-                    <p class="p22"> (my) <input type="text" data-answer="rysujemy" class="line_2">
-                    </p>
-                </div>
-                <div class="colors">
-                    <p class="p22"> (wy) <span class="blue">rysujecie</span>
-                    </p>
-                </div>
-                <div class="colors">
-                    <p class="p22"> (oni/ one) <input type="text" data-answer="rysują"
-                        class="line_2"></p>
-                </div>
-            </div>
-            <button onclick="checkAnswers('set3')">Check</button>
-            <button onclick="toggleHints('hints3')">Wskazówka</button>
-            <div id="hints3" style="display: none;">
-                <p>ja => rysuję
-                </p>
-                <p>ty => rysujesz</p>
-                <p>on/ona/ono => rysuje</p>
-                <p>my => rysujemy</p>
-                <p>wy => rysujecie</p>
-                <p>oni/one => rysują</p>
-            </div>
+----------- Glagol-----------
+<div class="question-set" id="set3">
+    <div class="dialog italic ">
+        <div class="colors">
+            <p class="p22 italic ">(ja) <input type="text" data-answer="rysuję" class="line_2"></p>
         </div>
+        <div class="colors">
+            <p class="p22">(ty) <input type="text" data-answer="rysujesz" class="line_2">
+            </p>
+        </div>
+        <div class="colors">
+            <p class="p22"> (on/ ona/ ono) <input type="text" data-answer="rysuje" class="line_2">
+            </p>
+        </div>
+        <div class="colors">
+            <p class="p22"> (my) <input type="text" data-answer="rysujemy" class="line_2">
+            </p>
+        </div>
+        <div class="colors">
+            <p class="p22"> (wy) <span class="blue">rysujecie</span>
+            </p>
+        </div>
+        <div class="colors">
+            <p class="p22"> (oni/ one) <input type="text" data-answer="rysują" class="line_2"></p>
+        </div>
+    </div>
+    <button onclick="checkAnswers('set3')">Check</button>
+    <button onclick="toggleHints('hints3')">Wskazówka</button>
+    <div id="hints3" style="display: none;">
+        <p>ja => rysuję
+        </p>
+        <p>ty => rysujesz</p>
+        <p>on/ona/ono => rysuje</p>
+        <p>my => rysujemy</p>
+        <p>wy => rysujecie</p>
+        <p>oni/one => rysują</p>
+    </div>
+</div>
 
 <!-- SLOWA -->
 <p class="slowa"><span class="coral">regularnie</span> | <span class="coral">w ten piątek</span> | <span
-    class="coral">codziennie</span> | <span class="coral">teraz </span> | <span class="coral">w tę
-    sobotę</span> | <span class="coral">rzadko</span> | <span class="coral">za chwilę</span> | <span
-    class="coral">czasem</span> | <span class="coral">nigdy</span> | <span class="coral">jutro</span> |
-    <span class="coral">zaraz</span> | <span class="coral">często</span> | <span
-    class="coral">dzisiaj</span> | <span class="coral">zwykle</span> | <span class="coral">zawsze</span>
+        class="coral">codziennie</span> | <span class="coral">teraz </span> | <span class="coral">w tę
+        sobotę</span> | <span class="coral">rzadko</span> | <span class="coral">za chwilę</span> | <span
+        class="coral">czasem</span> | <span class="coral">nigdy</span> | <span class="coral">jutro</span> |
+    <span class="coral">zaraz</span> | <span class="coral">często</span> | <span class="coral">dzisiaj</span> | <span
+        class="coral">zwykle</span> | <span class="coral">zawsze</span>
 </p>
 
-<!-- выпадающий список -->
-<form id="quiz-form-1" class="marginLeft">
-    <ol>
-        <li style="margin-top: 2%;">
-            <select name="q1">
-                <option value="">-- Select --</option>
-                <option value="correct">Wielu</option>
-                <option value="incorrect">Mało</option>
-                <option value="incorrect">Inne</option>
-            </select>
-            pasażerów
-            <select name="q2">
-                <option value="">-- Select --</option>
-                <option value="correct">czekało</option>
-                <option value="incorrect">czekają</option>
-                <option value="incorrect">czekam</option>
-            </select>
-            na dworcu.
-        </li>
-        <li style="margin-top: 7px">
-            <select name="q3">
-                <option value="">-- Select --</option>
-                <option value="correct">Ile</option>
-                <option value="incorrect">Dużo</option>
-                <option value="incorrect">Wiele</option>
-            </select>
-            porcji
-            <select name="q4">
-                <option value="">-- Select --</option>
-                <option value="correct">zamówić</option>
-                <option value="incorrect">zamawia</option>
-                <option value="incorrect">zamówione</option>
-            </select>?
-        </li>
-    </ol>
-    
-    <div class="flex">
-        <button type="button" onclick="checkAnswersForm('quiz-form-1')">Sprawdź</button>
-        <div class="hint2-container" onclick="toggleHint2(this)">
-            <div class="hint2-header"></div>
-            <div class="hint2-content">
-                Число ділиться на 5, якщо воно закінчується на 0 або 5.
-            </div>
-        </div>
-    </div>
-</form>
+
 <!-- выбор правильной кнопки -->
 <div>
     <div id="question-1" class="button-container">
@@ -353,6 +347,54 @@
             <div class="hint2-content">
                 <div class="text">
                     <p>8:45 <br>11:30 <br>6:05 <br>1:30 <br>5:40 <br>4:20</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- выбор несколько чисел -->
+
+    <div id="quiz-form-26" style="margin-left: -250%;">
+        <div class="questions">
+            <div class="question" data-correct="0,6, 7,8,10">
+                <div class="flexColumn italic">
+                    <label class="p18">
+                        <input type="checkbox" name="q1" value="0" /> butelka mleka
+                    </label>
+                    <label class="p18">
+                        <input type="checkbox" name="q1" value="1" /> butelki oleju
+                    </label>
+                    <label class="p18">
+                        <input type="checkbox" name="q1" value="2" /> butelka wody
+                    </label>
+                    <label class="p18">
+                        <input type="checkbox" name="q1" value="3" /> butelka lemoniady
+                    </label>
+                    <label class="p18">
+                        <input type="checkbox" name="q1" value="4" /> puszka orzeszków
+                    </label>
+                    <label class="p18">
+                        <input type="checkbox" name="q1" value="5" /> 2 puszki coli
+                    </label>
+                    <label class="p18">
+                        <input type="checkbox" name="q1" value="6" /> puszka kukurydzy
+                    </label>
+                    <label class="p18">
+                        <input type="checkbox" name="q1" value="7" /> puszka fasoli
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex">
+        <button class="checkAnswers" onclick="checkAnswersLabel('quiz-form-26', 'q26-result')">Chek</button>
+        <p id="q26-result" style="width: 20%;"></p>
+        <div class="hint2-container" onclick="toggleHint2(this)">
+            <div class="hint2-header"></div>
+            <div class="hint2-content">
+                <div class="image" style="width: 20%;">
+                    <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgodt3obRW5nO0SyCsQ?embed=1&width=476&height=914"
+                        alt="otwet02_6">
                 </div>
             </div>
         </div>

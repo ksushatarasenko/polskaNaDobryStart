@@ -191,3 +191,36 @@ document.getElementById('checkAnswersButton').addEventListener('click', function
         resultDiv.style.color = 'red';
     }
 });
+
+
+// -------------- выбор несколько ответов
+
+function arraysEqual(arr1, arr2) {
+    return JSON.stringify(arr1.sort()) === JSON.stringify(arr2.sort());
+}
+
+function checkAnswersLabel(formId, resultId) {
+    const form = document.getElementById(formId);
+    const questions = form.getElementsByClassName('question');
+    let score = 0;
+    let isAllCorrect = true;
+
+    for (let i = 0; i < questions.length; i++) {
+        const question = questions[i];
+        const correctAnswers = question.getAttribute('data-correct').split(',').map(val => val.trim());
+        const selectedAnswers = Array.from(form.querySelectorAll(`input[name="q${i + 1}"]:checked`)).map(el => el.value.trim());
+
+        if (!arraysEqual(selectedAnswers, correctAnswers)) {
+            isAllCorrect = false;
+        } else {
+            score++;
+        }
+    }
+
+    const resultElement = document.getElementById(resultId);
+    if (isAllCorrect) {
+        resultElement.innerHTML = "Правильно!";
+    } else {
+        resultElement.innerHTML = "Неправильно!";
+    }
+}

@@ -68,7 +68,7 @@ ol>li{
 .two{
     display: flex;
     justify-content: space-around;
-    width: 1400px;
+    /* width: 1400px; */
 }
 .two img{
     width: 50%;
@@ -292,4 +292,11 @@ button{
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
+}
+
+/*  */
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
