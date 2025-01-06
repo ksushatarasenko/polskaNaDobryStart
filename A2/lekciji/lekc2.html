@@ -909,12 +909,102 @@
             <!-- 30 -->
             <div class="blockZadanie">
                 <h4>str 30 - Переведите предложения.</h4>
-
+                <div class="question-set" id="set30">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20">1. Купи мне хороший стиральный порошок!</p>
+                            <p class="p20 italic "><input type="text"
+                                data-answer="Kup" class="line_1"> <input type="text"
+                                data-answer="mi" class="line_1"> <input type="text"
+                                data-answer="dobry" class="line_1"> <input type="text"
+                                data-answer="proszek" class="line_1"> <input type="text"
+                                data-answer="do" class="line_1"> <input type="text"
+                                data-answer="prania" class="line_1">!</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Возьми мне банку меда!</p>
+                            <p class="p20"> <input type="text"
+                                    data-answer="Weź" class="line_1"> <input type="text"
+                                    data-answer="mi" class="line_1"> <input type="text"
+                                    data-answer="słoik" class="line_1"> <input type="text"
+                                    data-answer="miodu" class="line_1">!</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Мне, пожалуйста, две пачки масла!</p>
+                            <p class="p20"> <input type="text"
+                                    data-answer="Poproszę" class="line_1"> <input type="text"
+                                    data-answer="dwie" class="line_1"> <input type="text"
+                                    data-answer="kostki" class="line_1"> <input type="text"
+                                    data-answer="masła" class="line_1">!</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Мне, пожалуйста, шампунь для волос!</p>
+                            <p class="p20"> <input type="text"
+                                    data-answer="Poproszę" class="line_1"> <input type="text"
+                                    data-answer="szampon" class="line_1"> <input type="text"
+                                    data-answer="do" class="line_1"> <input type="text"
+                                    data-answer="włosów" class="line_1">!</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Пойдем в магазин!</p>
+                            <p class="p20"> <input type="text"
+                                    data-answer="Chodźmy" class="line_1"> <input type="text"
+                                    data-answer="do" class="line_1"> <input type="text"
+                                    data-answer="sklepu" class="line_1">!</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. Купите мне несколько банок колы!</p>
+                            <p class="p20"> <input type="text"
+                                    data-answer="Kupcie" class="line_1"> <input type="text"
+                                    data-answer="kilka" class="line_1">  <input type="text"
+                                    data-answer="puszek" class="line_1"> <input type="text"
+                                    data-answer="coli" class="line_1">!</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">7. У тебя есть крем для рук?</p>
+                            <p class="p20"> <input type="text"
+                                    data-answer="Masz" class="line_1"> <input type="text"
+                                    data-answer="krem" class="line_1"> <input type="text"
+                                    data-answer="do" class="line_1"> <input type="text"
+                                    data-answer="rąk" class="line_1">?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set30')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 60%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogKs56OAJvsYpK_ZA?embed=1&width=1232&height=1538" alt="otwet02_30">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- 31 -->
             <div class="blockZadanie">
-                <h4>str 31 </h4>
+                <h4>str 31 - Слушайте запись и пишите. Вы можете также слушать и писать на листочке, а затем переписать текст.</h4>
+                <audio src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9mTUNB8WtBpYk_l0VaGhao)/userfiles/kursy/lektorzy_a2/l2/a2-l2-e30.mp3" controls></audio>
+                <div class="question">
+                    <label for="answer1"></label>
+                    <textarea id="answer1" class="answer-input"
+                        data-correct="Idziemy na zakupy. Kupujemy paczkę makaronu, butelkę wody, orzeszki i kilogram pomidorów. W drogerii kupujemy szampon do włosów, dezodorant i papier toaletowy. Chodź z nami!"
+                        placeholder="Введите правильный текст здесь..."></textarea>
+                </div>
 
+                <div class="flex">
+                    <button id="checkAnswersButton" >Проверить</button>
+                    <div id="result"></div>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div>
+                                <p style="font-size: 28px;padding: 0 3%;">Idziemy na zakupy. Kupujemy paczkę makaronu, butelkę wody, orzeszki i kilogram pomidorów. W drogerii kupujemy szampon do włosów, dezodorant i papier toaletowy. Chodź z nami!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 

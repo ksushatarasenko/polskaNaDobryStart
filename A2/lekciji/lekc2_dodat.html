@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2-lekcja01_dodatkowa</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../text.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <ul class="list">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../A1/indexA1.html">A1</a></li>
+                <li><a href="../indexA2.html">A2</a></li>
+                <li>B1</li>
+                <li>B2</li>
+                <li>Grammatyka</li>
+            </ul>
+        </header>
+        <main class="main">
+
+            <h2>Урок 1 - У меня сегодня хороший день (Сегодня мой день)</h2>
+            <!-- 2 -->
+            <div class="blockZadanie">
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/fd86c8dddbee4114a80ee87e03010081?themeId=62&templateId=36&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="blockZadanie">
+                <h4>str. 3 - Proszę uzupełnić zdania wg wzoru – wpisać poprawne formy czasowników.</h4>
+                <div class="question-set" id="set3">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20 italic ">1. Moje dzieci wstają o siódmej, ja wstaję godzinę wcześniej.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. (ja) Biorę korepetycje z matematyki, a one <input type="text"
+                                    data-answer="biorą" class="line_1"> korepetycje z fizyki.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. My przygotowujemy referat, a one <input type="text"
+                                    data-answer="przygotowują" class="line_1"> prezentację.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. On się nie czesze, a ty <input type="text" data-answer="czeszesz się"
+                                    class="line_1"> długo.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. My nie zawsze jemy śniadania, a oni <input type="text" data-answer="jedzą"
+                                    class="line_1"> je zawsze.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. Profesor podpisuje dokumenty, a wy <input type="text"
+                                    data-answer="podpisujecie" class="line_1"> listę.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">7. Nie wiem, kto pisze ćwiczenie. Czy wy je <input type="text"
+                                    data-answer="piszecie" class="line_1">?
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">8. Myję się rano i wieczorem, a mój brat <input type="text"
+                                    data-answer="myje się" class="line_1"> tylko wieczorem.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set3')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 50%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgodTf9QJVQEbrRVKWw?embed=1&width=1022&height=674"
+                                    alt="otwet01dod_3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="blockZadanie">
+                <h4>str. 5 - Proszę wpisać poprawne formy czasowników.</h4>
+                <div class="question-set" id="set5">
+                    <div class="dialog italic two">
+                        <div>
+                            <div class="colors">
+                                <p class="p20 italic ">budzić się – (ja) => <input type="text" data-answer="budzę się"
+                                        class="line_1"></p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">brać – (my) => <input type="text" data-answer="bierzemy" class="line_1">
+                                </p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">jeść – (oni) => <input type="text" data-answer="jedzą" class="line_1">
+                                </p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">pić – (ja) => <input type="text" data-answer="piję" class="line_1"></p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">pisać – (wy) => <input type="text" data-answer="piszecie" class="line_1">
+                                </p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">przygotowywać – (oni) => <input type="text" data-answer="przygotowują"
+                                        class="line_1"></p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="colors">
+                                <p class="p20 italic ">kończyć – (ona) => <input type="text" data-answer="kończy"
+                                        class="line_1"></p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">zaczynać – (ty) => <input type="text" data-answer="zaczynasz"
+                                        class="line_1"></p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">iść – (on) => <input type="text" data-answer="idzie" class="line_1"></p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">wychodzić – (one) => <input type="text" data-answer="wychodzą"
+                                        class="line_1"></p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">spieszyć się – (ja) => <input type="text" data-answer="spieszę się"
+                                        class="line_1"></p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">spać – (ona) => <input type="text" data-answer="śpi" class="line_1"></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set5')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 30%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgodUNYEKMLjduhRKgw?embed=1&width=622&height=1082"
+                                    alt="otwet01_5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="blockZadanie">
+                <h4>7. Proszę napisać zdania wg wzoru.</h4>
+                <div class="question-set" id="set7">
+                    <p class="italic p20">Budzić się (oni) 6.40 </p>
+                    <p class="blue p20">Budzą się za dwadzieścia siódma.</p>
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20 italic ">1. Jeść (ja) / śniadanie / 9.15 => <input type="text"
+                                    data-answer="Jem" class="line_1"> <input type="text" data-answer="śniadanie"
+                                    class="line_1"> <input type="text" data-answer="piętnaście" class="line_1"> <input
+                                    type="text" data-answer="po" class="line_1"> <input type="text"
+                                    data-answer="dziewiątej" class="line_1">. </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Wychodzić (my) / z domu / 11.30 => <input type="text"
+                                    data-answer="Wychodzimy" class="line_1"> <input type="text" data-answer="z"
+                                    class="line_1"> <input type="text" data-answer="domu" class="line_1"> <input
+                                    type="text" data-answer="o" class="line_1"> <input type="text" data-answer="wpół"
+                                    class="line_1"> <input type="text" data-answer="do" class="line_1"> <input
+                                    type="text" data-answer="dwunastej" class="line_1">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Brać (ona) / lekcje / tańca / 17.15 => <input type="text"
+                                    data-answer="Bierze" class="line_1"> <input type="text" data-answer="lekcje"
+                                    class="line_1"> <input type="text" data-answer="tańca" class="line_1"> <input
+                                    type="text" data-answer="piętnaście" class="line_1"> <input type="text"
+                                    data-answer="po" class="line_1"> <input type="text" data-answer="piątej"
+                                    class="line_1">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Jeść (one) / kolacja / 19.40 => <input type="text" data-answer="Jedzą"
+                                    class="line_1"> <input type="text" data-answer="kolację" class="line_1"> <input
+                                    type="text" data-answer="za" class="line_1"> <input type="text"
+                                    data-answer="dwadzieścia" class="line_1"> <input type="text" data-answer="ósma"
+                                    class="line_1">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set7')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image two">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgodVki7jtOiqTYyxbg?embed=1&width=942&height=686"
+                                    alt="otwet07_1">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgodWD6hw8bvUhtm4mQ?embed=1&width=942&height=618"
+                                    alt="otwet07_2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="blockZadanie">
+                <h4>str 8 - Proszę zaznaczyć wszystkie poprawne odpowiedzi.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/43c8c33582fc4805b1aa07665a0b358e?themeId=53&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="blockZadanie">
+                <h4>str. 9 - Proszę przeczytać dialog i zaznaczyć poprawną odpowiedź.</h4>
+                <p class="p18">
+                    Mirek: Aga, co robisz? <br>
+                    Aga: Kładę się spać.<br>
+                    Mirek: Co?! Jest dopiero za piętnaście dziesiąta!<br>
+                    Aga: Wiem, która jest godzina. Jutro rano muszę wcześnie wstać.<br>
+                    Mirek: O której?<br>
+                    Aga: O wpół do szóstej.<br>
+                    Mirek: Dlaczego tak wcześnie?<br>
+                    Aga: Dziesięć po siódmej mam pociąg do Gdańska.<br>
+                    Mirek: Po co jedziesz do Gdańska?<br>
+                    Aga: Spotykam się z koleżanką ze Szwecji. Muszę być na lotnisku w Gdańsku piętnaście po dwunastej.
+                    Mam nadzieję, że pociąg się nie opóźni.<br>
+                    Mirek: I samolot koleżanki…<br>
+                    Aga: Tak, samolot też może się opóźnić.<br>
+                    Mirek: A o której wracasz do Warszawy?<br>
+                    Aga: Pojutrze o trzeciej dwadzieścia.<br>
+                    Mirek: W nocy?<br>
+                    Aga: No co ty? Po południu.<br>
+                    Mirek: Będę czekał na dworcu.
+                </p>
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/29742bdec7894ebf86cf6df8a2b6c7e1?themeId=55&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+
+
+
+
+
+        </main>
+    </div>
+
+    <script src="../../scripts/script.js"></script>
+    <script src="../../scripts/scriptchexBox.js"></script>
+
+</body>
+
+</html>
