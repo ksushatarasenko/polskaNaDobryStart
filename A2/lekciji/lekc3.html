@@ -774,7 +774,8 @@
                         elegancki – <b>bardziej / mniej</b> elegancki
                     </p>
                     <p class="p18">Обратите внимание на слово: <em>bardziej</em>, по-польски нельзя заменить его словом
-                        <em>dużo</em>.</p>
+                        <em>dużo</em>.
+                    </p>
                     <p class="p18"><b>Превосходная степень</b> образуется путем добавления приставки <b>naj–</b>
                         к сравнительной степени.</p>
                     <p class="p18">młody – młodszy – <b>naj</b>młodszy</p>
@@ -812,112 +813,188 @@
             <div class="blockZadanie">
                 <h4>str 26 - Вставьте в предложения пропущенные слова. Пользуйтесь списком.</h4>
                 <div class="video">
-                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/73c9a484b50541dc819990286cdb00ce?themeId=54&templateId=36&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/73c9a484b50541dc819990286cdb00ce?themeId=54&templateId=36&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <!-- 27 -->
             <div class="blockZadanie">
                 <h4>str 27 - Выберите и вставьте подходящее слово.</h4>
-                
-            </div>
-            <!-- 29 -->
-            <div class="blockZadanie">
-                <h4>str 29 - Вставьте в предложения соответствующую форму глагола (повелительное наклонение,
-                    совершенный
-                    или несовершенный вид).</h4>
-                <div class="question-set" id="set29">
-                    <div class="dialog italic ">
-                        <div class="colors">
-                            <p class="p20 italic ">
-                                1. Kup puszkę kukurydzy! => Nie <input type="text" data-answer="kupuj" class="line_1">
-                                puszki kukurydzy!</p>
-                        </div>
-                        <div class="colors">
-                            <p class="p20">2. Zjedz ryż na kolację! => Nie <input type="text" data-answer="jedz"
-                                    class="line_1"> ryżu!</p>
-                        </div>
-                        <div class="colors">
-                            <p class="p20">3. Wybierz ten lakier! => Nie <input type="text" data-answer="wybieraj"
-                                    class="line_1"> tego lakieru!</p>
-                        </div>
-                        <div class="colors">
-                            <p class="p20">4. <input type="text" data-answer="Zapytaj" class="line_1"> o cenę
-                                dezodorantu! => Nie pytaj o cenę dezodorantu!.</p>
-                        </div>
-                        <div class="colors">
-                            <p class="p20">5. <input type="text" data-answer="Napisz" class="line_1"> adres! =>
-                                Nie pisz
-                                adresu!</p>
-                        </div>
-                        <div class="colors">
-                            <p class="p20">6. <input type="text" data-answer="Zrób" class="line_1"> mi zakupy!
-                                => Nie
-                                rób mi zakupów!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex">
-                    <button onclick="checkAnswers('set29')">Sprawdź</button>
-                    <div class="hint2-container" onclick="toggleHint2(this)">
-                        <div class="hint2-header"></div>
-                        <div class="hint2-content">
-                            <div class="image" style="width: 50%;">
-                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogJHcr2bZvvTtLsYg?embed=1&width=1192&height=560"
-                                    alt="otwet02_29">
+                <form id="quiz-form-327" class="marginLeft">
+                    <ol>
+                        <li style="margin-top: 2%;">
+                            <p style="font-size: 22px;">Julia ma 18 lat, Sylwia ma 19 lat, Basia ma 20 lat.</p>
+                            Basia jest
+                            <select name="q1">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">najwższa</option>
+                                <option value="correct">najstarsza</option>
+                                <option value="incorrect">najmłodsza</option>
+                            </select>
+                        </li>
+                        <li style="margin-top: 7px">
+                            <p style="font-size: 22px;">Samochód Igora ma 5 lat, auto Marka ma 4 lata, auto Basi ma 2
+                                lata.</p>
+                            Auto Igora jest
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">najszybsze</option>
+                                <option value="incorrect">największe</option>
+                                <option value="correct">najstarsze</option>
+                            </select>
+                        </li>
+                        <li style="margin-top: 7px">
+                            <p style="font-size: 22px;"> Komputer Sylwii ma rok, komputer Iriny ma 3 lata, komputer
+                                profesora ma 6 lat.</p>
+
+                            Komputer Sylwii jest
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="correct">najnowszy</option>
+                                <option value="incorrect">najstarszy</option>
+                                <option value="incorrect">najszybszy</option>
+                            </select>
+                        </li>
+                        <li style="margin-top: 7px">
+                            <p style="font-size: 22px;">Wykład – 120 minut, ćwiczenia – 90 minut, lektorat – 60 minut.
+                            </p>
+                            Wykład jest
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">najkrótszy</option>
+                                <option value="correct">najdłuszy</option>
+                                <option value="incorrect">najciekawszy</option>
+                            </select>
+                        </li>
+                        <li style="margin-top: 7px">
+                            <p style="font-size: 22px;">Prezentacja Iriny ma 30 slajdów, prezentacja Sylwii 25 slajdów,
+                                prezentacja Igora 20 slajdów.</p>
+                            Prezentacja Igora jest
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="correct">najkrótsza</option>
+                                <option value="incorrect">najdłusza</option>
+                                <option value="incorrect">najlepsza</option>
+                            </select>
+                        </li>
+                    </ol>
+
+                    <div class="flex">
+                        <button type="button" onclick="checkAnswersForm('quiz-form-327')">Sprawdź</button>
+                        <div class="hint2-container" onclick="toggleHint2(this)">
+                            <div class="hint2-header"></div>
+                            <div class="hint2-content">
+                                <div class="image" style="width: 50%;">
+                                    <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgogmq02A-rOPWBxTqg?embed=1&width=1052&height=926"
+                                        alt="otwet03_27">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </form>
+            </div>
+            <!-- 28 -->
+            <div class="blockZadanie">
+                <h4>str 28</h4>
+                <h4>Образование предложений с формами сравнительной и превосходной степени.</h4>
+                <p class="p18"><em>Прилагательное в сравнительной/превосходной степени <b>+ niż +</b> именительный
+                        падеж</em>
+                </p>
+                <p class="em">Примеры:</p>
+                <p class="p18">
+                    Tomek jest młodszy <b>niż Igor</b>. <br>
+                    Sylwia jest wyższa <b>niż Irina</b>.<br>
+                    To auto jest szybsze <b>niż tamto auto</b>.<br>
+                    Moje koleżanki są starsze <b>niż moje siostry</b>.
+                </p>
+                <audio
+                    src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB9WtBoaU7mklHRumCNca8)/userfiles/kursy/lektorzy_a2/l3/a2-l3-e27-n1.mp3"
+                    controls></audio>
+                <p class="p18">Прилагательное в сравнительной/превосходной степени <b>+ od+</b> родительный падеж</p>
+                <p class="em">Примеры:</p>
+                <p class="p18">
+                    Piotr jest młodszy <b>od Igora</b>.<br>
+                    Sylwia jest wyższa <b>od Oli</b>.<br>
+                    To auto jest szybsze <b>od tamtego auta</b>.<br>
+                    Moje koleżanki są starsze <b>od moich sióstr</b>.
+                </p>
+                <audio
+                    src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB9WtBoaU7mk1HRumCNca8)/userfiles/kursy/lektorzy_a2/l3/a2-l3-e27-n2.mp3"
+                    controls></audio>
+                <p class="p18">Внимание! Mój brat jest <span class="italic">starszy</span> <b>niż ja</b>. Mój brat jest
+                    <span class="italic">starszy</span> <b>ode mnie</b>
+                </p>
+                <p class="p18">В конструкциях с формами в превосходной степени используем предлоги z или ze.</p>
+                <p class="em">Примеры:</p>
+                <p class="p18">
+                    Adam jest najmłodszy <b>z koszykarzy</b> w drużynie.<br>
+                    Sylwia jest najwyższa <b>ze wszystkich koleżanek</b>.<br>
+                    To auto jest najszybsze <b>ze wszystkich aut</b>, jakie miał Igor.<br>
+                    Moje koleżanki są najmłodsze <b>ze wszystkich dziewczyn</b> w grupie.
+                </p>
+                <audio
+                    src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB9WtBoaU7mlFHRumCNca8)/userfiles/kursy/lektorzy_a2/l3/a2-l3-e27-n3.mp3"
+                    controls></audio>
+            </div>
 
+
+            <!-- 29 -->
+            <div class="blockZadanie">
+                <h4>str 29 - Вставьте в предложения пропущенные слова. Пользуйтесь списком.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/809cc1045b3945c3bf40ba2d88bc86c1?themeId=46&templateId=36&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="hint2-container" onclick="toggleHint2(this)">
+                    <div class="hint2-header"></div>
+                    <div class="hint2-content">
+                        <div class="image" style="width: 50%;">
+                            <img src="https://1drv.ms/i/s!Av5Voug-ar1TgognyIyzJ0hlXb5mVg?embed=1&width=1072&height=572"
+                                alt="otwet03_29">
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- 30 -->
             <div class="blockZadanie">
-                <h4>str 30 - Переведите предложения.</h4>
+                <h4>str 30 - Согласно образцу, вставьте в предложения прилагательные в сравнительной степени.
+                </h4>
                 <div class="question-set" id="set30">
                     <div class="dialog italic ">
+                        <p class="p20">Tomek jest (stary) <span class="italic blue">starszy</span> niż jego dziewczyna.
+                        </p>
                         <div class="colors">
-                            <p class="p20">1. Купи мне хороший стиральный порошок!</p>
-                            <p class="p20 italic "><input type="text" data-answer="Kup" class="line_1"> <input
-                                    type="text" data-answer="mi" class="line_1"> <input type="text" data-answer="dobry"
-                                    class="line_1"> <input type="text" data-answer="proszek" class="line_1"> <input
-                                    type="text" data-answer="do" class="line_1"> <input type="text" data-answer="prania"
-                                    class="line_1">!</p>
+                            <p class="p20 italic ">1. Samochód mojego chłopaka jest (szybki) <input type="text"
+                                    data-answer="szybszy" class="line_1">
+                                niż samochód jego brata.</p>
                         </div>
                         <div class="colors">
-                            <p class="p20">2. Возьми мне банку меда!</p>
-                            <p class="p20"> <input type="text" data-answer="Weź" class="line_1"> <input type="text"
-                                    data-answer="mi" class="line_1"> <input type="text" data-answer="słoik"
-                                    class="line_1"> <input type="text" data-answer="miodu" class="line_1">!</p>
+                            <p class="p20">2. Film, który wczoraj oglądaliśmy był (ciekawy) <input type="text"
+                                    data-answer="ciekawszy" class="line_1">
+                                niż film, który oglądaliśmy tydzień temu.</p>
                         </div>
                         <div class="colors">
-                            <p class="p20">3. Мне, пожалуйста, две пачки масла!</p>
-                            <p class="p20"> <input type="text" data-answer="Poproszę" class="line_1"> <input type="text"
-                                    data-answer="dwie" class="line_1"> <input type="text" data-answer="kostki"
-                                    class="line_1"> <input type="text" data-answer="masła" class="line_1">!</p>
+                            <p class="p20">3. Moja dziewczyna jest (młoda) <input type="text" data-answer="młodsza"
+                                    class="line_1">
+                                ode mnie.</p>
                         </div>
                         <div class="colors">
-                            <p class="p20">4. Мне, пожалуйста, шампунь для волос!</p>
-                            <p class="p20"> <input type="text" data-answer="Poproszę" class="line_1"> <input type="text"
-                                    data-answer="szampon" class="line_1"> <input type="text" data-answer="do"
-                                    class="line_1"> <input type="text" data-answer="włosów" class="line_1">!</p>
+                            <p class="p20">4. Pokój Iriny jest (ładny)
+                                <input type="text" data-answer="ładniejszy" class="line_1"> niż pokój Tomka.
+                            </p>
                         </div>
                         <div class="colors">
-                            <p class="p20">5. Пойдем в магазин!</p>
-                            <p class="p20"> <input type="text" data-answer="Chodźmy" class="line_1"> <input type="text"
-                                    data-answer="do" class="line_1"> <input type="text" data-answer="sklepu"
-                                    class="line_1">!</p>
+                            <p class="p20">5. Komputer dziewczyny Tomka jest (nowy) <input type="text"
+                                    data-answer="nowszy" class="line_1">
+                                od jego komputera .</p>
                         </div>
                         <div class="colors">
-                            <p class="p20">6. Купите мне несколько банок колы!</p>
-                            <p class="p20"> <input type="text" data-answer="Kupcie" class="line_1"> <input type="text"
-                                    data-answer="kilka" class="line_1"> <input type="text" data-answer="puszek"
-                                    class="line_1"> <input type="text" data-answer="coli" class="line_1">!</p>
-                        </div>
-                        <div class="colors">
-                            <p class="p20">7. У тебя есть крем для рук?</p>
-                            <p class="p20"> <input type="text" data-answer="Masz" class="line_1"> <input type="text"
-                                    data-answer="krem" class="line_1"> <input type="text" data-answer="do"
-                                    class="line_1"> <input type="text" data-answer="rąk" class="line_1">?</p>
+                            <p class="p20">6. Deser waniliowy mojej dziewczyny jest (słodki) <input type="text"
+                                    data-answer="słodszy" class="line_1">
+                                niż mój deser czekoladowy.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -927,8 +1004,8 @@
                         <div class="hint2-header"></div>
                         <div class="hint2-content">
                             <div class="image" style="width: 60%;">
-                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogKs56OAJvsYpK_ZA?embed=1&width=1232&height=1538"
-                                    alt="otwet02_30">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgogo8WNn0PeTvSgbRw?embed=1&width=1158&height=648"
+                                    alt="otwet03_30">
                             </div>
                         </div>
                     </div>
@@ -936,38 +1013,274 @@
             </div>
             <!-- 31 -->
             <div class="blockZadanie">
-                <h4>str 31 - Слушайте запись и пишите. Вы можете также слушать и писать на листочке, а затем
-                    переписать
-                    текст.</h4>
-                <audio
-                    src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9mTUNB8WtBpYk_l0VaGhao)/userfiles/kursy/lektorzy_a2/l2/a2-l2-e30.mp3"
-                    controls></audio>
-                <div class="question">
-                    <label for="answer1"></label>
-                    <textarea id="answer1" class="answer-input"
-                        data-correct="Idziemy na zakupy. Kupujemy paczkę makaronu, butelkę wody, orzeszki i kilogram pomidorów. W drogerii kupujemy szampon do włosów, dezodorant i papier toaletowy. Chodź z nami!"
-                        placeholder="Введите правильный текст здесь..."></textarea>
+                <h4>str 31 - Выберите подходящее слово.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/0cd1575f928e4b89a2c6374d0741aca2?themeId=49&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
                 </div>
+            </div>
+            <!-- 32 -->
+            <div class="blockZadanie">
+                <h4>str 32</h4>
+                <div class="image" style="width: 50%;">
+                    <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnW9sQ9mTUdB9W9BpY4CqkVWUemSeZ5FSq5ZWlH1b26SZQ7Pe)/userfiles/kursy/tabelki_i_wykresy_a2/l3/a2.l3.e31_20200731_135303.png"
+                        alt="str32">
 
+                </div>
+                <div class="two">
+                    <audio
+                        src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB9WtBpY07mklHRumCNca8)/userfiles/kursy/lektorzy_a2/l3/a2-l3-e31-n1.mp3"
+                        controls></audio>
+                    <audio
+                        src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB9WtBpY07mk1HRumCNca8)/userfiles/kursy/lektorzy_a2/l3/a2-l3-e31-n2.mp3"
+                        controls></audio>
+                </div>
+                <div class="text">
+                    <p class="em">Примеры:</p>
+                    <p class="p18">
+                        <b>Czyj</b> to jest <b>brat</b>? To jest brat <b>mojego dobrego kolegi</b>. <br>
+                        <b>Czyja</b> to jest <b>
+                            dziewczyna </b>? To jest <b>nowa dziewczyna Tomka</b>.<br>
+                                <b>Czyje</b> to jest dziecko? To jest <b>dziecko mojej najlepszej koleżanki</b>.
+                    </p>
+                    <audio
+                        src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB9WtBpY07mlFHRumCNca8)/userfiles/kursy/lektorzy_a2/l3/a2-l3-e31-n3.mp3"
+                        controls></audio>
+                    <p class="p18">
+                        To jest zdjęcie <b>naszego przystojnego profesora</b>.<br>
+                        To jest numer telefonu <b>pięknej studentki</b>.<br>
+                        To jest zabawka <b>naszego najmłodszego dziecka</b>.<br>
+                        To jest pokój <b>moich ukochanych koleżanek</b>.</p>
+                    <audio
+                        src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB9WtBpY07mlVHRumCNca8)/userfiles/kursy/lektorzy_a2/l3/a2-l3-e31-n4.mp3"
+                        controls></audio>
+                </div>
+            </div>
+
+            <!-- 34 -->
+            <div class="blockZadanie">
+                <h4>str 34 - вставьте в предложения пропущенные слова</h4>
+                <div class="question-set" id="set34">
+                    <div class="dialog italic ">
+                        <p class="p20">Czyj to jest dom? To jest dom (moi przyjaciele) <span class="italic blue">moich
+                                przyjaciół</span>.</p>
+                        <div class="colors">
+                            <p class="p20 italic ">1. Czyja to jest dziewczyna? To jest dziewczyna (nasz kolega)
+                                <input type="text" data-answer="naszego" class="line_1"> <input type="text"
+                                    data-answer="kolegi" class="line_1">
+                                .
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Czyj to jest komputer? To jest komputer (mój chłopak) <input type="text"
+                                    data-answer="mojego" class="line_1"> <input type="text" data-answer="chłopaka"
+                                    class="line_1">
+                                .</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Czyj to jest chłopak? To jest chłopak (moja siostra) <input type="text"
+                                    data-answer="mojej" class="line_1"> <input type="text" data-answer="siostry"
+                                    class="line_1">
+                                .</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Czyje to są zdjęcia? To są zdjęcia (zakochane pary) <input type="text"
+                                    data-answer="zakochanych" class="line_1"> <input type="text" data-answer="par"
+                                    class="line_1">
+                                .</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Czyje to są ulubione miejsca? To są ulubione miejsca (moja dziewczyna)
+                                <input type="text" data-answer="mojej" class="line_1"> <input type="text"
+                                    data-answer="dziewczyny" class="line_1">
+                                .</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="flex">
-                    <button id="checkAnswersButton">Проверить</button>
-                    <div id="result"></div>
+                    <button onclick="checkAnswers('set34')">Sprawdź</button>
                     <div class="hint2-container" onclick="toggleHint2(this)">
                         <div class="hint2-header"></div>
                         <div class="hint2-content">
-                            <div>
-                                <p style="font-size: 28px;padding: 0 3%;">Idziemy na zakupy. Kupujemy paczkę
-                                    makaronu,
-                                    butelkę wody, orzeszki i kilogram pomidorów. W drogerii kupujemy szampon do
-                                    włosów,
-                                    dezodorant i papier toaletowy. Chodź z nami!</p>
+                            <div class="image" style="width: 50%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogpiaSiU8mSNh19Uw?embed=1&width=1160&height=678"
+                                    alt="otwet03_34">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- 35 -->
+            <div class="blockZadanie">
+                <h4>str 35 - Прослушайте запись и вставьте в предложения пропущенные слова.</h4>
+                <audio
+                    src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9mTUNB9WtBpZk_l0VaGhao)/userfiles/kursy/lektorzy_a2/l3/a2-l3-e34.mp3"
+                    controls></audio>
+                <div class="question-set" id="set35">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20">To jest fotografia pary zakochanych <input type="text"
+                                    data-answer="studentów" class="line_1">
+                                Iriny i Tomka. Zdjęcie zrobił brat <input type="text" data-answer="chłopaka"
+                                    class="line_1">
+                                w domu <input type="text" data-answer="rodziców" class="line_1">
+                                Tomka. Są tutaj ulubione kwiaty jego <input type="text" data-answer="mamy"
+                                    class="line_1">
+                                . W garażu jest samochód jego <input type="text" data-answer="taty" class="line_1">
+                                i rower jego starszego <input type="text" data-answer="brata" class="line_1">
+                                . Przed domem jest mały rower młodszej <input type="text" data-answer="siostry"
+                                    class="line_1">
+                                Tomka. Po prawej stronie widać też balkon <input type="text" data-answer="sąsiadów"
+                                    class="line_1">
+                                . Nie widać tylko ulubionego psa <input type="text" data-answer="rodziny"
+                                    class="line_1">
+                                . Pewnie był wtedy w domu.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set35')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 60%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogqejwhUot2-D_rbQ?embed=1&width=1168&height=526"
+                                    alt="otwet03_35">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 36 -->
+            <div class="blockZadanie">
+                <h4>str 36 - Переведите предложения.</h4>
+                <div class="question-set" id="set36">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20">1. Моя девушка самая красивая из всех девушек.</p>
+                            <p class="p20"><input type="text"
+                                data-answer="Moja" class="line_1"> <input type="text"
+                                data-answer="dziewczyna" class="line_1"> <input type="text"
+                                data-answer="jest" class="line_1"> <input type="text"
+                                data-answer="najładniejsza" class="line_1"> <input type="text"
+                                data-answer="ze" class="line_1"> <input type="text"
+                                data-answer="wszystkich" class="line_1"> <input type="text"
+                                data-answer="dziewczyn" class="line_1">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Томек выше Сильвии.</p>
+                            <p class="p20"><input type="text"
+                                data-answer="Tomek" class="line_1"> <input type="text"
+                                    data-answer="jest" class="line_1"> <input type="text"
+                                    data-answer="wyższy" class="line_1"> <input type="text"
+                                    data-answer="od" class="line_1"> <input type="text"
+                                    data-answer="Sylwii" class="line_1">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Сильвия ниже Игоря.</p>
+                            <p class="p20"><input type="text"
+                                data-answer="Sylwia" class="line_1"> <input type="text"
+                                    data-answer="jest" class="line_1"> <input type="text"
+                                    data-answer="niższa" class="line_1"> <input type="text"
+                                    data-answer="od" class="line_1"> <input type="text"
+                                    data-answer="Igora" class="line_1">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Мой компьютер лучше, чем компьютер моего брата.</p>
+                            <p class="p20"><input type="text"
+                                data-answer="Mój" class="line_1"> <input type="text"
+                                    data-answer="komputer" class="line_1"> <input type="text"
+                                    data-answer="jest" class="line_1"> <input type="text"
+                                    data-answer="lepszy" class="line_1"> <input type="text"
+                                    data-answer="niż" class="line_1"> <input type="text"
+                                    data-answer="komputer" class="line_1"> <input type="text"
+                                    data-answer="mojego" class="line_1"> <input type="text"
+                                    data-answer="brata" class="line_1">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Мой автомобиль хуже, чем автомобиль моего парня.</p>
+                            <p class="p20"><input type="text"
+                                data-answer="Mój" class="line_1"> <input type="text"
+                                    data-answer="samochód" class="line_1"> <input type="text"
+                                    data-answer="jest" class="line_1"> <input type="text"
+                                    data-answer="gorszy" class="line_1"> <input type="text"
+                                    data-answer="od" class="line_1"> <input type="text"
+                                    data-answer="samochodu" class="line_1"> <input type="text"
+                                    data-answer="mojego" class="line_1"> <input type="text"
+                                    data-answer="chłopaka" class="line_1">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. Мне очень нравится студентка первого курса.</p>
+                            <p class="p20"><input type="text"
+                                data-answer="Bardzo" class="line_1"> <input type="text"
+                                    data-answer="podoba" class="line_1"> <input type="text"
+                                    data-answer="mi" class="line_1"> <input type="text"
+                                    data-answer="się" class="line_1"> <input type="text"
+                                    data-answer="studentka" class="line_1"> <input type="text"
+                                    data-answer="pierwszego" class="line_1"> <input type="text"
+                                    data-answer="roku" class="line_1">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">7. Мы познакомились два месяца тому назад.</p>
+                            <p class="p20"><input type="text"
+                                data-answer="Poznaliśmy" class="line_1"> <input type="text"
+                                    data-answer="się" class="line_1"> <input type="text"
+                                    data-answer="dwa" class="line_1"> <input type="text"
+                                    data-answer="miesiące" class="line_1"> <input type="text"
+                                    data-answer="temu" class="line_1">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">8. Я скучаю по моей семье.</p>
+                            <p class="p20"><input type="text"
+                                data-answer="Tęsknię" class="line_1"> <input type="text"
+                                    data-answer="za" class="line_1"> <input type="text"
+                                    data-answer="moją" class="line_1"> <input type="text"
+                                    data-answer="rodziną" class="line_1">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set36')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="two">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogrNrirbMzdhMqeTg?embed=1&width=1154&height=1388" alt="otwet03_36_1">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogsjXLqkEIzqE_LQQ?embed=1&width=1154&height=1440" alt="otwet03_36_1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 37 -->
+            <div class="blockZadanie">
+                <h4>str 31 - Слушайте запись и пишите.
+                    Можно также слушать и писать на листочке, а потом переписать текст.</h4>
+                <audio
+                    src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9mTUNB9WtBpaE_l0VaGhao)/userfiles/kursy/lektorzy_a2/l3/a2-l3-e36.mp3"
+                    controls></audio>
 
+                <div class="question">
+                    <label for="answer1"></label>
+                    <textarea id="answer1" class="answer-input"
+                        data-correct="W ostatnią sobotę miałem najlepszą randkę z moją ukochaną dziewczyną. Ona jest najpiękniejszą, najmądrzejszą i najbardziej atrakcyjną dziewczyną na uniwersytecie. Bardzo za nią tęsknię."
+                        placeholder="Введите правильный текст здесь..."></textarea>
+                </div>
 
+                <div class="flex">
+                    <button id="checkAnswersButton" >Проверить</button>
+                    <div id="result"></div>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="text">
+                                <p class="p20">W ostatnią sobotę miałem najlepszą randkę z moją ukochaną dziewczyną. Ona jest najpiękniejszą, najmądrzejszą i najbardziej atrakcyjną dziewczyną na uniwersytecie. Bardzo za nią tęsknię.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
