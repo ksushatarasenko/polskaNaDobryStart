@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2-lekcja03_dodatkowa</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../text.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <ul class="list">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../A1/indexA1.html">A1</a></li>
+                <li><a href="../indexA2.html">A2</a></li>
+                <li>B1</li>
+                <li>B2</li>
+                <li>Grammatyka</li>
+            </ul>
+        </header>
+        <main class="main">
+
+            <h2>Урок 3 - Дополнительные упражнения</h2>
+            <!-- 3 -->
+            <div class="blockZadanie">
+                <h4>str 3 - Proszę uzupełnić dialog słowami z listy.</h4>
+                <p class="slowa p22"> <span class="coral">podoba</span> | <span class="coral">tęsknię</span> | <span class="coral">czuły</span> |
+                    <span class="coral">nieśmiały</span> |
+                    <span class="coral">spotkaliśmy się</span> |
+                    <span class="coral">podobam</span> |
+                    <span class="coral">poznałaś</span> |
+                    <span class="coral">widzieliśmy się</span> |
+                    <span class="coral">się spotykacie</span> |
+                    <span class="coral">tęskni</span></p>
+                <div class="question-set" id="set3">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20 italic ">Monika: Gdzie <input type="text" data-answer="poznałaś" class="line_1"> Krystiana?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">Ala: Poznaliśmy się na koncercie, ale potem nie 
+                                <input type="text" data-answer="widzieliśmy się" class="line_1">
+                                kilka tygodni…</p>
+                        </div>
+                        <p class="p20">Monika: Naprawdę?</p>
+                        <div class="colors">
+                            <p class="p20">Ala: Tak, ponieważ Krystian jest <input type="text" data-answer="nieśmiały" class="line_1">.</p>
+                        </div>
+                        <p class="p20">Monika A ty?</p>
+                        <div class="colors">
+                            <p class="p20">Ala: Ja nie byłam pewna, czy się mu <input type="text" data-answer="podobam" class="line_1">.</p>
+                        </div>
+                        <p class="p20">Monika: I nic nie zrobiłaś?</p>
+                        <div class="colors">
+                            <p class="p20">Ala: Nic, a potem 
+                                <input type="text"
+                                    data-answer="spotkaliśmy się" class="line_1"> na urodzinach kolegi. Tańczyliśmy cały wieczór.</p>
+                        </div>
+                        <p class="p20">Monika: Wiem, że Krystian świetnie tańczy.</p>
+                        <div class="colors">
+                            <p class="p20">Ala: Tak i ma jeszcze inne zalety. Jest <input type="text"
+                                data-answer="czuły" class="line_1"> i odpowiedzialny.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">Monika: Widzę, że ci się 
+                                <input type="text"
+                                data-answer="podoba" class="line_1">.
+                            </p>
+                        </div>
+                        <p class="p20">Ala: Ogromnie.</p>
+                        <div class="colors">
+                            <p class="p20">Monika: Jak często 
+                                <input type="text"
+                                data-answer="się spotykacie" class="line_1">?
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">Ala: Za rzadko. Kiedy nie widzę go kilka dni, to bardzo 
+                                <input type="text"
+                                data-answer="tęsknię" class="line_1">.
+                            </p>
+                        </div>
+                        <p class="p20">Monika: Możecie rozmawiać przez Skype’a.</p>
+                        <div class="colors">
+                            <p class="p20">Ala: To nie to samo, Krystian też bardzo <input type="text"
+                                data-answer="tęskni" class="line_1">.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set3')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 40%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogtQQQMLZx0ESywBQ?embed=1&width=1038&height=1508"
+                                    alt="otwet03_dod_3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 4 -->
+            <div class="blockZadanie">
+                <h4>str. 4 - Proszę zaznaczyć poprawne formy.</h4>
+                <div class="question-set" id="set4">
+                    <table class="dialog table">
+                        <tr>
+                            <th class="th">Kto?</th>
+                            <th class="th">Z kim?</th>
+                            <th class="th">Kiedy się poznali?</th>
+                            <th class="th">Gdzie się poznali?</th>
+                        </tr>
+                        <tr>
+                            <td class="td">Karolina</td>
+                            <td class="td">z  Darkiem</td>
+                            <td class="td">2 miesiące temu</td>
+                            <td class="td"><input type="text" data-answer="na koncercie" class="line_2"></td>
+                        </tr>
+                        <tr>
+                            <td class="td">Dominik</td>
+                            <td class="td"><input type="text" data-answer="z Anną" class="line_2"></td>
+                            <td class="td"><input type="text" data-answer="pół roku temu" class="line_2"></td>
+                            <td class="td">na stadione</td>
+                        </tr>
+                        <tr>
+                            <td class="td">Michał</td>
+                            <td class="td"><input type="text" data-answer="z Iwoną" class="line_2"></td>
+                            <td class="td"><input type="text" data-answer="3 tygodnie temu" class="line_2"></td>
+                            <td class="td"><input type="text" data-answer="w parku" class="line_2"></td>
+                        </tr>
+                        <tr>
+                            <td class="td">Wiera</td>
+                            <td class="td"><input type="text" data-answer="z Igorem" class="line_2"></td>
+                            <td class="td"><input type="text" data-answer="2 lata temu" class="line_2"></td>
+                            <td class="td"><input type="text" data-answer="na wakacjach" class="line_2"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set4')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 70%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogurNNojqrKXJANmw?embed=1&width=1238&height=502" alt="otwet03_dod_4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="blockZadanie">
+                <h4>str 5 - Proszę uzupełnić przymiotniki antonimami z listy.</h4>
+                <p class="slowa p22"> 
+                    <span class="coral">szczuplejszy</span> | 
+                    <span class="coral">wyższy</span> | 
+                    <span class="coral">dłuższy</span> |
+                    <span class="coral">nudniejszy</span> |
+                    <span class="coral">gorszy</span> |
+                    <span class="coral">bliższy</span> |
+                    <span class="coral">węższy</span> |
+                    <span class="coral">głupszy</span> |
+                    <span class="coral">mniejszy</span> |
+                    <span class="coral">droższy</span> |
+                    <span class="coral">ciemniejszy</span></p>
+                <div class="question-set" id="set5">
+                    <div class="dialog italic two">
+                        <div>
+                            <div class="colors">
+                                <p class="p20 italic ">tęższy => <input type="text" data-answer="szczuplejszy" class="line_1"></p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">niższy =>
+                                    <input type="text" data-answer="wyższy" class="line_1"></p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">krótszy => <input type="text" data-answer="dłuższy" class="line_1"></p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">ciekawszy => <input type="text" data-answer="nudniej" class="line_1"></p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">lepszy => 
+                                    <input type="text"
+                                        data-answer="gorszy" class="line_1"></p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">dalszy => <input type="text"
+                                    data-answer="bliższy" class="line_1">
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="colors">
+                                <p class="p20">szerszy => 
+                                    <input type="text"
+                                    data-answer="węższy" class="line_1">
+                                </p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">mądrzejszy => 
+                                    <input type="text"
+                                    data-answer="głupszy" class="line_1">
+                                </p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">większy => 
+                                    <input type="text"
+                                    data-answer="mniejszy" class="line_1">
+                                </p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">tańszy =>  <input type="text"
+                                    data-answer="droższy" class="line_1">.
+                                </p>
+                            </div>
+                            <div class="colors">
+                                <p class="p20">jaśniejszy =>   <input type="text"
+                                    data-answer="ciemniejszy" class="line_1">.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set5')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 20%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogvN_wdwo4cc9ZtkA?embed=1&width=474&height=1254"
+                                    alt="otwet03_dod_5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 7 -->
+            <div class="blockZadanie">
+                <h4>str 7 - Proszę wybrać poprawną formę.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/9f0fcb2a3a2a4be2bf869de5b6f4bcb5?themeId=46&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="blockZadanie">
+                <h4>str. 8 - 
+                    Proszę uzupełnić tabelę (stopień, równy, wyższy lub najwyższy).</h4>
+                <div class="question-set" id="set8">
+                    <table class="dialog table">
+                        <tr>
+                            <th class="th red">Stopień równy</th>
+                            <th class="th red">Stopień wyższy</th>
+                            <th class="th red">Stopień najwyższy</th>
+                        </tr>
+                        <tr>
+                            <td class="td">słodki</td>
+                            <td class="td"><input type="text" data-answer="słodszy" class="line_2"></td>
+                            <td class="td"><input type="text" data-answer="najsłodszy" class="line_2"></td>
+                        </tr>
+                        <tr>
+                            <td class="td"><input type="text" data-answer="młody" class="line_2"></td>
+                            <td class="td">młodszy</td>
+                            <td class="td"><input type="text" data-answer="najmłodszy" class="line_2"></td>
+                        </tr>
+                        <tr>
+                            <td class="td"><input type="text" data-answer="gruby" class="line_2"></td>
+                            <td class="td"><input type="text" data-answer="grubszy" class="line_2"></td>
+                            <td class="td">najgrubszy</td>
+                        </tr>
+                        <tr>
+                            <td class="td">dobry</td>
+                            <td class="td"><input type="text" data-answer="lepszy" class="line_2"></td>
+                            <td class="td"><input type="text" data-answer="najlepszy" class="line_2"></td>
+                        </tr>
+                        <tr>
+                            <td class="td"><input type="text" data-answer="zły" class="line_2"></td>
+                            <td class="td"><input type="text" data-answer="gorszy" class="line_2"></td>
+                            <td class="td">najgurszy</td>
+                        </tr>
+                        <tr>
+                            <td class="td"><input type="text" data-answer="wąski" class="line_2"></td>
+                            <td class="td">węższy</td>
+                            <td class="td"><input type="text" data-answer="najwęższy" class="line_2"></td>
+                        </tr>
+                        <tr>
+                            <td class="td">mały</td>
+                            <td class="td"><input type="text" data-answer="mniejszy" class="line_2"></td>
+                            <td class="td"><input type="text" data-answer="najmniejszy" class="line_2"></td>
+                        </tr>
+                        <tr>
+                            <td class="td"><input type="text" data-answer="duży" class="line_2"></td>
+                            <td class="td">większy</td>
+                            <td class="td"><input type="text" data-answer="największy" class="line_2"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set8')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 60%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogwxOgAgatdjCH2nQ?embed=1&width=1232&height=892" alt="otwet03_dod_8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9 -->
+            
+            <div class="blockZadanie">
+                <h4>str. 9 - Proszę zaznaczyć wszystkie poprawne odpowiedzi.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/5fadcdc4dc1c4d8bbdd10c32f7967211?themeId=49&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 10 -->
+             <div class="blockZadanie">
+                <h4>str 10 - Proszę napisać zdania wg wzoru (z użyciem struktury  tęsknić za …).</h4>
+                <div class="question-set" id="set10">
+                    <p class="p20">Ostatni raz byłam w swoim kraju rok temu. <spam class="italic blue">Tęsknię za swoim krajem</spam>.</p>
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20">Dawno nie widziałem rodziców. 
+                                <input type="text"
+                                    data-answer="Tęsknię za swoimi rodzicami" class="line_3">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">Moja dziewczyna pracuje za granicą i rzadko ją widzę. 
+                                <input type="text"
+                                    data-answer="Tęsknię za moją dziewczyną" class="line_3">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">Jestem w nowej szkole i nie mam kontaktu z kolegami. 
+                                <input type="text"
+                                    data-answer="Tęsknię za kolegami" class="line_3">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">Rzadko cię widzę. 
+                                <input type="text"
+                                    data-answer="Tęsknię za tobą" class="line_3">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set10')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 50%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgogx9MV7MQSHWkDflg?embed=1&width=1102&height=610" alt="otwet03_dod_10">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <!-- 11 -->
+             <div class="blockZadanie">
+                <h4>str 11 - Proszę zaznaczyć poprawną odpowiedź.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/30ee5388cbc14759a95c0625fd61402b?themeId=55&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+             </div>
+
+
+
+
+
+
+        </main>
+    </div>
+
+    <script src="../../scripts/script.js"></script>
+    <script src="../../scripts/scriptchexBox.js"></script>
+
+</body>
+
+</html>

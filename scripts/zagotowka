@@ -7,8 +7,8 @@
 <div class="question-set" id="set2">
     <div class="dialog italic ">
         <div class="colors">
-            <p class="p20">- zielona, ale też niebieska jak woda i żółta jak słonce. => <span
-                    class="blue">lato</span></p>
+            <p class="p20">- zielona, ale też niebieska jak woda i żółta jak słonce. => <span class="blue">lato</span>
+            </p>
         </div>
         <div class="colors">
             <p class="p20">- bardzo zielona, ale też różowa, żółta, biała jak kwiaty. => <input type="text"
@@ -21,7 +21,9 @@
     <div class="hint2-container" onclick="toggleHint2(this)">
         <div class="hint2-header"></div>
         <div class="hint2-content">
-            Число ділиться на 5, якщо воно закінчується на 0 або 5.
+            <div class="image">
+                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogurNNojqrKXJANmw?embed=1&width=1238&height=502" alt="">
+            </div>
         </div>
     </div>
 </div>
@@ -49,17 +51,22 @@
             <td><input type="text" data-answer="zimą" class="line_1"></td>
         </tr>
     </table>
-    <button onclick="checkAnswers('set3')">Check</button>
-    <button onclick="toggleHints('hints3')">Wskazówka</button>
-    <div id="hints3" style="display: none;">
-        <img src="https://1drv.ms/i/s!Av5Voug-ar1TgfRUYFZoEPE2GLQDNg?embed=1&width=2440&height=228" alt="poryRoku">
+</div>
+<div class="flex">
+    <button onclick="checkAnswers('set6')">Sprawdź</button>
+    <div class="hint2-container" onclick="toggleHint2(this)">
+        <div class="hint2-header"></div>
+        <div class="hint2-content">
+            Число ділиться на 5, якщо воно закінчується на 0 або 5.
+        </div>
     </div>
 </div>
 <!-- ż -->
 <!-- &nbsp;  probel -->
 
 <p class="slowa p22"> <span class="coral">za</span> | <span class="coral">po</span> | <span class="coral">do</span> |
-    <span class="coral">wpół</span></p>
+    <span class="coral">wpół</span>
+</p>
 
 <!-- wybor Otweta -->
 
