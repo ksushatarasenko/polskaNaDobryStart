@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2-lekcja04_dodatkowa</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../text.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <ul class="list">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../A1/indexA1.html">A1</a></li>
+                <li><a href="../indexA2.html">A2</a></li>
+                <li>B1</li>
+                <li>B2</li>
+                <li>Grammatyka</li>
+            </ul>
+        </header>
+        <main class="main">
+
+            <h2>Урок 4 - Дополнительные упражнения</h2>
+            <!-- 2 -->
+            <div class="blockZadanie">
+                <h4>str 2 - Proszę podpisać.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/b6ef1f055bd241e284c5b24afa8b368b?themeId=61&templateId=38&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+            </div>
+            <!-- 3 -->
+
+            <div class="blockZadanie">
+                <h4>str 3 - Proszę wybrać poprawny zaimek z listy.</h4>
+                <form id="quiz-form-403" class="marginLeft">
+                    <ol>
+                        <li style="margin-top: 2%;">
+                            Jest już bardzo późno, ale nie chce
+                            <select name="q1">
+                                <option value="">-- Select --</option>
+                                <option value="correct">mi</option>
+                                <option value="incorrect">mnie</option>
+                                <option value="incorrect">ja</option>
+                            </select> się spać.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Nie jedliśmy śniadania, ale nie chce
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">nas</option>
+                                <option value="incorrect">my</option>
+                                <option value="correct">nam</option>
+                            </select> się jeść.
+                        </li>
+                        <li style="margin-top: 7px">
+                            To bardzo zabawne, czy
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="correct">wam</option>
+                                <option value="incorrect">was</option>
+                                <option value="incorrect">wami</option>
+                            </select> też chce się śmiać?
+                        </li>
+                        <li style="margin-top: 7px">
+                            Iwona często płacze, teraz też chce
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">ja</option>
+                                <option value="incorrect">niej</option>
+                                <option value="correct">jej</option>
+                            </select> się płakać.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Oni rozmawiają, nie chce
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">ich</option>
+                                <option value="incorrect">nich</option>
+                                <option value="correct">im</option>
+                            </select> się tańczyć.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Igor chodzi na lekcje polskiego, ale nie chce
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">niemu</option>
+                                <option value="correct">mu</option>
+                                <option value="incorrect">go</option>
+                            </select> się uczyć w domu.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Naprawdę nie chce
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">ty</option>
+                                <option value="correct">ci</option>
+                                <option value="incorrect">ciebie</option>
+                            </select> się iść do kina? Nie wierzę!
+                        </li>
+                    </ol>
+
+                    <div class="flex">
+                        <button type="button" onclick="checkAnswersForm('quiz-form-403')">Sprawdź</button>
+                        <div class="hint2-container" onclick="toggleHint2(this)">
+                            <div class="hint2-header"></div>
+                            <div class="hint2-content">
+                                <div class="image" style="width: 60%;">
+                                    <img src="https://1drv.ms/i/s!Av5Voug-ar1TgohYY9Qwb1ni25lhmQ?embed=1&width=964&height=456"
+                                        alt="otwet04_dod_3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <!-- 4 -->
+            <div class="blockZadanie">
+                <h4>str. 4 - Proszę uzupełnić zdania – zaznaczyć wszystkie poprawne odpowiedzi.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/e196c8f7f7fa4d739bba7b088dc9dc5f?themeId=27&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+            </div>
+            <!-- 5 -->
+            <div class="blockZadanie">
+                <h4>str 5 - Proszę uzupełnić zdania wg wzoru.</h4>
+
+                <div class="question-set" id="set5">
+                    <div class="dialog italic">
+
+                        <p class="p20 italic">Ja: pić (+) Chce mi się pić.</p>
+                        <p class="p20 italic">Ja: jeść (–) Nie chce mi się jeść.</p>
+                        <div class="colors">
+                            <p class="p20">1. Wy: iść do domu ( –)</p>
+                            <p class="p20 italic ">
+                                <input type="text" data-answer="Nie" class="line_1">
+                                <input type="text" data-answer="chce" class="line_1">
+                                <input type="text" data-answer="wam" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="iść" class="line_1">
+                                <input type="text" data-answer="do" class="line_1">
+                                <input type="text" data-answer="domu" class="line_1">?
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Ty: tańczyć (+)</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Chce" class="line_1">
+                                <input type="text" data-answer="ci" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="tańczyć" class="line_1">?
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. On: spać (+),</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Chce" class="line_1">
+                                <input type="text" data-answer="mu" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="spać" class="line_1">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. My: rozmawiać (–)</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Nie" class="line_1">
+                                <input type="text" data-answer="chce" class="line_1">
+                                <input type="text" data-answer="nam" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="rozmawiać" class="line_1">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Oni: czekać (–)</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Nie" class="line_1">
+                                <input type="text" data-answer="chce" class="line_1">
+                                <input type="text" data-answer="im" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="czekać" class="line_1">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set5')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 40%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgohZCKTG3pI5ZpKwNw?embed=1&width=1056&height=1534"
+                                    alt="otwet04_dod_5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="blockZadanie">
+                <h4>str 8 - Proszę posłuchać i zaznaczyć poprawną odpowiedź.</h4>
+                <audio src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGtsQ-XEUMV8WtdqX4awj5DUfU-msw)/userfiles/kursy/lektorzy_extra_a2/mc-a2-l4-e8.mp3" controls></audio>
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/0d9e699ad96c411e8323418fcf573fb9?themeId=26&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- 9 -->
+
+            <div class="blockZadanie">
+                <h4>str. 9 - Proszę uzupełnić dialog słowami z listy.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/0dc86fd9a3b74cda8f8f6455d05042aa?themeId=46&templateId=36&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="blockZadanie">
+                <h4>str 10 - Proszę napisać zdania wg wzoru (z użyciem struktury tęsknić za …).</h4>
+
+
+            </div>
+            <!-- 11 -->
+            <div class="blockZadanie">
+                <h4>str 11 - Proszę zaznaczyć poprawną odpowiedź.</h4>
+                
+            </div>
+
+
+
+
+
+
+        </main>
+    </div>
+
+    <script src="../../scripts/script.js"></script>
+    <script src="../../scripts/scriptchexBox.js"></script>
+
+</body>
+
+</html>
