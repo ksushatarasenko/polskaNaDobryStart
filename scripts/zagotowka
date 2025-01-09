@@ -68,63 +68,6 @@
     <span class="coral">wpół</span>
 </p>
 
-<!-- wybor Otweta -->
-
-<div>
-    <div class="questions">
-        <div class="two_1">
-            <div>
-                <div>
-                    <div class="options italic blue">
-                        <div class="option" data-index="0">a. nowy | </div>
-                        <div class="option" data-index="1" style="text-decoration: underline;">
-                            &nbsp;niebieski | </div>
-                        <div class="option" data-index="2">&nbsp;stary </div>
-                    </div>
-                </div>
-                <div class="question" data-correct="2">
-                    <div class="options">
-                        <div class="option" data-index="0">b. zły | </div>
-                        <div class="option" data-index="1"> &nbsp;dobry | </div>
-                        <div class="option" data-index="2">&nbsp;duży </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <button id="checkAnswers">Sprawdź</button>
-</div>
-
-<!-- выбор ответа + вписание слова -->
-<div class="question-set" id="set5">
-    <div class="dialog  questions">
-        <div class="colors questionOption" data-correct="2">
-            <p class="p20" style="width: 20%;">1. Ten <span class="blue italic">plecak</span> jest </p>
-            <div class="displayFlex italic" style="width: 30%;">
-                <p class="p20 option" data-index="0">&nbsp;żółty |</p>
-                <p class="p20 option" data-index="1">&nbsp;stary |</p>
-                <p class="p20 option selected" data-index="2">&nbsp;nowy</p>
-            </div>
-            <img src="https://1drv.ms/i/s!Av5Voug-ar1TgfwpI7Aog7NLH-iLZg?embed=1&width=574&height=580" alt="5-1"
-                style="width: 7%;border-radius: 50%;">
-        </div>
-        <div class="colors questionOption" data-correct="2">
-            <p class="p20" style="width: 20%;">2. Ten <input type="text" data-answer="ołówek" class="line_1"> jest </p>
-            <div class="displayFlex italic" style="width: 30%;">
-                <p class="p20 option" data-index="0">&nbsp;krótki |</p>
-                <p class="p20 option" data-index="1">&nbsp;czerwony |</p>
-                <p class="p20 option" data-index="2">&nbsp;długi</p>
-            </div>
-            <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgfwqb4O6Q2e4j7p5QA?embed=1&width=572&height=580" alt="5-3"
-                style="width: 7%;border-radius: 50%;">
-        </div>
-    </div>
-</div>
-<div class="flex">
-    <button class="checkAnswersBtn" data-set-id="set5">Sprawdź</button>
-    <p class="result"></p>
-</div>
-
 
 <!-- -------------------------------------------------------- -->
 <!-- RADIO -->
@@ -154,36 +97,6 @@
 </div>
 <!--  -->
 
-<!-- Radio tablica -->
-<table class="italic table" id="task507A4">
-    <tr>
-        <th><img src="https://1drv.ms/i/s!Av5Voug-ar1TgfRVeYeInCabGno76w?embed=1&width=1308&height=526" alt="507A4"
-                style="width: 250px;"></th>
-        <td class="td">WIOSNA</td>
-        <td class="td">LATEM</td>
-        <td class="td">JESIENIĄ</td>
-        <td class="td">ZIMĄ</td>
-    </tr>
-    <tr class="task">
-        <td>1. Mamy wakacje.</td>
-        <div class="options">
-            <td><label><input type="radio" name="question1" value="1"></label></td>
-            <td><label><input type="radio" name="question1" value="2"></label></td>
-            <td><label><input type="radio" name="question1" value="3"></label></td>
-            <td><label><input type="radio" name="question1" value="4"></label></td>
-        </div>
-    </tr>
-    <tr class="task">
-        <td>6. Zaczyna się nowy rok szkolny.</td>
-        <div class="options">
-            <td><label><input type="radio" name="question6" value="1"></label></td>
-            <td><label><input type="radio" name="question6" value="2"></label></td>
-            <td><label><input type="radio" name="question6" value="3"></label></td>
-            <td><label><input type="radio" name="question6" value="4"></label></td>
-        </div>
-    </tr>
-</table>
-<button onclick="checkRadio('task507A4')">Chek</button>
 
 <!-- выпадающий список -->
 <form id="quiz-form-12" class="marginLeft">
@@ -249,14 +162,8 @@
         <div class="hint2-container" onclick="toggleHint2(this)">
             <div class="hint2-header"></div>
             <div class="hint2-content">
-                <div class="text">
-                    <p>Zwykle wstaję o wpół do siódmej –
-                        6:30. <br>
-                        Oni jedzą śniadanie za piętnaście ósma – 7:45 . <br>
-                        Moja mama wychodzi z domu dziesięć po siódmej – 7:10 . <br>
-                        Wykład zaczyna się o wpół do dziewiątej – 8:30 . <br>
-                        Oni jedzą obiad za piętnaście czwarta – 15:45 . <br>
-                        Irina ma kurs tańca w piątek piętnaście po szóstej – 18:15 .</p>
+                <div class="image">
+                    <img src="" alt="">
                 </div>
             </div>
         </div>
