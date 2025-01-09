@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2-lekcja05_dodatkowa</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../text.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <ul class="list">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../A1/indexA1.html">A1</a></li>
+                <li><a href="../indexA2.html">A2</a></li>
+                <li>B1</li>
+                <li>B2</li>
+                <li>Grammatyka</li>
+            </ul>
+        </header>
+        <main class="main">
+
+            <h2>Урок 5 - Дополнительные упражнения</h2>
+            <!-- 2 -->
+            <div class="blockZadanie">
+                <h4>str 2 - Proszę wybrać poprawną formę z listy.</h4>
+                <form id="quiz-form-0520" class="marginLeft">
+                    <ol>
+                        <li style="margin-top: 2%;">
+                            Stac
+                            <select name="q1">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">mi</option>
+                                <option value="correct">mnie</option>
+                                <option value="incorrect">mną</option>
+                            </select> na wszystko.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Nie stać
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">on</option>
+                                <option value="correct">go</option>
+                                <option value="incorrect">nim</option>
+                            </select> na nic.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Stać
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">nami</option>
+                                <option value="incorrect">nam0</option>
+                                <option value="correct">nas</option>
+                            </select> tylko na stary samochód.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Stać
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">jej</option>
+                                <option value="incorrect">niej</option>
+                                <option value="correct">ją</option>
+                            </select> na drogi telefon.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Stać
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">nich</option>
+                                <option value="correct">je</option>
+                                <option value="incorrect">one</option>
+                            </select> na ekskluziwne perfumy.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Nie stać
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="correct">jej</option>
+                                <option value="incorrect">ją</option>
+                                <option value="incorrect">nią</option>
+                            </select> na markowe buty.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Nie stać
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="correct">ich</option>
+                                <option value="incorrect">im</option>
+                                <option value="incorrect">nich</option>
+                            </select> na wyjazd na mecze na Euro.
+                        </li>
+                    </ol>
+                
+                    <div class="flex">
+                        <button type="button" onclick="checkAnswersForm('quiz-form-0520')">Sprawdź</button>
+                        <div class="hint2-container" onclick="toggleHint2(this)">
+                            <div class="hint2-header"></div>
+                            <div class="hint2-content">
+                                <div class="image" style="width: 40%;">
+                                    <img src="https://1drv.ms/i/s!Av5Voug-ar1TgokFTxpIrARMBk9ojw?embed=1&width=714&height=462" alt="otwet05_dod_2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <!-- 3 -->
+
+            <div class="blockZadanie">
+                <h4>str 3 - Proszę napisać poprawne formy słów w nawiasie (biernik lub dopełniacz).
+                </h4>
+                
+
+            </div>
+            <!-- 4 -->
+            <div class="blockZadanie">
+                <h4>str. 4 - Proszę uzupełnić zdania – zaznaczyć wszystkie poprawne odpowiedzi.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/e196c8f7f7fa4d739bba7b088dc9dc5f?themeId=27&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+            </div>
+            <!-- 5 -->
+            <div class="blockZadanie">
+                <h4>str 5 - Proszę uzupełnić zdania wg wzoru.</h4>
+
+                <div class="question-set" id="set5">
+                    <div class="dialog italic">
+
+                        <p class="p20 italic">Ja: pić (+) Chce mi się pić.</p>
+                        <p class="p20 italic">Ja: jeść (–) Nie chce mi się jeść.</p>
+                        <div class="colors">
+                            <p class="p20">1. Wy: iść do domu ( –)</p>
+                            <p class="p20 italic ">
+                                <input type="text" data-answer="Nie" class="line_1">
+                                <input type="text" data-answer="chce" class="line_1">
+                                <input type="text" data-answer="wam" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="iść" class="line_1">
+                                <input type="text" data-answer="do" class="line_1">
+                                <input type="text" data-answer="domu" class="line_1">?
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Ty: tańczyć (+)</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Chce" class="line_1">
+                                <input type="text" data-answer="ci" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="tańczyć" class="line_1">?
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. On: spać (+),</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Chce" class="line_1">
+                                <input type="text" data-answer="mu" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="spać" class="line_1">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. My: rozmawiać (–)</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Nie" class="line_1">
+                                <input type="text" data-answer="chce" class="line_1">
+                                <input type="text" data-answer="nam" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="rozmawiać" class="line_1">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Oni: czekać (–)</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Nie" class="line_1">
+                                <input type="text" data-answer="chce" class="line_1">
+                                <input type="text" data-answer="im" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="czekać" class="line_1">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set5')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 40%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgohZCKTG3pI5ZpKwNw?embed=1&width=1056&height=1534"
+                                    alt="otwet04_dod_5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="blockZadanie">
+                <h4>str 8 - Proszę posłuchać i zaznaczyć poprawną odpowiedź.</h4>
+                <audio
+                    src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGtsQ-XEUMV8WtdqX4awj5DUfU-msw)/userfiles/kursy/lektorzy_extra_a2/mc-a2-l4-e8.mp3"
+                    controls></audio>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/0d9e699ad96c411e8323418fcf573fb9?themeId=26&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- 9 -->
+
+            <div class="blockZadanie">
+                <h4>str. 9 - Proszę uzupełnić dialog słowami z listy.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/0dc86fd9a3b74cda8f8f6455d05042aa?themeId=46&templateId=36&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="blockZadanie">
+                <h4>str 10 - Proszę uzupełnić słowa samogłoskami: <span class="blue">i, y, e, a</span>
+                    .</h4>
+                <div class="question-set" id="set10">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20" style="line-height: 1.7;">
+                                Adam pracuje w małym sklepie warzywnym „Truskaweczka” w centrum Warszawy. W każdy
+                                poniedziałek, wcześnie rano, jedzie na targ zrobić zakup<input
+                                type="text" data-answer="y" class="line_4">
+                                . Adam lubi kupować sezonow<input
+                                type="text" data-answer="e" class="line_4">
+                                owoc<input
+                                type="text" data-answer="e" class="line_4">
+                                i warzyw<input
+                                type="text" data-answer="a" class="line_4">
+                                od znajomych producentów. Wie, że sprzedaje klientom śwież<input
+                                type="text" data-answer="e" class="line_4">
+                                i zdrow<input
+                                type="text" data-answer="e" class="line_4">
+                                produkt<input
+                                type="text" data-answer="y" class="line_4">
+                                . Dzisiaj kupuje: pomidor<input
+                                type="text" data-answer="y" class="line_4">
+                                malinow<input
+                                type="text" data-answer="e" class="line_4">
+                                , zielon<input
+                                type="text" data-answer="e" class="line_4">
+                                ogórk<input
+                                type="text" data-answer="i" class="line_4">
+                                , młod<input
+                                type="text" data-answer="e" class="line_4">
+                                ziemniak<input
+                                type="text" data-answer="i" class="line_4">
+                                i wiejski<input
+                                type="text" data-answer="e" class="line_4">
+                                jajk<input
+                                type="text" data-answer="a" class="line_4">
+                                . Adam bardzo lubi maj i czerwiec, bo wtedy są truskawk<input
+                                type="text" data-answer="i" class="line_4">
+                                , czereśni<input
+                                type="text" data-answer="e" class="line_4">
+                                i wiśni<input
+                                type="text" data-answer="e" class="line_4">
+                                . Jego klienci chętnie je kupują, bo robią z nich pyszne dżem<input
+                                type="text" data-answer="y" class="line_4">
+                                i kompot<input
+                                type="text" data-answer="y" class="line_4">
+                                .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set10')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content" style="width: 65%;">
+                            <div class="image">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgohgd559HXVTsv2_nw?embed=1&width=1254&height=512"
+                                    alt="otwet04_dod_10">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 11 -->
+            <div class="blockZadanie">
+                <h4>str 11 - Proszę uzupełnić zdania poprawną formą (liczba mnoga).
+                </h4>
+                <div class="question-set" id="set11">
+                    <div class="dialog italic ">
+                        <p class="p20">Kupuję tylko (dojrzały pomidor) <span class="blue italic">dojrzałe pomidory</span>.</p>
+                        <div class="colors">
+                            <p class="p20">1. Chodzimy na (tani obiad) 
+                                <input type="text"
+                                    data-answer="tanie" class="line_1"> <input type="text"
+                                    data-answer="obiady" class="line_1">. 
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Idź po (świeża bułka) 
+                                <input type="text"
+                                    data-answer="świeże" class="line_1"> <input type="text"
+                                    data-answer="bułki" class="line_1">!</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Zrobiłam (mała kanapka) 
+                                <input type="text"
+                                    data-answer="małe" class="line_1"> <input type="text"
+                                    data-answer="kanapki" class="line_1">. </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Kup (słodkie ciastko) 
+                                <input type="text"
+                                    data-answer="słodkie" class="line_1"> <input type="text"
+                                    data-answer="ciastka" class="line_1">!</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Zamawiamy dwie (smażona ryba) 
+                                <input type="text"
+                                    data-answer="smażone" class="line_1"> <input type="text"
+                                    data-answer="ryby" class="line_1">. </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. Czy są (wegetariańska potrawa) 
+                                <input type="text"
+                                    data-answer="wegetariańskie" class="line_1"> <input type="text"
+                                    data-answer="potrawy" class="line_1">?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">7. Na tej ulicy są (dobry pub) 
+                                <input type="text"
+                                    data-answer="dobre" class="line_1"> <input type="text"
+                                    data-answer="puby" class="line_1">. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set11')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 60%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgohh_pbUfSus5nFgLQ?embed=1&width=1162&height=654otwet04_dod_11" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 12 -->
+            <div class="blockZadanie">
+                <h4>str 12 - Proszę uzupełnić zdania poprawną formą (dopełniacz liczby mnogiej).
+                </h4>
+                <div class="question-set" id="set12">
+                    <div class="dialog italic ">
+                        <p class="p20">W barze na rogu są tanie obiady. Tam nie ma <span class="blue">tanich obiadów</span>.</p>
+                        <div class="colors">
+                            <p class="p20">1. W piekarni są świeże bułki. W sklepie nie ma 
+                                <input type="text"
+                                    data-answer="świeżych" class="line_1"> <input type="text"
+                                    data-answer="bułek" class="line_1">. 
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. W tym barze są małe kanapki. W tamtym barze nie ma 
+                                <input type="text"
+                                    data-answer="małych" class="line_1"> <input type="text"
+                                    data-answer="kanapek" class="line_1">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Czy są malinowe ciastka? Nie ma  
+                                <input type="text"
+                                    data-answer="malinowych" class="line_1"> <input type="text"
+                                    data-answer="ciastek" class="line_1">. 
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Nad morzem są smażone ryby. W górach nie ma  
+                                <input type="text"
+                                    data-answer="smażonych" class="line_1"> <input type="text"
+                                    data-answer="ryb" class="line_1">. 
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Czy są wegetariańskie potrawy? Nie ma
+                                <input type="text"
+                                    data-answer="wegetariańskich" class="line_1"> <input type="text"
+                                    data-answer="potraw" class="line_1">. 
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. Na tej ulicy są dobre restauracje. Tam gdzie mieszkasz nie ma 
+                                <input type="text"
+                                    data-answer="dobrych" class="line_1"> <input type="text"
+                                    data-answer="restauracji" class="line_1">. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set12')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 60%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgohiyiP8Ll2jb96OKQ?embed=1&width=1192&height=990" alt="otwet04_dod_12">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </main>
+    </div>
+
+    <script src="../../scripts/script.js"></script>
+    <script src="../../scripts/scriptchexBox.js"></script>
+
+</body>
+
+</html>
