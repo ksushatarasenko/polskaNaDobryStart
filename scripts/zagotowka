@@ -1,6 +1,5 @@
 <!-- ż -->
-
-
+<!-- &nbsp;  probel -->
 
 <!-- pole dla wpisania -->
 
@@ -27,42 +26,18 @@
         </div>
     </div>
 </div>
-<!-- tablica wpisać-->
-<div class="question-set" id="set3">
-    <table class="dialog italic ">
-        <tr>
-            <td><span class="weight">pora roku</span> <br>mianownik (kto?, co?)</td>
-            <td><span class="weight">kiedy?</span> <br>narzednik (kim?, czim? (коли?))</td>
-        </tr>
-        <tr>
-            <td>wiosna</td>
-            <td><input type="text" data-answer="wiosną" class="line_1"></td>
-        </tr>
-        <tr>
-            <td>lato</td>
-            <td><input type="text" data-answer="latem" class="line_1"></td>
-        </tr>
-        <tr>
-            <td>jesień</td>
-            <td><span class="blue">jesieni</span><span class="red">ą</span></td>
-        </tr>
-        <tr>
-            <td>zima</td>
-            <td><input type="text" data-answer="zimą" class="line_1"></td>
-        </tr>
-    </table>
-</div>
-<div class="flex">
-    <button onclick="checkAnswers('set6')">Sprawdź</button>
-    <div class="hint2-container" onclick="toggleHint2(this)">
-        <div class="hint2-header"></div>
-        <div class="hint2-content">
-            Число ділиться на 5, якщо воно закінчується на 0 або 5.
+<!-- tłumaczenie-->
+
+<div class="hint2-container" onclick="toggleHint2(this)">
+    <div class="hint2-header italic fiolet">tłumaczenie</div>
+    <div class="hint2-content">
+        <div class="image">
+            <img src="https://1drv.ms/i/s!Av5Voug-ar1TgolE8XdjdoPPriku_Q?embed=1&width=1220&height=742"
+                alt="translejt18">
         </div>
     </div>
 </div>
-<!-- ż -->
-<!-- &nbsp;  probel -->
+<!--  -->
 
 <p class="slowa p22"> <span class="coral">za</span> | <span class="coral">po</span> | <span class="coral">do</span> |
     <span class="coral">wpół</span>
@@ -73,27 +48,24 @@
 <!-- RADIO -->
 
 <div>
-    <div id="task6">
+    <div id="task617">
         <div class="task">
             <div class="options">
-                <p class="p20">Mathis ogląda fajny program.</p>
-                <div class="boxRadio">
-                    <label><input type="radio" name="question1" value="1"> P</label>
-                    <label><input type="radio" name="question1" value="2"> N</label>
-                </div>
-            </div>
-        </div>
-        <div class="task">
-            <div class="options">
-                <p class="p20">Mathis kupuje na Allegro nowy album.</p>
-                <div class="boxRadio">
-                    <label><input type="radio" name="question1" value="1"> P</label>
-                    <label><input type="radio" name="question1" value="2"> N</label>
+                <div class="flexColumn">
+                    <label><input type="radio" name="question1" value="1"> Zapraszam cię na moje
+                        dwudzieste urodziny, które odbędą się 14 lipca o godzinie 20.00 u mnie w domu.
+                        Będziesz?</label>
+                    <label><input type="radio" name="question1" value="2"> Zapraszam cię na moje
+                        dwudzieste urodziny, które odbędą się 15 lipca o godzinie 20.00 u mnie w domu.
+                        Będziesz?</label>
+                    <label><input type="radio" name="question1" value="3"> Zapraszam cię na moje
+                        dwudzieste pierwsze urodziny, które odbędą się o godzinie 20.30 u mnie w domu.
+                        Będziesz?</label>
                 </div>
             </div>
         </div>
     </div>
-    <button onclick="checkRadio('task6')">Chek</button>
+    <button onclick="checkRadio('task617')">Chek</button>
 </div>
 <!--  -->
 

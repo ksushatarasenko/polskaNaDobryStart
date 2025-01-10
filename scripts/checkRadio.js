@@ -1,7 +1,17 @@
 function checkRadio(taskId) {
     const correctAnswers = {
-        task2_01_17: {
-            question1: '3',
+        task604: {
+            question1: '1',
+            question2: '1',
+            question3: '2',
+            question4: '2',
+            question5: '1',
+        },
+        task617: {
+            question1: '2',
+        },
+        task624: {
+            question1: '1',
         },
     };
 
