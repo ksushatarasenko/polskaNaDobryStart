@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2-lekcja06_dodatkowa</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../text.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <ul class="list">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../A1/indexA1.html">A1</a></li>
+                <li><a href="../indexA2.html">A2</a></li>
+                <li>B1</li>
+                <li>B2</li>
+                <li>Grammatyka</li>
+            </ul>
+        </header>
+        <main class="main">
+
+            <h2>Урок 6 - Дополнительные упражнения</h2>
+            <!-- 3 -->
+
+            <div class="blockZadanie">
+                <h4>str 3 - Proszę uzupełnić zdania nazwą miesiąca (miejscownik). 
+                </h4>
+                <div class="question-set" id="set3">
+                    <div class="dialog italic ">
+                        <p class="p20">W (5) maju zapraszam Was na parapetówkę!</p>
+                        <div class="colors">
+                            <p class="p20">Dorota ma imieniny w (2) <input type="text" data-answer="lutym" class="line_1">
+                                , a Agnieszka w (4) <input type="text" data-answer="kwietniu" class="line_1">. 
+                                Tymon ma urodziny w (12) <input type="text" data-answer="grudniu" class="line_1">
+                                , ale wyprawia je w (1) <input type="text" data-answer="styczniu" class="line_1">.
+                                W (6) <input type="text" data-answer="czerwcu" class="line_1">
+                                organizujemy spotkanie osób z naszego liceum, przyjdziesz? 
+                                Znasz fajny klub ? W (10) <input type="text" data-answer="październiku" class="line_1">
+                                wyprawiam osiemnastkę.
+                                Bierzecie ślub we (9) <input type="text" data-answer="wrześniu" class="line_1">? Gratulacje!
+                                Ilona i Ada robą wspólną imprezę urodzinową w (8) <input type="text" data-answer="sierpniu" class="line_1">.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set3')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 50%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgolL9v0Cxbz6pc177g?embed=1&width=1230&height=570" alt="otwet06_dod_3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="blockZadanie">
+                <h4>str 4 - Proszę posłuchać i odpowiedzieć, czy zdanie jest prawdziwe (prawda),  czy fałszywe (fałsz).</h4>
+                <audio src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9mTUNCAWtBnaU_l0VaGhao)/userfiles/kursy/lektorzy_a2/l6/a2-l6-e17.mp3" controls></audio>
+                <div>
+                    <div id="task6d04">
+                        <div class="task">
+                            <div class="options">
+                                <p class="p20">1. Zuza zaprosiła swoich przyjaciół na szesnaste urodziny.</p>
+                                <div class="boxRadio">
+                                    <label><input type="radio" name="question1" value="1"> P</label>
+                                    <label><input type="radio" name="question1" value="2"> F</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task">
+                            <div class="options">
+                                <p class="p20">2. Przyjaciółka Zuzy, Karolina, szuka dla niej wyjątkowego prezentu.</p>
+                                <div class="boxRadio">
+                                    <label><input type="radio" name="question2" value="1"> P</label>
+                                    <label><input type="radio" name="question2" value="2"> F</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task">
+                            <div class="options">
+                                <p class="p20">3. Zuza uważa, że spotkane ze znajomymi jest lepsze niż prezent.</p>
+                                <div class="boxRadio">
+                                    <label><input type="radio" name="question3" value="1"> P</label>
+                                    <label><input type="radio" name="question3" value="2"> F</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task">
+                            <div class="options">
+                                <p class="p20">4. Znajomi chcą kupić Zuzie jeden prezent – rower, rolki albo tablet.</p>
+                                <div class="boxRadio">
+                                    <label><input type="radio" name="question4" value="1"> P</label>
+                                    <label><input type="radio" name="question4" value="2"> F</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task">
+                            <div class="options">
+                                <p class="p20">5. Mariusz uważa, że nie trzeba dawać rzeczy w prezencie.</p>
+                                <div class="boxRadio">
+                                    <label><input type="radio" name="question5" value="1"> P</label>
+                                    <label><input type="radio" name="question5" value="2"> F</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task">
+                            <div class="options">
+                                <p class="p20">6. Zuza dostanie od znajomych kurs językowy.</p>
+                                <div class="boxRadio">
+                                    <label><input type="radio" name="question6" value="1"> P</label>
+                                    <label><input type="radio" name="question6" value="2"> F</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button onclick="checkRadio('task6d04')">Chek</button>
+                    <div class="flex">
+                        <div class="hint2-container" onclick="toggleHint2(this)">
+                            <div class="hint2-header"></div>
+                            <div class="hint2-content">
+                                <div class="image" style="width: 50%;">
+                                    <img src="https://1drv.ms/i/s!Av5Voug-ar1TgolMII-MChUJ70ypIg?embed=1&width=1192&height=600" alt="otwet06_dod_4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="blockZadanie">
+                <h4>str 5 - Proszę uzupełnić zdania słowami z listy.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/c8565254dbd045e1bef5f89ee94dd8ac?themeId=46&templateId=36&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="blockZadanie">
+                <h4>str 6 - Proszę uzupełnić zdania wg wzoru (biernik). </h4>
+                <div class="question-set" id="set6">
+                    <div class="dialog italic ">
+                        <p class="p20">Wyprawiasz w tym roku swoje (imieniny) <span class="blue">imieniny</span>?</p>
+                        <div class="colors">
+                            <p class="p20">1. W ten piątek organizujemy (impreza) <input type="text" data-answer="imprezę" class="line_1">
+                                w akademiku. Będziecie?
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Dostałam (płyta) <input type="text" data-answer="płytę" class="line_1">
+                                mojego ulubionego zespołu.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Stefan organizuje (urodziny) <input type="text" data-answer="urodziny" class="line_1">
+                                i nas nie zaprosił.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Słyszałem, że w sobotę robicie (domówka) <input type="text" data-answer="domówkę" class="line_1">
+                                . </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Kupiłem mojej dziewczynie (książka) <input type="text" data-answer="książkę" class="line_1">
+                                jej ulubionego autora.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. Urządzam moją (osiemnastka) <input type="text" data-answer="osiemnastkę" class="line_1">  w klubie.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set6')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 50%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgolNba55WVfPg4q64Q?embed=1&width=1002&height=542" alt="otwet06_dod_6">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="blockZadanie">
+                <h4>str 8 - Proszę uzupełnić zdania słowami z listy.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/c49ac631dd234e10b6a46892eb56de4b?themeId=54&templateId=36&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- 9 -->
+
+            <div class="blockZadanie">
+                <h4>str. 9 - Proszę uzupełnić zdania wg wzoru (celownik). </h4>
+                <div class="question-set" id="set9">
+                    <div class="dialog italic ">
+                        <p class="p20">Opowiadasz naszą historię (obcy) <span class="blue">obcym</span> ludziom?</p>
+                        <div class="colors">
+                            <p class="p20">1. Dziękuję (najlepsza) <input type="text" data-answer="najlepszej" class="line_1">
+                                koleżance za pomoc.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Dałam prezent (starsza) <input type="text" data-answer="starszej" class="line_1">
+                                siostrze.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Pomagam (młodszy) <input type="text" data-answer="młodszemu" class="line_1">
+                                bratu.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Co kupić (małe) <input type="text" data-answer="małemu" class="line_1">
+                                chłopcu na urodziny?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Kupuję drogie perfumy (nowa)
+                                <input type="text" data-answer="nowej" class="line_1">  dziewczynie.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. Przyglądam się (niegrzeczne)
+                                <input type="text" data-answer="niegrzecznym" class="line_1"> dzieciom.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">7. Musimy pomóc naszym (najlepsi) <input type="text" data-answer="najlepszym" class="line_1"> kolegom.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set9')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 40%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgolOoy5x9Shjivp3tg?embed=1&width=790&height=624" alt="otwet06_dod_9">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="blockZadanie">
+                <h4>str 10 - Proszę uzupełnić zdania wg wzoru (celownik). </h4>
+                <div class="question-set" id="set10">
+                    <div class="dialog italic ">
+                        <p class="p20">Życzę (pan) <span class="blue">panu</span> powodzenia!</p>
+                        <div class="colors">
+                            <p class="p20">1. Podziękowaliśmy (profesor) <input type="text"
+                                data-answer="profesorowi" class="line_1">
+                                za ciekawy wykład.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Profesor gratulował (student) <input type="text"
+                                data-answer="studentowi" class="line_1">
+                                zdanego egzaminu.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Helena pomaga (mama) <input type="text"
+                                data-answer="mamie" class="line_1">
+                                urządzać przyjęcie.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Paweł mówi swojej (dziewczyna) <input type="text"
+                                data-answer="dziewczynie" class="line_1"> o wszystkim.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Czy powiedziałaś tej nowej (koleżanka) <input type="text"
+                                data-answer="koleżance" class="line_1">  o imprezie?</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. Czy daliście prezent waszej (nauczycielka) <input type="text"
+                                data-answer="nauczycielce" class="line_1">? </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">7. Kupiłem (brat) <input type="text"
+                                data-answer="bratu" class="line_1">
+                                najnowszą grę komputerową.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">8. Nie opowiadaj (dzieci) <input type="text"
+                                data-answer="dzieciom" class="line_1">
+                                tej strasznej historii.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">9. Proponowaliśmy (przyjaciele) <input type="text"
+                                data-answer="przyjaciołom" class="line_1">
+                                wspólne wyjazdy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set10')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 40%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgolPGuUlHTh1IFxkhw?embed=1&width=888&height=800" alt="otwet06_dod_10">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+
+        </main>
+    </div>
+
+    <script src="../../scripts/script.js"></script>
+    <script src="../../scripts/scriptchexBox.js"></script>
+    <script src="../../scripts/checkRadio.js"></script>
+
+
+</body>
+
+</html>

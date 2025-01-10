@@ -166,7 +166,9 @@ button{
     margin-top: 1%;
    
  }
-
+.task{
+    margin-top: 5px;
+}
  .bigRadio{
     width: 150px;
     height: 20px;
