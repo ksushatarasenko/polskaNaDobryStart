@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2-lekcja07_dodatkowa</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../text.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <ul class="list">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../A1/indexA1.html">A1</a></li>
+                <li><a href="../indexA2.html">A2</a></li>
+                <li>B1</li>
+                <li>B2</li>
+                <li>Grammatyka</li>
+            </ul>
+        </header>
+        <main class="main">
+
+            <h2>Урок 7 - Дополнительные упражнения</h2>
+            <!-- 2 -->
+
+            <div class="blockZadanie">
+                <h4>str 2 - Proszę uzupełnić grupę słów pasującym słowem z listy.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/7c1d0fe1ac00477c8d61dcf2be7455fa?themeId=1&templateId=36&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="blockZadanie">
+                <h4>str 3 - Proszę wybrać poprawną formę z listy.</h4>
+                <form id="quiz-form-7d03" class="marginLeft">
+                    <ol>
+                        <li style="margin-top: 2%;">
+                            We wrześniu mamy poprawkowy egzamin z
+                            <select name="q1">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">język angielski</option>
+                                <option value="incorrect">językiem angielskiem</option>
+                                <option value="correct">języka angielskiego</option>
+                            </select>.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Zdaję egzamin pisemny z
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="correct">ekometrii</option>
+                                <option value="incorrect">ekonometrią</option>
+                                <option value="incorrect">ekonometrię</option>
+                            </select>.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Na architekturę musisz zdać egzamin z
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">rysunkiem</option>
+                                <option value="correct">rysunku</option>
+                                <option value="incorrect">rysunki</option>
+                            </select>.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Nigdy nie zdawałam ustnego egzaminu z
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">chemią</option>
+                                <option value="incorrect">chemię</option>
+                                <option value="correct">chemii</option>
+                            </select>.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Najtrudniejszy był test z
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="correct">mechaniki</option>
+                                <option value="incorrect">mechaniką</option>
+                                <option value="incorrect">mechanice</option>
+                            </select>.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Jutro mamy pisemny egzamin z
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="correct">prawa rzymskiego</option>
+                                <option value="incorrect">prawem rzymskim</option>
+                                <option value="incorrect">prawo rzymskie</option>
+                            </select>.
+                        </li>
+                    </ol>
+
+                    <div class="flex">
+                        <button type="button" onclick="checkAnswersForm('quiz-form-7d03')">Sprawdź</button>
+                        <div class="hint2-container" onclick="toggleHint2(this)">
+                            <div class="hint2-header"></div>
+                            <div class="hint2-content">
+                                <div class="image" style="width: 40%;">
+                                    <img src="https://1drv.ms/i/s!Av5Voug-ar1TgooGXvxodBAjEt0TIQ?embed=1&width=816&height=424"
+                                        alt="otwet7_dod_3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- 4 -->
+            <div class="blockZadanie">
+                <h4>str 4 - Proszę uzupełnić zdania wg wzoru (dopełniacz).</h4>
+                <p class="p20">Po wakacjach zdaję poprawkowy egzamin z (historia) <span class="blue">historii</span> XIX
+                    wieku.</p>
+                <div class="question-set" id="set4">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20">1. W tym semestrze mamy egzamin z (gramatyka) <input type="text"
+                                    data-answer="gramatyki" class="line_2">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Powinnam chodzić na wykłady z (zarządzanie) <input type="text"
+                                    data-answer="zarządzania" class="line_2">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Ciekawe są wykłady z (literatura) <input type="text"
+                                    data-answer="literatury" class="line_2">
+                                romantycznej.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Chodzę na lektorat z (język francuski) <input type="text"
+                                    data-answer="języka francuskiego" class="line_3">.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Egzamin z (marketing) <input type="text" data-answer="marketingu"
+                                    class="line_1">
+                                nie był łatwy.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. Robiłem notatki na wykładach z (prawo międzynarodowe) <input type="text"
+                                    data-answer="prawa międzynarodowego" class="line_3">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set4')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 60%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgooHy2M8h84OajYsag?embed=1&width=1114&height=598"
+                                    alt="otwet7_dod_4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="blockZadanie">
+                <h4>str 5 - Proszę zaznaczyć wszystkie poprawne odpowiedzi.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/651b741afc654470a29da1501e8791d0?themeId=26&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="blockZadanie">
+                <h4>str 8 - Proszę posłuchać i wpisać kto to powinien zrobić?</h4>
+                <audio
+                    src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGtsQ-XEUMV8WtdtX4awj5DUfU-msw)/userfiles/kursy/lektorzy_extra_a2/mc-a2-l7-e8.mp3"
+                    controls></audio>
+                <div class="question-set" id="set8">
+                    <table class="dialog italic " style="margin: 0 auto;">
+                        <tr>
+                            <th>
+                                <p class="p20">Kto?</p>
+                            </th>
+                            <th>
+                                <p class="p20">Co powinien zrobić?</p>
+                            </th>
+                        </tr>
+                        <tr class="colors">
+                            <td>
+                                <p class="p20"><input
+                                    type="text" data-answer="profesor" class="line_1">
+                                </p>
+                            </td>
+                            <td>
+                                <p class="p20">
+                                    powinna zrobić zakupy.</p>
+                            </td>
+                        </tr>  
+                        <tr class="colors">
+                            <td>
+                                <p class="p20"><input
+                                    type="text" data-answer="kolega" class="line_1">
+                                </p>
+                            </td>
+                            <td>
+                                <p class="p20">
+                                    powinien zaprosić ją na randkę.</p>
+                            </td>
+                        </tr>  
+                        <tr class="colors">
+                            <td>
+                                <p class="p20"><input
+                                    type="text" data-answer="uczeń" class="line_1">
+                                </p>
+                            </td>
+                            <td>
+                                <p class="p20">
+                                    powinien zrobić sobie kanapkę.</p>
+                            </td>
+                        </tr>  
+                        <tr class="colors">
+                            <td>
+                                <p class="p20"><input
+                                    type="text" data-answer="siostra" class="line_1">
+                                </p>
+                            </td>
+                            <td>
+                                <p class="p20">
+                                    powinna złożyć jej życzenia.</p>
+                            </td>
+                        </tr>  
+                        <tr class="colors">
+                            <td>
+                                <p class="p20"><input
+                                    type="text" data-answer="lektorka" class="line_1">
+                                </p>
+                            </td>
+                            <td>
+                                <p class="p20">
+                                    powinna oszczędzać pieniądze na wyjazd.</p>
+                            </td>
+                        </tr>  
+                        <tr class="colors">
+                            <td>
+                                <p class="p20"><input
+                                    type="text" data-answer="student" class="line_1">
+                                </p>
+                            </td>
+                            <td>
+                                <p class="p20">
+                                    powinien powtarzać rok.</p>
+                            </td>
+                        </tr>                       
+                    </table>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set8')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 60%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgooIq7ylEHCNWauASQ?embed=1&width=1202&height=742"
+                                    alt="otwet7_dod_8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9 -->
+
+            <div class="blockZadanie">
+                <h4>str. 9 - Proszę uzupełnić tekst poprawną formą czasownika powinienem … </h4>
+                <div class="question-set" id="set9">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20 pText">Jestem Krysia i chętnie opowiem wam o mojej rodzinie. Moi rodzice najlepiej wiedzą, co my dzieci <input type="text" data-answer="powinnyśmy"
+                                class="line_1">
+                                robić. Tata mówi, że moi bracia <input type="text" data-answer="powinni"
+                                class="line_1">
+                                 trenować piłkę nożną. Starszy brat nawet nie lubi oglądać meczów… No, ale zdaniem taty <input type="text" data-answer="powinien"
+                                 class="line_1">
+                                być piłkarzem. Moja mama uważa, że jej córki <input type="text" data-answer="powinny"
+                                class="line_1">
+                                być artystkami. Według mamy moja siostra Michalina <input type="text" data-answer="powinna"
+                                class="line_1">
+                                śpiewać w operze, więc mama zapisała ją na lekcje śpiewu. A ja? Ja <input type="text" data-answer="powinnam"
+                                class="line_1">
+                                być fotografem lub reżyserem. Rodzice kupili mi aparat fotograficzny i planują kupić kamerę. Ja i moje rodzeństwo uważamy, że każdy <input type="text" data-answer="powinien"
+                                class="line_1">
+                                mieć swoje hobby, a rodzice nie <input type="text" data-answer="powinni"
+                                class="line_1">
+                                mówić nam, co robić. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set9')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 50%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgooJHxnSi0A_0syqdA?embed=1&width=1202&height=694"
+                                    alt="otwet07_dod_9">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="blockZadanie">
+                <h4>str 10 - Proszę zaznaczyć poprawną odpowiedź. </h4>
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/b16217973c264f26886a82cc9c49eb20?themeId=55&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 11 -->
+            <div class="blockZadanie">
+                <h4>str 11 - Proszę uzupełnić zdania wg wzoru (formy dokonane czasowników).</h4>
+                <p class="p20">Całą noc uczyliśmy się do testu, ale nie jesteśmy pewni, czy <span class="blue">nauczyliśmy</span> się wszystkiego.</p>
+                <div class="question-set" id="set11">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20">1. Czytałem notatki kilka razy, ale przed samym egzaminem <input type="text"
+                                data-answer="przeczytałem" class="line_2">
+                                jeszcze raz.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. Egzamin z fizyki zdawałam kilka razy, ale w końcu <input type="text"
+                                data-answer="zdałam" class="line_2">
+                                w sesji poprawkowej.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Przez cały rok kolega pomagał mi w matematyce, a wczoraj ja <input type="text"
+                                data-answer="pomogłem" class="line_2">
+                                mu z angielskiego.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Zawsze kserowaliśmy notatki z wykładu, ale teraz <input type="text"
+                                data-answer="skserowaliśmy" class="line_2">
+                                pytania do egzaminu.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. Nie wiem, ile razy powtarzaliśmy materiał, ale na pewno <input type="text"
+                                data-answer="powtórzyliśmy" class="line_2">
+                                wszystko.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. Statystykę zaliczałem kilka razy, ale w końcu <input type="text"
+                                data-answer="zaliczyłem" class="line_2">
+                                na piątkę.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set11')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 60%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgooKEt7ivpm1q3Jl4g?embed=1&width=1182&height=600" alt="otwet7_dod_11">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </main>
+    </div>
+
+    <script src="../../scripts/script.js"></script>
+    <script src="../../scripts/scriptchexBox.js"></script>
+    <script src="../../scripts/checkRadio.js"></script>
+
+
+</body>
+
+</html>
