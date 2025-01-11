@@ -173,6 +173,10 @@ button{
     width: 150px;
     height: 20px;
  }
+
+ .label{
+    padding:13px ;
+ }
  
  /* -------------- POKAZ OTWETA OPTIMA -------------*/
 .hint2-container {
@@ -301,6 +305,7 @@ button{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 60%;
 }
 
 /* table */

@@ -73,6 +73,11 @@ em{
     padding: 2%;
     font-style: italic;
 }
+.pText{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.7;
+}
 .link{
     font-size: 34px;
     color: rgb(129, 7, 243);
