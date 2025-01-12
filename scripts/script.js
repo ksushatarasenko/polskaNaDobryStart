@@ -195,6 +195,37 @@ document.getElementById('checkAnswersButton').addEventListener('click', function
 
 // -------------- выбор несколько ответов
 
+// function arraysEqual(arr1, arr2) {
+//     return JSON.stringify(arr1.sort()) === JSON.stringify(arr2.sort());
+// }
+
+// function checkAnswersLabel(formId, resultId) {
+//     const form = document.getElementById(formId);
+//     const questions = form.getElementsByClassName('question');
+//     let score = 0;
+//     let isAllCorrect = true;
+
+//     for (let i = 0; i < questions.length; i++) {
+//         const question = questions[i];
+//         const correctAnswers = question.getAttribute('data-correct').split(',').map(val => val.trim());
+//         const selectedAnswers = Array.from(form.querySelectorAll(`input[name="q${i + 1}"]:checked`)).map(el => el.value.trim());
+
+//         if (!arraysEqual(selectedAnswers, correctAnswers)) {
+//             isAllCorrect = false;
+//         } else {
+//             score++;
+//         }
+//     }
+
+//     const resultElement = document.getElementById(resultId);
+//     if (isAllCorrect) {
+//         resultElement.innerHTML = "Правильно!";
+//     } else {
+//         resultElement.innerHTML = "Неправильно!";
+//     }
+// }
+
+
 function arraysEqual(arr1, arr2) {
     return JSON.stringify(arr1.sort()) === JSON.stringify(arr2.sort());
 }
@@ -203,24 +234,40 @@ function checkAnswersLabel(formId, resultId) {
     const form = document.getElementById(formId);
     const questions = form.getElementsByClassName('question');
     let score = 0;
-    let isAllCorrect = true;
 
     for (let i = 0; i < questions.length; i++) {
         const question = questions[i];
         const correctAnswers = question.getAttribute('data-correct').split(',').map(val => val.trim());
         const selectedAnswers = Array.from(form.querySelectorAll(`input[name="q${i + 1}"]:checked`)).map(el => el.value.trim());
 
-        if (!arraysEqual(selectedAnswers, correctAnswers)) {
-            isAllCorrect = false;
-        } else {
+        const labels = question.querySelectorAll('label');
+
+        // Reset colors before checking
+        labels.forEach(label => label.style.color = '');
+
+        // Compare correct answers with user selection
+        labels.forEach(label => {
+            const input = label.querySelector('input');
+            if (input) {
+                const answerValue = input.value.trim();
+                if (selectedAnswers.includes(answerValue)) {
+                    if (correctAnswers.includes(answerValue)) {
+                        label.style.color = 'green'; // Correctly selected answer
+                    } else {
+                        label.style.color = 'red'; // Incorrectly selected answer
+                    }
+                } else {
+                    if (correctAnswers.includes(answerValue)) {
+                        label.style.color = 'green'; // Correct answer not selected
+                    }
+                }
+            }
+        });
+
+        // Update score if all selected answers match correct answers
+        if (arraysEqual(selectedAnswers, correctAnswers)) {
             score++;
         }
     }
 
-    const resultElement = document.getElementById(resultId);
-    if (isAllCorrect) {
-        resultElement.innerHTML = "Правильно!";
-    } else {
-        resultElement.innerHTML = "Неправильно!";
-    }
 }
