@@ -41,8 +41,9 @@ li input{
     margin: 0.5%;
 }
 ol>li{
-    font-size: 22px;
+    font-size: 20px;
 }
+
 /*  */
 .titleUl{
     color: rgb(10, 162, 162);
@@ -164,8 +165,8 @@ button{
  .option {
     cursor: pointer;
     margin-top: 1%;
-   
  }
+
 .task{
     margin-top: 5px;
 }
