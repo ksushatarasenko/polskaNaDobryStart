@@ -37,11 +37,11 @@ li input{
 
 .li{
     list-style-type: none;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0.5%;
 }
 ol>li{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /*  */
