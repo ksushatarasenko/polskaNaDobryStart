@@ -158,8 +158,10 @@ button{
     display: flex;
     gap: 1px;
     font-size: 20px;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    width: 900px;
+    text-align: left;
  }
  
  .option {
@@ -326,4 +328,10 @@ button{
 /*  */
 .boxRadio>label{
     padding: 10px;
+}
+.boxRadio{
+    width: 250px;
+    margin-left: 50px;
+    display: flex;
+    justify-items:flex-end;
 }

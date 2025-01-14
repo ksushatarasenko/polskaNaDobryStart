@@ -67,6 +67,68 @@
     </div>
     <button onclick="checkRadio('task617')">Chek</button>
 </div>
+<!-- Radio prawda/falsz -->
+<div>
+    <div id="task1016">
+        <div class="task">
+            <div class="options">
+                <div class="textRadio">
+                    <p class="p20">1. Na zdjęciu są laureaci konkursu.</p>
+                </div>
+                <div class="boxRadio">
+                    <label><input type="radio" name="question1" value="1"> Prawda</label>
+                    <label><input type="radio" name="question1" value="2"> Falsz</label>
+                </div>
+            </div>
+        </div>
+        <div class="task">
+            <div class="options">
+                <div class="textRadio">
+                   <p class="p20">2. Udział w konkursie brało dwóch chłopców i jedna dziewczynka.</p> 
+                </div>
+                <div class="boxRadio">
+                    <label><input type="radio" name="question2" value="1"> Prawda</label>
+                    <label><input type="radio" name="question2" value="2"> Falsz</label>
+                </div>
+            </div>
+        </div>
+        <div class="task">
+            <div class="options">
+                <div class="textRadio">
+                    <p class="p20">3. Wszystkie dzieci zdobyły nagrody.</p>
+                </div>
+                <div class="boxRadio">
+                    <label><input type="radio" name="question3" value="1"> Prawda</label>
+                    <label><input type="radio" name="question3" value="2"> Falsz</label>
+                </div>
+            </div>
+        </div>
+        <div class="task">
+            <div class="options">
+                <div class="textRadio">
+                    <p class="p20">4. Pierwsze miejsce zajęła dziewczynka w niebieskiej sukience.</p>
+                </div>
+                <div class="boxRadio">
+                    <label><input type="radio" name="question4" value="1"> Prawda</label>
+                    <label><input type="radio" name="question4" value="2"> Falsz</label>
+                </div>
+            </div>
+        </div>
+        <div class="task">
+            <div class="options">
+                <div class="textRadio">
+                     <p class="p20">5. Trzecie miejsce zajął chłopiec.</p>
+                </div>
+               
+                <div class="boxRadio">
+                    <label><input type="radio" name="question5" value="1"> Prawda</label>
+                    <label><input type="radio" name="question5" value="2"> Falsz</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button onclick="checkRadio('task1016')">Chek</button>
+</div>
 <!--  -->
 
 
