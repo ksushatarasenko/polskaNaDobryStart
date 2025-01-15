@@ -85,6 +85,9 @@ function checkRadio(taskId) {
             question6: '2',
             question7: '2'
         },
+        task1122: {
+            question1: '3',
+        },
     };
 
     let allCorrect = true;

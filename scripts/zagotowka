@@ -20,7 +20,7 @@
     <div class="hint2-container" onclick="toggleHint2(this)">
         <div class="hint2-header"></div>
         <div class="hint2-content">
-            <div class="image">
+            <div class="image" style="width: 60%;">
                 <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogurNNojqrKXJANmw?embed=1&width=1238&height=502" alt="">
             </div>
         </div>
@@ -31,7 +31,7 @@
 <div class="hint2-container" onclick="toggleHint2(this)">
     <div class="hint2-header italic fiolet">tłumaczenie</div>
     <div class="hint2-content">
-        <div class="image">
+        <div class="image" style="width: 45%;">
             <img src="https://1drv.ms/i/s!Av5Voug-ar1TgolE8XdjdoPPriku_Q?embed=1&width=1220&height=742"
                 alt="tlumacz9">
         </div>
