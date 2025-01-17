@@ -11,7 +11,7 @@
         </div>
         <div class="colors">
             <p class="p20">- bardzo zielona, ale też różowa, żółta, biała jak kwiaty. => <input type="text"
-                    data-answer="lubię" class="line_1"></p>
+                    data-answer="" class="line_1"></p>
         </div>
     </div>
 </div>
