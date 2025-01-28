@@ -420,3 +420,28 @@
             </div>
         </div>
     </div>
+
+    <!-- div text -->
+    <div class="text">
+        <div class="text">
+            <p class="em">Przykłady:</p>
+            <p class="p18" style="line-height: 1.4;">
+                Ile wynosi czynsz za wynajęcie małego mieszkania w stolicy?
+                Czy wymagana jest kaucja i kiedy należy ją wpłacić?
+                Jakie są dodatkowe opłaty za wynajem tego mieszkania?
+                Będziemy płacić ratę kredytu za mieszkanie, czynsz oraz opłaty za prąd i gaz.
+                Nie mogę wynająć tego mieszkania, bo właściciel wymaga dwumiesięcznej kaucji.
+                Czynsz płatny za dwa miesiące z góry.
+            </p>
+            <audio src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9qSUNB7WtBnZE_l0VaGhao)/userfiles/kursy/lektorzy_b1/l1/b1-l1-e12.mp3" controls></audio>
+            <div class="hint2-container" onclick="toggleHint2(this)">
+                <div class="hint2-header italic fiolet">tłumaczenie</div>
+                <div class="hint2-content">
+                    <div class="image" style="width: 45%;">
+                        <img src="https://1drv.ms/i/s!Av5Voug-ar1TgpBAUWkC85wSMEhEHQ?embed=1&width=864&height=358"
+                            alt="tlumacz12">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
