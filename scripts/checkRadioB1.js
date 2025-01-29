@@ -29,6 +29,28 @@ function checkRadio(taskId) {
         task0118: {
             question1: '2',
         },
+        // lekcja 02
+        task0203: {
+            question1: '2',
+            question2: '1',
+            question3: '2',
+            question4: '1',
+            question5: '2',
+            question6: '2',
+            question7: '2',
+        },
+        task0210: {
+            question1: '3',
+            question2: '1',
+            question3: '3',
+            question4: '3',
+            question5: '2',
+            question6: '1',
+            question7: '2',
+        },
+        task0212: {
+            question1: '2',
+        },
         
     };
 
