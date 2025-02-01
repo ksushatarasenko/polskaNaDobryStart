@@ -71,22 +71,37 @@ function checkRadio(taskId) {
             question6: '2',
             question7: '1',
             question8: '2',
-        }, 
+        },
         task0304: {
             question1: '2',
-        }, 
+        },
         task0315: {
             question1: '2',
         },
         task0320: {
             question1: '1',
-        }, 
+        },
         task0327: {
             question1: '3',
             question2: '3',
             question3: '1',
             question4: '3',
-        },            
+        },
+        //4
+        task0403: {
+            question1: '2',
+            question2: '2',
+            question3: '2',
+            question4: '2',
+            question5: '1',
+            question6: '1',
+            question7: '2',
+            question8: '1',
+            question9: '1',
+        },
+        task0411: {
+            question1: '2',
+        },
     };
 
     let allCorrect = true;
@@ -98,7 +113,7 @@ function checkRadio(taskId) {
         // Перебираем все вопросы для данного задания
         for (const [question, correctValue] of Object.entries(answers)) {
             const selectedAnswer = document.querySelector(`#${taskId} input[name="${question}"]:checked`);
-            
+
             // Проверка на наличие выбранного ответа
             const inputElement = document.querySelector(`#${taskId} input[name="${question}"]`);
             if (!inputElement) {
