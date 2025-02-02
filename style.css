@@ -335,3 +335,7 @@ button{
     display: flex;
     justify-items:flex-end;
 }
+
+.left{
+    margin-left: 10%;
+}
