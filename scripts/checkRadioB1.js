@@ -166,6 +166,13 @@ function checkRadio(taskId) {
             question5: '1',
             question6: '2',
         },
+        task0920: {
+            question1: '2',
+            question2: '1',
+            question3: '3',
+            question4: '2',
+            question5: '3',
+        },
     };
 
     let allCorrect = true;
