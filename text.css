@@ -148,7 +148,15 @@ em{
     font-style: italic;
     margin: 0 2px;
     text-align: center;
+ }
 
+ .line_5{
+    width: 300px;
+    font-size: 18px;
+    color: blue;
+    font-weight: 900;
+    margin: 0 2px;
+    text-align: center;
  }
  
 

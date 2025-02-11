@@ -173,6 +173,14 @@ function checkRadio(taskId) {
             question4: '2',
             question5: '3',
         },
+        // 10
+        task1015: {
+            question1: '1',
+            question2: '2',
+            question3: '1',
+            question4: '2',
+            question5: '1',
+        },
     };
 
     let allCorrect = true;
