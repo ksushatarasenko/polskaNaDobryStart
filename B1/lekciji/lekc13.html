@@ -888,54 +888,73 @@
             </div>
             <!-- 19 -->
             <div class="blockZadanie">
-                <h4>str 19 </h4>
-                <div class="image" style="width: 54%;">
-                    <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGpsQ9qSUdB7X5mbY1mm0ZHLbGjo)/userfiles/kursy/tabelki_i_wykresy_b1/l12/b1.l12.e18.png"
-                        alt="str19">
-                    <audio
-                        src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9qSUNB7X5ibY1mlz1SSt52eWG2e)/userfiles/kursy/lektorzy_b1/l12/b1-l12-e18-n1.mp3"
-                        controls></audio>
+                <h4>str 19 - Proszę uzupełnić zdania poprawnymi formami czasowników.</h4>
+                <div class="question-set" id="set19">
+                    <table class="dialog italic pText" style="text-align: center;">
+                        <tr>
+                            <th>rzeczownik</th>
+                            <th>czasownik
+                                – czas teraźniejszy</th>
+                            <th>czasownik
+                                – czas przeszły dokonany</th>
+                        </tr>
+                        <tr>
+                            <td>zaręczyny</td>
+                            <td class="colors">
+                                 My <input type="text" data-answer="zaręczamy" class="line_1"> się
+                            </td>
+                            <td class="colors">
+                                My <input type="text" data-answer="zaręczyliśmy" class="line_1"> się
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>kłótnia</td>
+                            <td class="colors">
+                                My <input type="text" data-answer="kłócimy" class="line_1"> się
+                           </td>
+                           <td class="colors">
+                               My <input type="text" data-answer="pokłóciliśmy" class="line_1"> się
+                           </td>
+                        </tr>
+                        <tr>
+                            <td>rozstanie</td>
+                            <td class="colors">
+                                My <input type="text" data-answer="rozstajemy" class="line_1"> się
+                           </td>
+                           <td class="colors">
+                               My <input type="text" data-answer="rozstaliśmy" class="line_1"> się
+                           </td>
+                        </tr>
+                        <tr>
+                            <td>rozwód</td>
+                            <td class="colors">
+                                My <input type="text" data-answer="rozwodzimy" class="line_1"> się
+                           </td>
+                           <td class="colors">
+                               My <input type="text" data-answer="rozwiedliśmy" class="line_1"> się
+                           </td>
+                        </tr>
+                        <tr>
+                            <td>zgoda</td>
+                            <td class="colors">
+                                My <input type="text" data-answer="godzimy" class="line_1"> się
+                           </td>
+                           <td class="colors">
+                               My <input type="text" data-answer="pogodziliśmy" class="line_1"> się
+                           </td>
+                        </tr>
+                        
+                    </table>
                 </div>
-                <div class="text">
-                    <div class="text">
-                        <p class="em">Przykłady:</p>
-                        <p class="p18" style="line-height: 1.4;">
-                            <b>Słyszysz?</b> Ktoś idzie po schodach… – Nie, nic nie <b>słyszę</b>. <br>
-                            <b>Wsłuchaj</b> się uważnie, wyraźnie słychać kroki. Tak, teraz <b>słyszę</b>.<br>
-                            <b>Słyszałem</b>, że bierzesz udział w konkursie? – Tak, to prawda.<br>
-                            <b>Przesłuchałam</b> wczoraj tę płytę. Podoba mi się.<br>
-                            A więc zmieniłaś decyzję? – Skąd wiesz? <b>Podsłuchiwałeś</b>? – Nigdy nie
-                            <b>podsłuchuję</b>. <br>
-                            Po prostu słyszałem, bo rozmawiałyście głośno.
-                        </p>
-                        <audio
-                            src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9qSUNB7X5ibY1mlz1WSt52eWG2e)/userfiles/kursy/lektorzy_b1/l12/b1-l12-e18-n2.mp3"
-                            controls></audio>
-                        <div class="hint2-container" onclick="toggleHint2(this)">
-                            <div class="hint2-header italic fiolet">tłumaczenie</div>
-                            <div class="hint2-content">
-                                <div class="pText">
-                                    <p class="p18">
-                                        Слышишь? Кто-то поднимается по лестнице…. – Я ничего не слышу. <br>
-                                        Вслушайся внимательно, отчетливо слышны шаги. Да, сейчас слышу.<br>
-                                        Я слышал, что принимаешь участие в конкурсе? – Да, это правда.<br>
-                                        Я прослушала вчера этот диск. Мне нравится.<br>
-                                        То есть ты говоришь, что поменяла решение? – Откуда ты знаешь? <br>Ты
-                                        подслушивал? –
-                                        Я никогда не подслушиваю. Просто слышал, потому что Вы громко разговаривали.
-                                    </p>
-                                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set19')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 60%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgpZ_lp-sS2Awh4ix9w?embed=1&width=1238&height=758" alt="otwet19">
                             </div>
                         </div>
-                        <p class="p18">
-                            Глагол <em>прослушивать / прослушать</em> используется также в юридической терминологии:
-                            допрашивать свидетелей (przesłuchiwać świadków). В музыкальном контексте означает послушать
-                            кого-то впервые, внимательно или целиком диск, участника конкурса. <br>
-                            Глагол <em>слышно</em>, известный из популярного оборота Что слышно? (Co słcyhać?)
-                            используется только в форме инфинитива. Он означает «регистрирование» чего-то органом слуха,
-                            так же, как и «регистрирование» чего-то органом зрения, напр. Ничего не слышишь? (ты)Ничего
-                            не слышно.(инфинитив). (Nic nie słyszysz? Nic nie słychać.)
-                        </p>
                     </div>
                 </div>
             </div>
