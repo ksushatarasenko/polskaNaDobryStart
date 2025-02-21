@@ -1363,275 +1363,127 @@ Spotkanie zorganizowano dla ośmiorga młodych ludzi.
             </div>
             <!-- 28 -->
             <div class="blockZadanie">
-                <h4>str 28 - Proszę przekształcić na stronę bierną zgodnie z przykładem – czas przyszły.</h4>
-                <div class="question-set" id="set28">
-                    <div class="dialog italic pText">
-                        <div class="colors">
-                            <p class="p18">
-                                kręcić film<br>
-                                Film <u class="blue">będzie kręcony</u> zimą.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p18">
-                                1. omawiać spektakl
-                            </p>
-                            <p class="p18">
-                                Spektakl, na którym byli wszyscy uczniowie, <input type="text" data-answer="będzie"
-                                    class="line_1">
-                                potem <input type="text" data-answer="omawiany" class="line_2">
-                                na lekcji.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p18">
-                                2. przygotowywać imprezę
-                            </p>
-                            <p class="p18">
-                                Impreza w Domu Kultury
-                                <input type="text" data-answer="będzie" class="line_1"> <input type="text"
-                                    data-answer="przygotowywana" class="line_2">
-                                przez cały miesiąc.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p18">
-                                3. organizować koncerty
-                            </p>
-                            <p class="p18">
-                                Koncerty jazzowe
-                                <input type="text" data-answer="będą" class="line_1"> <input type="text"
-                                    data-answer="organizowane" class="line_2">
-                                przez całe lato.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p18">
-                                4. wyremontować budynek
-                            </p>
-                            <p class="p18">
-                                Budynek Filharmonii
-                                <input type="text" data-answer="zostanie" class="line_1"> <input type="text"
-                                    data-answer="wyremontowany" class="line_2">
-                                za rok.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p18">
-                                5. modernizować kino
-                            </p>
-                            <p class="p18">
-                                Kino
-                                <input type="text" data-answer="będzie" class="line_1"> <input type="text"
-                                    data-answer="modernizowane" class="line_2">
-                                przez kilka miesięcy.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p18">
-                                6. przygotowywać młodych pianistów
-                            </p>
-                            <p class="p18">
-                                Młodzi pianiści <input type="text" data-answer="będą" class="line_1">
-                                długo <input type="text" data-answer="przygotowywani" class="line_2">
-                                do konkursu.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex">
-                    <button onclick="checkAnswers('set28')">Sprawdź</button>
-                    <div class="hint2-container" onclick="toggleHint2(this)">
-                        <div class="hint2-header"></div>
-                        <div class="hint2-content">
-                            <div class="image" style="width: 56%;">
-                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgpY9ndQjf-cThwhSdQ?embed=1&width=1400&height=1230"
-                                    alt="otwet28">
+                <h4>str 28 - Proszę wybrać poprawne słowo z listy.</h4>
+                <form id="quiz-form-1328" class="marginLeft">
+                    <ol>
+                        <li style="margin-top: 2%;">
+                            W tym budynku przyjmuje 
+                            <select name="q1">
+                                <option value="">-- Select --</option>
+                                <option value="correct">dwoje</option>
+                                <option value="incorrect">dwojga0</option>
+                                <option value="incorrect">dwaj</option>
+                            </select> psychologów.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Moja przyjaciółka chciałaby mieć
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">trzy</option>
+                                <option value="correct">troje</option>
+                                <option value="incorrect">trójka</option>
+                            </select> dzieci.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Pytało o panią 
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">dwaj</option>
+                                <option value="correct">dwoje</option>
+                                <option value="incorrect">dwojgu</option>
+                            </select>  młodych ludzi.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Obok nas mieszka małżeństwo z 
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">czworo</option>
+                                <option value="incorrect">cztery</option>
+                                <option value="correct">czwórką</option>
+                            </select> dzieci.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Tam mieszkają 
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="correct">cztery</option>
+                                <option value="incorrect">czterej</option>
+                                <option value="incorrect">czterech</option> studentki.
+                            </select>
+                        </li>
+                        <li style="margin-top: 7px">
+                            Idziemy na spotkanie z 
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="correct">piąciorgiem</option>
+                                <option value="incorrect">pięcioro</option>
+                                <option value="incorrect">pięciu</option>
+                            </select> znajomych.
+                        </li>
+                    </ol>
+                
+                    <div class="flex">
+                        <button type="button" onclick="checkAnswersForm('quiz-form-1328')">Sprawdź</button>
+                        <div class="hint2-container" onclick="toggleHint2(this)">
+                            <div class="hint2-header"></div>
+                            <div class="hint2-content">
+                                <div class="image" style="width: 36%;">
+                                    <img src="https://1drv.ms/i/s!Av5Voug-ar1TgpcEHoGWDOUnckWUxQ?embed=1&width=732&height=388" alt="otwet28">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
             <!-- 29 -->
             <div class="blockZadanie">
-                <h4>str 29 - Proszę przekształcić zdania na stronę bierną zgodnie z przykładem.</h4>
-                <div class="question-set" id="set29">
-                    <div class="dialog italic pText">
-                        <div class="colors">
-                            <p class="p18">
-                                Ministerstwo Kultury dotuje niektóre imprezy kulturalne. <br>
-                                Niektóre imprezy kulturalne są dotowane <u class="blue">przez Ministerstwo Kultury</u>.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p18">
-                                1. Dzisiejszy spektakl teatralny filmuje telewizja.
-                            </p>
-                            <p class="p18">
-                                Dzisiejszy spektakl teatralny jest filmowany
-                                <input type="text" data-answer="przez" class="line_1">
-                                <input type="text" data-answer="telewizję" class="line_1">.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p18">
-                                2. Publiczność długo oklaskiwała śpiewaków.
-                            </p>
-                            <p class="p18">
-                                Śpiewacy byli długo oklaskiwani
-                                <input type="text" data-answer="przez" class="line_1">
-                                <input type="text" data-answer="publiczność" class="line_1">.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p18">
-                                3. Jeden z obrazów Jana Matejki zakupił cesarz Austrii Franciszek Józef.
-                            </p>
-                            <p class="p18">
-                                Jeden z obrazów Jana Matejki został zakupiony
-                                <input type="text" data-answer="przez" class="line_1">
-                                <input type="text" data-answer="cesarza" class="line_1">
-                                <input type="text" data-answer="Austrii" class="line_1">
-                                <input type="text" data-answer="Franciszka" class="line_1">
-                                <input type="text" data-answer="Józefa" class="line_1">.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p18">
-                                4. „Damę z łasiczką” namalował Leonardo da Vinci.
-                            </p>
-                            <p class="p18">
-                                „Dama z łasiczką” została namalowana
-                                <input type="text" data-answer="przez" class="line_1">
-                                <input type="text" data-answer="Leonarda" class="line_1">
-                                <input type="text" data-answer="da" class="line_1">
-                                <input type="text" data-answer="Vinci" class="line_1">.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p18">
-                                5. „Jezioro łabędzie” skomponował Piotr Czajkowski.
-                            </p>
-                            <p class="p18">
-                                „Jezioro łabędzie” zostało skomponowane
-                                <input type="text" data-answer="przez" class="line_1">
-                                <input type="text" data-answer="Piotra" class="line_1"> <input type="text"
-                                    data-answer="Czajkowskiego" class="line_1">.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex">
-                    <button onclick="checkAnswers('set29')">Sprawdź</button>
-                    <div class="hint2-container" onclick="toggleHint2(this)">
-                        <div class="hint2-header"></div>
-                        <div class="hint2-content">
-                            <div class="image" style="width: 56%;">
-                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgpY-xl13znB4p-Kb6w?embed=1&width=1510&height=1190"
-                                    alt="otwet29">
-                            </div>
-                        </div>
-                    </div>
+                <h4>str 29 - Proszę zaznaczyć poprawną odpowiedź.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/55389080a4164244a3c12e0f36f5fcbf?themeId=49&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <!-- 30 -->
+
             <div class="blockZadanie">
-                <h4>str 30 - Proszę przetłumaczyć zdania.</h4>
+                <h4>str 30 - Proszę podpisać fotografie, używając poprawnych form liczebnika.</h4>
                 <div class="question-set" id="set30">
-                    <div class="dialog italic ">
-                        <div class="colors">
-                            <p class="p20">1. Картина, которую я купила, была нарисована известным художником.</p>
-                            <p class="p20 italic ">
-                                <input type="text" data-answer="Obraz" class="line_1">,
-                                <input type="text" data-answer="który" class="line_1">
-                                <input type="text" data-answer="kupiłam" class="line_1">
-                                <input type="text" data-answer="został" class="line_1">
-                                <input type="text" data-answer="przez" class="line_1">
-                                <input type="text" data-answer="znanego" class="line_1">
-                                <input type="text" data-answer="artystę" class="line_1">.
-                            </p>
+                    <div class="dialog italic pText">
+                        <div class="two">
+                            <div class="colors">
+                                <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9qSUdB7YJmbZFqmz1SStJ3SWG2e)/userfiles/kursy/zdjecia_b1/l13/b1.l13.e29.n1.jpg" alt="30_1">
+                                <p class="p18">1. <input type="text" data-answer="czworo" class="line_1"> przyjaciół
+                                </p>
+                            </div>
+                            <div class="colors">
+                                <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9qSUdB7YJmbZFqmz1WStJ3SWG2e)/userfiles/kursy/zdjecia_b1/l13/b1.l13.e29.n2.jpg" alt="30_1">
+                                <p class="p18">2. <input type="text" data-answer="czterej" class="line_1"> przyjaciele
+                                </p>
+                            </div>
                         </div>
-                        <div class="colors">
-                            <p class="p20">2. Мне нравились все фильмы, которые были показаны на этом фестивале.</p>
-                            <p class="p20">
-                                <input type="text" data-answer="Podobały" class="line_1">
-                                <input type="text" data-answer="mi" class="line_1">
-                                <input type="text" data-answer="się" class="line_1">
-                                <input type="text" data-answer="wszystkie" class="line_1">
-                                <input type="text" data-answer="filmy" class="line_1">,
-                                <input type="text" data-answer="które" class="line_1">
-                                <input type="text" data-answer="były" class="line_1">
-                                <input type="text" data-answer="pokazywane" class="line_1">
-                                <input type="text" data-answer="na" class="line_1">
-                                <input type="text" data-answer="tym" class="line_1">
-                                <input type="text" data-answer="festiwalu" class="line_1">.
-                            </p>
+                        <div class="two">
+                            <div class="colors">
+                                <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9qSUdB7YJmbZFqmz1aStJ3SWG2e)/userfiles/kursy/zdjecia_b1/l13/b1.l13.e29.n3.jpg" alt="30_3">
+                                <p class="p18">3. <input type="text" data-answer="cztery" class="line_1"> przyjaciółki
+                                </p>
+                            </div>
+                            <div class="colors">
+                                <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9qSUdB7YJmbZFqmz1eStJ3SWG2e)/userfiles/kursy/zdjecia_b1/l13/b1.l13.e29.n4.jpg" alt="30_4">
+                                <p class="p18">4. <input type="text" data-answer="dwaj" class="line_1"> lekarze
+                                </p>
+                            </div>
                         </div>
-                        <div class="colors">
-                            <p class="p20">3. Мой любимый фильм завоевал главный приз на зарубежном фестивале.</p>
-                            <p class="p20">
-                                <input type="text" data-answer="Mój" class="line_1">
-                                <input type="text" data-answer="ulubiony" class="line_1">
-                                <input type="text" data-answer="film" class="line_1">,
-                                <input type="text" data-answer="zdobył" class="line_1">
-                                <input type="text" data-answer="główną" class="line_1">
-                                <input type="text" data-answer="nagrodę" class="line_1">
-                                <input type="text" data-answer="na" class="line_1">
-                                <input type="text" data-answer="zagranicznym" class="line_1">
-                                <input type="text" data-answer="festiwalu" class="line_1">.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p20">4. Патриция любит искусство – ходит на выставки в галереи и в музеи.</p>
-                            <p class="p20">
-                                <input type="text" data-answer="Patrycja" class="line_1">
-                                <input type="text" data-answer="kocha" class="line_1">
-                                <input type="text" data-answer="sztukę" class="line_1"> -
-                                <input type="text" data-answer="chodzi" class="line_1">
-                                <input type="text" data-answer="na" class="line_1">
-                                <input type="text" data-answer="wystawy" class="line_1">
-                                <input type="text" data-answer="do" class="line_1">
-                                <input type="text" data-answer="galerii" class="line_1">
-                                <input type="text" data-answer="i" class="line_1">
-                                <input type="text" data-answer="muzeów" class="line_1">.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p20">5.Две красивые скульптуры были проданы на последнем аукционе.</p>
-                            <p class="p20">
-                                <input type="text" data-answer="Dwie" class="line_1">
-                                <input type="text" data-answer="piękne" class="line_1">
-                                <input type="text" data-answer="rzeźby" class="line_1">
-                                <input type="text" data-answer="zostały" class="line_1">,
-                                <input type="text" data-answer="sprzedane" class="line_1">
-                                <input type="text" data-answer="na" class="line_1">
-                                <input type="text" data-answer="ostatniej" class="line_1">
-                                <input type="text" data-answer="aukcji" class="line_1">.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p20">6. Анджей Вайда был четыре раза номинирован на Оскара.</p>
-                            <p class="p20">
-                                <input type="text" data-answer="Andrzej" class="line_1">
-                                <input type="text" data-answer="Wajda" class="line_1">
-                                <input type="text" data-answer="był" class="line_1">
-                                <input type="text" data-answer="cztery" class="line_1">
-                                <input type="text" data-answer="razy" class="line_1">
-                                <input type="text" data-answer="nominowany" class="line_1">
-                                <input type="text" data-answer="do" class="line_1">
-                                <input type="text" data-answer="Oskara" class="line_1">.
-                            </p>
-                        </div>
-                        <div class="colors">
-                            <p class="p20">7. Я очень люблю картины этого художника.</p>
-                            <p class="p20">
-                                <input type="text" data-answer="Bardzo" class="line_1">
-                                <input type="text" data-answer="lubię" class="line_1">
-                                <input type="text" data-answer="obrazy" class="line_1">
-                                <input type="text" data-answer="tego" class="line_1">
-                                <input type="text" data-answer="malarza" class="line_1">.
-                            </p>
-                        </div>
+                        <div class="two">
+                            <div class="colors">
+                                <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9qSUdB7YJmbZFqmz1iStJ3SWG2e)/userfiles/kursy/zdjecia_b1/l13/b1.l13.e29.n5.jpg" alt="30_5">
+                                <p class="p18">5. <input type="text" data-answer="dwoje" class="line_1"> lekarzy
+                                </p>
+                            </div>
+                            <div class="colors">
+                                <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnG1sQ9qSUdB7YJmbZFqmz1mStJ3SWG2e)/userfiles/kursy/zdjecia_b1/l13/b1.l13.e29.n6.jpg" alt="30_6">
+                                <p class="p18">6. <input type="text" data-answer="dwie" class="line_1"> lekarki
+                                </p>
+                            </div>
+                        </div>                       
                     </div>
                 </div>
                 <div class="flex">
@@ -1639,11 +1491,169 @@ Spotkanie zorganizowano dla ośmiorga młodych ludzi.
                     <div class="hint2-container" onclick="toggleHint2(this)">
                         <div class="hint2-header"></div>
                         <div class="hint2-content">
+                                <p class="p18">
+                                    1. czworo <br>
+                                    2. czterej <br>
+                                    3. cztery <br>
+                                    4. dwaj <br>
+                                    5. dwoje <br>
+                                    6. dwie
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 31 -->
+
+            <div class="blockZadanie">
+                <h4>str 31 - Proszę uzupełnić zdania poprawnymi formami liczebników.</h4>
+                <div class="question-set" id="set31">
+                    <div class="dialog italic pText">
+                        <div class="colors">
+                            <p class="p18">1. Moi znajomi razem z (5) <input type="text" data-answer="pięciorgiem" class="line_1">
+                                innych studentów byli na ślubie.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p18">2. (7) <input type="text" data-answer="Siedmioro" class="line_1">
+                                moich znajomych jest w nowych związkach.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p18">3. Marzymy o dużej rodzinie, o (4) <input type="text" data-answer="czworgu" class="line_1"> dzieciach.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p18">4. Jesteśmy szczęśliwi z (2) <input type="text" data-answer="dwojgiem" class="line_1"> naszych przyjaciół.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p18">5. (10) <input type="text" data-answer="Dziesięcioro" class="line_1">
+                                młodych ludzi boi się nowych związków.</p>
+                        </div>
+                        <div class="colors">
+                            <p class="p18">6. Byliśmy z (3) <input type="text" data-answer="trojgiem" class="line_1">
+                                przyjaciół na wspólnym wyjeździe.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set31')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
+                            <div class="image" style="width: 50%;">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgpcF-NpNgZLNjs_Qmg?embed=1&width=990&height=552" alt="otwet31">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 32 -->
+            <div class="blockZadanie">
+                <h4>str 32 - Proszę przetłumaczyć zdania.</h4>
+                <div class="question-set" id="set32">
+                    <div class="dialog italic ">
+                        <div class="colors">
+                            <p class="p20">1. Мой жених сделал мне предложение, и в сентябре мы женимся.</p>
+                            <p class="p20 italic ">
+                                <input type="text" data-answer="Mój" class="line_1">,
+                                <input type="text" data-answer="narzeczony" class="line_1">
+                                <input type="text" data-answer="oświadczył" class="line_1">
+                                <input type="text" data-answer="mi" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="i" class="line_1">
+                                <input type="text" data-answer="we" class="line_1">
+                                <input type="text" data-answer="wrześniu" class="line_1">
+                                <input type="text" data-answer="weźmiemy" class="line_1">
+                                <input type="text" data-answer="ślub" class="line_1">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">2. В прошлом году я развелся с женой.</p>
+                            <p class="p20">
+                                <input type="text" data-answer="W" class="line_1">
+                                <input type="text" data-answer="zeszłym" class="line_1">
+                                <input type="text" data-answer="roku" class="line_1">
+                                <input type="text" data-answer="rozwiodłem" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">,
+                                <input type="text" data-answer="z" class="line_1">
+                                <input type="text" data-answer="żoną" class="line_1">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">3. Я боюсь за свой брак.</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Boję" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="o" class="line_1">,
+                                <input type="text" data-answer="moje" class="line_1">
+                                <input type="text" data-answer="małżeństwo" class="line_1">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">4. Они пошли к психологу, чтобы спасти свои отношения.</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Oni" class="line_1">
+                                <input type="text" data-answer="poszli" class="line_1">
+                                <input type="text" data-answer="do" class="line_1"> -
+                                <input type="text" data-answer="psychologa" class="line_1">,
+                                <input type="text" data-answer="żeby" class="line_1">
+                                <input type="text" data-answer="ratować" class="line_1">
+                                <input type="text" data-answer="swój" class="line_1">
+                                <input type="text" data-answer="związek" class="line_1">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">5. У моих знакомых трое детей.</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Moi" class="line_1">
+                                <input type="text" data-answer="znajomi" class="line_1">
+                                <input type="text" data-answer="mają" class="line_1">
+                                <input type="text" data-answer="troje" class="line_1">,
+                                <input type="text" data-answer="dzieci" class="line_1">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">6. У меня есть подарки для пятерых детей моих сестер.</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Mam" class="line_1">
+                                <input type="text" data-answer="prezenty" class="line_1">
+                                <input type="text" data-answer="dla" class="line_1">
+                                <input type="text" data-answer="pięciorga" class="line_1">
+                                <input type="text" data-answer="dzieci" class="line_1">
+                                <input type="text" data-answer="moich" class="line_1">
+                                <input type="text" data-answer="sióstr" class="line_1">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">7. Здесь работает три психолога.</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Tutaj" class="line_1">
+                                <input type="text" data-answer="pracuje" class="line_1">
+                                <input type="text" data-answer="troje" class="line_1">
+                                <input type="text" data-answer="psychologów" class="line_1">.
+                            </p>
+                        </div>
+                        <div class="colors">
+                            <p class="p20">8. Чего ты боишься?</p>
+                            <p class="p20">
+                                <input type="text" data-answer="Czego" class="line_1">
+                                <input type="text" data-answer="się" class="line_1">
+                                <input type="text" data-answer="boisz" class="line_1">?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set32')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header"></div>
+                        <div class="hint2-content">
                             <div class="image two" style="width: 105%;margin-left: -15px;">
-                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgpY_DJ6lkeo9ShvT5w?embed=1&width=1276&height=1066"
-                                    alt="tlumacz30_1">
-                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgpZALURr0NqFrJlugA?embed=1&width=1276&height=1228"
-                                    alt="tlumacz30_2">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgpcG7Gu5Ix7l3QI9Jg?embed=1&width=1026&height=1162"
+                                    alt="tlumacz32_1">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgpcHumu3Q2RZqhwIWQ?embed=1&width=1026&height=1540"
+                                    alt="tlumacz32_2">
                             </div>
                         </div>
                     </div>
@@ -1654,13 +1664,13 @@ Spotkanie zorganizowano dla ośmiorga młodych ludzi.
                 <h4>str 31 - Proszę słuchać nagrania i pisać. Można też słuchać i pisać na kartce, a później przepisać
                     tekst.</h4>
                 <audio
-                    src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGpsQ9qSUNB7X5ibZVGmzpOXbGjo)/userfiles/kursy/lektorzy_b1/l12/b1-l12-e30.mp3"
+                    src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGpsQ9qSUNB7YJibZVOmzpOXbGjo)/userfiles/kursy/lektorzy_b1/l13/b1-l13-e32.mp3"
                     controls></audio>
 
                 <div class="question">
                     <label for="answer1"></label>
                     <textarea id="answer1" class="answer-input"
-                        data-correct="Jest w moim mieście kilkanaście teatrów, na przedstawienia których chodzę systematycznie z jedną z moich przyjaciółek. Oglądamy sztuki współczesne i klasykę. Kiedy nam się coś szczególnie podoba, razem z resztą publiczności głośno oklaskujemy aktorów."
+                        data-correct="Zaręczyny, oświadczyny, ślub to ważne chwile w życiu ludzi. W dzisiejszych czasach ludzie boją się tworzyć związki, ale boją się też samotności."
                         style="height: 200px;"></textarea>
                 </div>
 
@@ -1671,10 +1681,7 @@ Spotkanie zorganizowano dla ośmiorga młodych ludzi.
                         <div class="hint2-header"></div>
                         <div class="hint2-content">
                             <div class="text">
-                                <p class="p28" style="font-size: 26px;">Jest w moim mieście kilkanaście teatrów, na
-                                    przedstawienia których chodzę systematycznie z jedną z moich przyjaciółek. Oglądamy
-                                    sztuki współczesne i klasykę. Kiedy nam się coś szczególnie podoba, razem z resztą
-                                    publiczności głośno oklaskujemy aktorów.</p>
+                                <p class="p28" style="font-size: 26px;">Zaręczyny, oświadczyny, ślub to ważne chwile w życiu ludzi. W dzisiejszych czasach ludzie boją się tworzyć związki, ale boją się też samotności.</p>
                             </div>
                         </div>
                     </div>
