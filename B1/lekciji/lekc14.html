@@ -641,44 +641,67 @@
             </div>
             <!-- 14 -->
             <div class="blockZadanie">
-                <h4>str 14 - Proszę przeczytać tekst i wybrać pasującą do niego ankietę.</h4>
-
-                <div class="text">
-                    <div class="text">
-                        <p class="p18" style="line-height: 1.4;">
-                            Ostatnio zgłosiła się do mnie para. Bardzo młodzi ludzie, a już rozstawali się i schodzili
-                            kilka razy. Na pewno się kochają, ale nie mogą się porozumieć. Ona pochodzi z bogatego domu,
-                            z pełnej rodziny. On wychowywał się w rozbitej rodzinie z problemami. Ona od dzieciństwa
-                            marzyła o wspaniałym ślubie, białej sukni, w której miała wyglądać jak księżniczka, bo takie
-                            śluby miały jej koleżanki. On chciał najpierw zdobyć porządny zawód, zacząć pracować, a
-                            potem ożenić się z nią. Przez dwa lata na zmianę kłócili się i godzili. W końcu dzięki
-                            znajomym trafili do mojego gabinetu. Podczas wspólnych spotkań nauczyli się, jak ze sobą
-                            rozmawiać. Teraz zaręczyli się i planują wziąć ślub.
-                        </p>
-                        <div class="image">
-                            <img src="https://1drv.ms/i/s!Av5Voug-ar1TgpZ65syzWmZqPQcxMQ?embed=1&width=1196&height=868"
-                                alt="">
-                        </div>
-
-                    </div>
-                </div>
-                <div>
-                    <div id="task1314">
-                        <div class="task">
-                            <div class="options">
-                                <div class="flexColumn">
-                                    <label><input type="radio" name="question1" value="1">Tekst dotyczy ankiety nr
-                                        1</label>
-                                    <label><input type="radio" name="question1" value="2"> Tekst dotyczy ankiety nr
-                                        2</label>
-                                    <label><input type="radio" name="question1" value="3"> Tekst dotyczy ankiety nr
-                                        3</label>
+                <h4>str 14 - Proszę wybrać poprawne słowo z listy.</h4>
+                <form id="quiz-form-1414" class="left">
+                    <ol>
+                        <li style="margin-top: 2%;">
+                            Maciek po dwudziestej nie wychodzi z domu. Boi się, że go ktoś 
+                            <select name="q1">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">napadł</option>
+                                <option value="correct">napadnie</option>
+                                <option value="incorrect">napadną</option>
+                            </select>.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Pani Ania wraca nocą do domu, ciągle się za siebie ogląda, bo boi się, że ją 
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">okradnie</option>
+                                <option value="correct">okradną</option>
+                                <option value="incorrect">okradli</option>
+                            </select>.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Dwaj mężczyźni zaczęli się kłócić, boję się, że zaraz się 
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">pobije</option>
+                                <option value="incorrect">pobił</option>
+                                <option value="correct">pobiją</option>
+                            </select>.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Kasjerka zastanawia się, co by zrobiła, gdyby ktoś 
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="correct">napadł</option>
+                                <option value="incorrect">napadną</option>
+                                <option value="incorrect">napadli</option>
+                            </select> na bank w którym pracuje.
+                        </li>
+                        <li style="margin-top: 7px">
+                            Państwo Nowakowie zainstalowali alarm, bo boją się, że ktoś się 
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">włamią</option>
+                                <option value="incorrect">włamiesz</option>
+                                <option value="correct">włamie</option>
+                            </select> do ich domu.
+                        </li>
+                    </ol>
+                    <div class="flex">
+                        <button type="button" onclick="checkAnswersForm('quiz-form-1414')">Sprawdź</button>
+                        <div class="hint2-container" onclick="toggleHint2(this)">
+                            <div class="hint2-header"></div>
+                            <div class="hint2-content">
+                                <div class="image" style="width: 50%;">
+                                    <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgpdxar6KwafLU8M1WQ?embed=1&width=1124&height=330" alt="otwet14">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button onclick="checkRadio('task1314')">Chek</button>
-                </div>
+                </form>
             </div>
             <!-- 15 -->
             <div class="blockZadanie">
