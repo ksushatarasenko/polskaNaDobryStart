@@ -315,9 +315,11 @@ button{
 .table{
     font-size: 20px;
     margin: 0 auto;
-   border: 2px solid gray;
-   padding: 2%;
+    border: 2px solid gray;
+    padding: 2%;
+    width: 95%;
 }
+
 .td,.th{
     margin: 25px;
     border: 2px solid gray;
@@ -325,6 +327,38 @@ button{
     width: 250px;
     text-align: center;
 }
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4f46e5;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e0e7ff;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        td {
+            vertical-align: top;
+        }
+
+
 /*  */
 .boxRadio>label{
     padding: 10px;
