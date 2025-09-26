@@ -18,13 +18,13 @@ h3{
     margin: 2%;
 }
 h4{
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
     color: rgb(90, 0, 128);
     margin: 2%;
 }
 h5{
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     color: rgb(193, 46, 127);
 }
@@ -167,4 +167,10 @@ em{
  }
  .coral{
     color: rgb(239, 103, 53);
+ }
+
+ .text{
+    background-color: rgb(236, 218, 194);
+    font-size: 24px;
+    line-height: 1.4;
  }
