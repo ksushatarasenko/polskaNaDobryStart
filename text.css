@@ -171,6 +171,9 @@ em{
 
  .text{
     background-color: rgb(236, 218, 194);
-    font-size: 24px;
+    font-size: 23px;
     line-height: 1.4;
+ }
+ .dialog{
+    text-indent: 60px;
  }
