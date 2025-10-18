@@ -9,7 +9,10 @@
     margin: 0 auto;
     padding: 2%;
 }
-
+.main{
+    padding: 2%;
+    font-size: 20px;
+}
 .header{
     background-color: rgb(197, 161, 231);
     display: flex;
@@ -52,6 +55,12 @@ ol>li>ul{
 }
 ol{
     margin-left: 30px;
+}
+
+.pytania{
+    border: 2px solid gray;
+    padding: 2%;
+    margin: 2%;
 }
 
 /*  */
