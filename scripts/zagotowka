@@ -1,4 +1,4 @@
-<!--  ż-->
+<!--  ż -->
 <!-- &nbsp;  probel -->
 
 <!-- pole dla wpisania -->
@@ -26,6 +26,7 @@
     </div>
 </div>
 <!-- tłumaczenie-->
+ <!--  -->
 
 <div class="hint2-container" onclick="toggleHint2(this)">
     <div class="hint2-header italic fiolet">tłumaczenie</div>
