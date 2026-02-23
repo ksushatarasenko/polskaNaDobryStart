@@ -27,6 +27,13 @@ h5{
     font-size: 24px;
     text-align: center;
     color: rgb(193, 46, 127);
+    margin: 1%;
+}
+h6{
+    font-size: 22px;
+    text-align: center;
+    color: rgb(193, 46, 127);
+    margin: 1%;
 }
 .text{
     padding: 30px 100px;
@@ -37,6 +44,11 @@ em{
 .em{
     font-style: italic;
     font-weight: 900;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.23
 }
 .p{
     font-size: 24px;
