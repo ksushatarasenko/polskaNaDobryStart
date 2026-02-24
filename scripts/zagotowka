@@ -448,3 +448,12 @@
             </div>
         </div>
     </div>
+
+    <!-- КЛИК НА СЛОВО - МОДАЛКА КАРТИНКИ -->
+     <div id="modal" class="modal">
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+
+    <span class="open-modal" data-img="../../imagesPrzypadki/biernik_l_p.png">BIERNIK (kogo? co?)</span>
