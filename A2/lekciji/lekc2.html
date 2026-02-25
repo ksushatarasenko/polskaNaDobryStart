@@ -7,10 +7,16 @@
     <title>A2-lekcja02</title>
     <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="../../text.css">
+    <link rel="stylesheet" href="../../styleModalImage.css">
 
 </head>
 
 <body>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
     <div class="wrapper">
         <header class="header">
             <ul class="list">
@@ -24,6 +30,80 @@
         </header>
         <main class="main">
             <h2>Урок 2 - У меня есть список покупок</h2>
+            <!-- slownik -->
+            <div class="blockZadanie">
+                <h5>СЛОВНИК УРОКА</h5>
+                <div class="two">
+                    <div>
+                        <h6>🛒 Покупки (основной диалог)</h6>
+                        <ul>
+                            <li><b>zrobić zakupy</b> – сделать покупки</li>
+                            <li><b>Co mam kupić?</b> – Что мне купить?</li>
+                            <li><b>poczekać</b> – подождать</li>
+                            <li><b>zapamiętać</b> – запомнить</li>
+                            <li><b>zapisać</b> – записать</li>
+                            <li><b>lista zakupów</b> – список покупок</li>
+                            <li><b>bardzo proszę</b> – пожалуйста</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h6>🥖 Продукты</h6>
+                        <ul>
+                            <li><b>masło</b> – масло, <em>n (средн.)</em></li>
+                            <li><b>mleko</b> – молоко, <em>n (средн.)</em></li>
+                            <li><b>czekolada</b> – шоколад, <em>ż (жен.)</em></li>
+                            <li><b>cukier brązowy</b> – коричневый сахар, <em>m (муж.)</em></li>
+                            <li><b>makaron</b> – макароны, <em>m (муж.)</em></li>
+                            <li><b>woda gazowana</b> – газированная вода, <em>ż (жен.)</em></li>
+                            <li><b>herbatniki</b> – печенье, <em></em></li>
+                            <li><b>bułka</b> – булочка, <em>ż (жен.)</em></li>
+                            <li><b>cola</b> – кола, <em>ż (жен.)</em></li>
+                            <li><b>orzeszki</b> – орешки</li>
+                            <li><b>sok jabłkowy</b> – яблочный сок, <em>m (муж.)</em></li>
+                            <li><b>miód </b> – мёд</li>
+                            <li><b>pomidor</b> - помидор, <em>m (муж.)</em></li>
+                            <li><b>ziemniak</b> - картофель, <em>m (муж.)</em></li>
+                            <li><b>jabłko</b> – яблоко, <em>n (средн.)</em></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="two">
+                    <div>
+                        <h6>💄 Косметика</h6>
+                        <ul>
+                            <li><b>kosmetyki</b> – косметика</li>
+                            <li><b>szampon</b> – шампунь</li>
+                            <li><b>odżywka do włosów</b> – кондиционер для волос</li>
+                            <li><b>dezodorant w sprayu / w kulce</b> – дезодорант</li>
+                            <li><b>pasta do zębów</b> – зубная паста</li>
+                            <li><b>nić dentystyczna</b> – зубная нить</li>
+                            <li><b>krem do rąk</b> – крем для рук</li>
+                            <li><b>maseczka do twarzy</b> – маска для лица</li>
+                            <li><b>lakier do paznokci</b> – лак для ногтей</li>
+                            <li><b>tusz do rzęs</b> – тушь</li>
+                            <li><b>puder do twarzy</b> – пудра</li>
+                            <li><b>farba do włosów</b> – краска для волос</li>
+                            <li><b>perfumy</b> – духи</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h6>📦 Упаковки</h6>
+                        <ul>
+                            <li><b>paczka</b> – пачка</li>
+                            <li><b>puszka</b> – банка (жестяная)</li>
+                            <li><b>karton</b> – картонная упаковка</li>
+                            <li><b>butelka</b> – бутылка</li>
+                            <li><b>słoik </b>– стеклянная банка</li>
+                            <li><b>tabliczka</b> – плитка (шоколада)</li>
+                            <li><b>kilogram </b>– килограмм</li>
+                            <li><b>litr </b>– литр</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <h2><a href="https://quizlet.com/pl/1148331806/polska-online-a2-lekcja-02-%D1%83-%D0%BC%D0%B5%D0%BD%D1%8F-%D0%B5%D1%81%D1%82%D1%8C-%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%BF%D0%BE%D0%BA%D1%83%D0%BF%D0%BE%D0%BA-flash-cards/?i=4wzil5&x=1jqt"
+                        target="_blank">Polska Online A2 / lekcja 02 / Quiz >></a></h2>
+            </div>
             <!-- 2 -->
             <div class="blockZadanie">
                 <button id="scrollTopBtn" title="Наверх">&#8679;</button>
@@ -35,23 +115,25 @@
                     </div>
                     <div class="image">
                         <p class="p18" style="width: 75%;">
-                            Daryna: Zrobisz zakupy? <br>
-                            Sławek: Znowu ja?<br>
-                            Daryna: Ostatnio ja robiłam…<br>
-                            Sławek: Dobrze. Co mam kupić?<br>
-                            Daryna: Kup <b>2 kostki masła, 2 butelki mleka, 3 tabliczki czekolady,
+                            <span class="red">Daryna:</span> Zrobisz zakupy? <br>
+                            <span class="blue">Sławek:</span> Znowu ja?<br>
+                            <span class="red">Daryna:</span> Ostatnio ja robiłam…<br>
+                            <span class="blue">Sławek:</span> Dobrze. Co mam kupić?<br>
+                            <span class="red">Daryna:</span> Kup <b>2 kostki masła, 2 butelki mleka, 3 tabliczki
+                                czekolady,
                                 paczkę brązowego cukru…</b><br>
-                            Sławek: Poczekaj, nie zapamiętam. Muszę to zapisać.<br>
-                            Daryna: Może zrobię ci listę zakupów?<br>
+                            <span class="blue">Sławek:</span> Poczekaj, nie zapamiętam. Muszę to zapisać.<br>
+                            <span class="red">Daryna:</span> Może zrobię ci listę zakupów?<br>
                             Sławek: Bardzo proszę.<br>
-                            Daryna: <b>Paczka makaronu, 2 butelki wody gazowanej, 5 paczek herbatników,
+                            <span class="red">Daryna:</span> <b>Paczka makaronu, 2 butelki wody gazowanej, 5 paczek
+                                herbatników,
                                 6 bułek, kilka puszek coli, puszkę orzeszków, karton soku jabłkowego,
                                 mały słoik miodu…</b><br>
-                            Sławek: Jaki makaron?<br>
-                            Daryna: Nie wiem, może być włoski.<br>
-                            Sławek: Jakie herbatniki?<br>
-                            Daryna: Proszę cię, Sławek! Może jeszcze zapytasz, jaka cola?<br>
-                            Sławek: Nie. Cola jest tylko jedna, ale jakie orzeszki?
+                            <span class="blue">Sławek:</span> Jaki makaron?<br>
+                            <span class="red">Daryna:</span> Nie wiem, może być włoski.<br>
+                            <span class="blue">Sławek:</span> Jakie herbatniki?<br>
+                            <span class="red">Daryna:</span> Proszę cię, Sławek! Może jeszcze zapytasz, jaka cola?<br>
+                            <span class="blue">Sławek:</span> Nie. Cola jest tylko jedna, ale jakie orzeszki?
 
                         </p>
                         <audio
@@ -116,44 +198,116 @@
                     </div>
                 </div>
             </div>
-
-
             <!--  5 -->
             <div class="blockZadanie">
                 <h4>str. 5 </h4>
-                <div class="image">
-                    <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGhsQ9mTUdB8W9BrYJHmyEWfxw)/userfiles/kursy/tabelki_i_wykresy_a2/l2/a2.l2.e5.png"
-                        alt="02_5" style="width: 60%;">
-                    <audio
-                        src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGtsQ9mTUNB8WtBrX4-pj5DUfU-msw)/userfiles/kursy/lektorzy_a2/l2/a2-l2-e5-n1.mp3"
-                        controls></audio>
+                <h5>Paczka, puszka, karton, tabliczka, butelka, litr, kilogram + <span class="open-modal"
+                        data-img="../../imagesPrzypadki/dopełniacz_l_p.png">DOPEŁNIACZ</span> (kogo? czego?)</h5>
+                <p class="centr">📦 Упаковка + родительный падеж (dopełniacz)</p>
+                <div class="two">
+                    <div>
+                        <div class="image" style="width:150%;">
+                            <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGhsQ9mTUdB8W9BrYJHmyEWfxw)/userfiles/kursy/tabelki_i_wykresy_a2/l2/a2.l2.e5.png"
+                                alt="02_5">
+                        </div>
+                        <audio
+                            src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGtsQ9mTUNB8WtBrX4-pj5DUfU-msw)/userfiles/kursy/lektorzy_a2/l2/a2-l2-e5-n1.mp3"
+                            controls></audio>
+                    </div>
+                    <div style="margin-left: -180px;">
+                        <p>👉 После слов типа <b>butelka, paczka, kilogram, litr, karton</b> мы ставим <b>родительный
+                                падеж (кого? чего?)</b></p>
+                        <h6>🔹 Если продукт НЕСЧИТАЕМЫЙ</h6>
+                        <p class="centr">(вода, сахар, мёд, молоко)</p>
+                        <p>Используем родительный ед. числа</p>
+                        <ul>
+                            <li>✔ butelka wody</li>
+                            <li>✔ kilogram cukru</li>
+                            <li>✔ słoik miodu</li>
+                            <li>✔ litr mleka</li>
+                        </ul>
+                        <h6>🔹 Если продукт СЧИТАЕМЫЙ</h6>
+                        <p class="centr">(яблоки, огурцы, бананы)</p>
+                        <p>Используем <b>родительный мн. числа</b></p>
+                        <ul>
+                            <li>✔ kilogram ziemniaków</li>
+                            <li>✔ paczka chipsów</li>
+                            <li>✔ słoik ogórków</li>
+                        </ul>
+                    </div>
                 </div>
+
                 <div class="text">
-                    <p class="p20">
-                        С названиями упаковки (напр. <em class="fiolet">butelka, słoik, puszka, karton</em>и т.п.), а
-                        также с названиями мер
-                        (напр. <em class="fiolet">kilogram, dekagram, gram, litr</em>и т.п.) сочетается родительный
-                        падеж единственного или
-                        множественного числа (в зависимости от продукта, который находится в упаковке).
-                    </p>
-                    <p class="p20">
-                        <b>Родительный падеж во множественном числе</b> используем, если продукт можно сосчитать, напр.
-                        <em class="fiolet">kilogram ziemniaków, słoik ogórków, paczka chipsów, pudełko czekoladek</em>).
-                        <br>Если продукт является
-                        <b>неисчислимым</b>, как <em class="fiolet">woda, cukier, dżem или majonez</em>, используем
-                        <b>родительный падеж в единственном числе</b>, напр. <em>butelka wody, karton soku, kilogram
-                            cukru, słoik dżemu, litr mleka</em>.
-                    </p>
-                    <p class="p20">
-                        Цифры 1, 2, 3, 4, а также числа, заканчивающиеся на 2, 3, 4 (за исключением 12, 13, 14)
-                        сочетаются с <b>именительным падежом</b>: <em>dwa <b>kilogramy</b>, dwadzieścia cztery
-                            <b>dekagramy</b>, cztery <b>litry</b>,
-                            trzy <b>butelki</b></em>. Числа от 5 и выше (а также те числа, которые не заканчиваются на
-                        2, 3, 4), требуют
-                        родительного падежа: <em>sześć <b>kilogramów</b>, pięć <b>dekagramów</b>, pięć <b>litrów</b>,
-                            dwadzieścia osiem <b>butelek</b></em>
-                        (сравн. урок 17, уровень A1).
-                    </p>
+                    <div class="two">
+                        <div>
+                            <p class="p20">
+                                С названиями упаковки (напр. <em class="fiolet">butelka, słoik, puszka, karton</em>и
+                                т.п.), а
+                                также с названиями мер
+                                (напр. <em class="fiolet">kilogram, dekagram, gram, litr</em>и т.п.) сочетается
+                                родительный
+                                падеж единственного или
+                                множественного числа (в зависимости от продукта, который находится в упаковке).
+                            </p>
+                            <p class="p20">
+                                <b>Родительный падеж во множественном числе</b> используем, если продукт можно
+                                сосчитать, напр.
+                                <em class="fiolet">kilogram ziemniaków, słoik ogórków, paczka chipsów, pudełko
+                                    czekoladek</em>).
+                                <br>Если продукт является
+                                <b>неисчислимым</b>, как <em class="fiolet">woda, cukier, dżem или majonez</em>,
+                                используем
+                                <b>родительный падеж в единственном числе</b>, напр. <em>butelka wody, karton soku,
+                                    kilogram
+                                    cukru, słoik dżemu, litr mleka</em>.
+                            </p>
+                        </div>
+                        <div class="image" style="width: 150%;">
+                            <img src="../image/produkty policzalne i niepoliczalne.png" alt="" style="width: 120%;">
+                        </div>
+                    </div>
+                    <div class="two">
+                        <div class="image" style="width: 100%;margin-left: -70px;">
+                            <img src="../image/Zasady gramatyczne po liczebnikach.png" alt="02_5" style="width: 100%;">
+                        </div>
+                        <div style="margin-left: 20px;">
+                            <p class="p20"></p>
+                            <p class="p20">
+                                Цифры 1, 2, 3, 4, а также числа, заканчивающиеся на 2, 3, 4 (за исключением 12, 13, 14)
+                                сочетаются с
+                            </p>
+                            <p><b>Что ставим?</b> - 👉 Именительный падеж</p>
+                            <p><b>1 → ед. число</b></p>
+                            <ul>
+                                <li>jedna butelka</li>
+                                <li>jeden kilogram</li>
+                            </ul>
+                            <p><b>2, 3, 4 → множественное число (форма как словарная мн.ч.)</b></p>
+                            <ul>
+                                <li>dwie butelki</li>
+                                <li>trzy kilogramy</li>
+                                <li>cztery litry</li>
+                            </ul>
+                            <p class="p20">А если число больше?</p>
+                            <p>Смотрим на последнюю цифру:</p>
+                            <ul>
+                                <li>22 → kończy się na 2 → jak 2</li>
+                                <li>34 → kończy się na 4 → jak 4</li>
+                            </ul>
+                            <h6>5 и больше</h6>
+                            <p class="p20">Числа от 5 и выше (а также те числа, которые не заканчиваются на 2, 3, 4)</p>
+                            <p><b>Что ставим?</b> - <em>👉 <span class="open-modal" data-img="../../imagesPrzypadki//dopełniacz_l-mn.png">Родительный падеж множественного числа</span></em></p>
+                            <ul>
+                                <li>pięć kilogramów</li>
+                                <li>sześć litrów</li>
+                                <li>osiem butelek</li>
+                                <li>dwadzieścia osiem butelek</li>
+                                <li>dwanaście kilogramów</li>
+                                <li>czternaście litrów</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="p20"><span class="red">НО</span> 12, 13, 14 → всегда <span class="open-modal" data-img="../../imagesPrzypadki/dopełniacz_l-mn.png">родительный мн.</span></p>
                     <p class="italic">Примеры:</p>
                     <p class="p18">
                         Poproszę <b>butelkę coli,karton soku</b> i dwa <b>litry mleka</b>. <br>
@@ -173,6 +327,26 @@
                     <audio
                         src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGtsQ9mTUNB8WtBrX4-rj5DUfU-msw)/userfiles/kursy/lektorzy_a2/l2/a2-l2-e5-n3.mp3"
                         controls></audio>
+                </div>
+                <div class="two">
+                    <div>
+                        <h6>🎯 Примеры с упаковками</h6>
+                        <p>3 butelki wody</p>
+                        <p>5 butelek wody</p><br>
+                        <p>2 kilogramy cukru</p>
+                        <p>7 kilogramów cukru</p><br>
+                        <p>4 puszki coli</p>
+                        <p>10 puszek coli</p>
+                    </div>
+                    <div>
+                        <h6>💡 Почему так?</h6>
+                        <p>Это историческая особенность польского языка.</p>
+                        <p>После 2–4 форма ближе к обычному множественному.</p>
+                        <p>После 5+ — форма родительного множественного.</p><br>
+                        <p>Русский похож:</p>
+                        <p>2 бутылки</p>
+                        <p>5 бутылок</p>
+                    </div>
                 </div>
 
             </div>
@@ -541,9 +715,10 @@
             <!-- 18 -->
             <div class="blockZadanie">
                 <h4>str 18</h4>
+                <h5>предлоги do и w и какие падежи они требуют</h5>
                 <div class="image">
-                    <img src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnW9sQ9mTUdB8W9BnaYCqkVWUemSeZ5FSq5ZTlYJb26SZQ7Pe)/userfiles/kursy/tabelki_i_wykresy_a2/l2/a2.l2.e17_20200731_135018.png"
-                        alt="str18" style="width: 70%;">
+                    <img src="https://github.com/ksushatarasenko/PolskiOnline_Image/blob/main/A2/a2.l2.e17_20200731_135018.png?raw=true"
+                        alt="str18" style="width: 80%;">
                     <audio
                         src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGxsQ9mTUNB8WtBnaU7mklHRumCNca8)/userfiles/kursy/lektorzy_a2/l2/a2-l2-e17-n1.mp3"
                         controls></audio>
@@ -698,25 +873,34 @@
                 <h4>str 24 </h4>
                 <h4>Образование форм повелительного наклонения:</h4>
                 <div class="text">
-                    <p class="p20">1. В глаголах спряжения I вида, которые в <em>1-м лице ед.числа</em>  <b class="fiolet">(ja) имеют окончание –m</b>, <br>
-                        а во <em>2-м лице ед.числа</em> <b class="fiolet">(ty) имеют окончание –asz</b> <em>(mieszkam-mieszkasz)</em> <br>нужно поставить глагол в
-                        форму <em>3 лица мн.числа (oni)</em> и <b class="fiolet">просто отбросить окончание</b>. Например, oni <em>mieszkają - mieszkaj</em>!
+                    <p class="p20">1. В глаголах спряжения I вида, которые в <em>1-м лице ед.числа</em> <b
+                            class="fiolet">(ja) имеют окончание –m</b>, <br>
+                        а во <em>2-м лице ед.числа</em> <b class="fiolet">(ty) имеют окончание –asz</b>
+                        <em>(mieszkam-mieszkasz)</em> <br>нужно поставить глагол в
+                        форму <em>3 лица мн.числа (oni)</em> и <b class="fiolet">просто отбросить окончание</b>.
+                        Например, oni <em>mieszkają - mieszkaj</em>!
                     </p>
                     <p class="p20">
-                        2. В глаголах спряжения <em>II и III вида</em>, которые в <em>1-м лице ед.числа</em><b class="fiolet">(ja) имеют окончание –ę</b>, <br>а во
-                        <em>2-м лице ед.числа</em> <b class="fiolet">(ty) имеют окончание –esz, -isz/-ysz </b> <em>(pracuję - pracujesz, tańczę - tańczysz )</em>
-                        нужно <b class="fiolet">просто отбросить окончание</b>. Например, <em>pracujesz - pracuj!; tańczysz – tańcz</em>!
+                        2. В глаголах спряжения <em>II и III вида</em>, которые в <em>1-м лице ед.числа</em><b
+                            class="fiolet">(ja) имеют окончание –ę</b>, <br>а во
+                        <em>2-м лице ед.числа</em> <b class="fiolet">(ty) имеют окончание –esz, -isz/-ysz </b>
+                        <em>(pracuję - pracujesz, tańczę - tańczysz )</em>
+                        нужно <b class="fiolet">просто отбросить окончание</b>. Например, <em>pracujesz - pracuj!;
+                            tańczysz – tańcz</em>!
                     </p>
                     <p class="p20">
-                        3. Если <em>основа глагола заканчивается на группу согласных</em>, тогда <b class="fiolet">прибавляется окончание -i(j)</b>,
+                        3. Если <em>основа глагола заканчивается на группу согласных</em>, тогда <b
+                            class="fiolet">прибавляется окончание -i(j)</b>,
                         для облегчения произношения. Например, <em>spać – śpij, rwać – rwij</em>.
                     </p>
                     <p class="p20">
-                        Повелительное наклонение образовывается также от совершенных и несовершенных форм в приказах: <br>
+                        Повелительное наклонение образовывается также от совершенных и несовершенных форм в приказах:
+                        <br>
                         <b class="fiolet">Daj mi! Kup mi! Zapytaj!</b>
                     </p>
                     <p class="p20">
-                        В <b>запретах</b> используем только <b>несовершенную форму</b>:  <br> <b class="fiolet">nie dawaj mi, nie kupuj mi, nie pytaj</b>! (если
+                        В <b>запретах</b> используем только <b>несовершенную форму</b>: <br> <b class="fiolet">nie dawaj
+                            mi, nie kupuj mi, nie pytaj</b>! (если
                         не помните формы, обратитесь к уроку 13, уровня A1).
                     </p>
                 </div>
@@ -725,15 +909,18 @@
                         alt="str23">
                 </div>
                 <div class="text">
-                    <p class="p20"><b class="fiolet">Исключения!</b> <b>Być – bądź! Mieć – miej! Widzieć – patrz! Wziąć – weź!</b>
+                    <p class="p20"><b class="fiolet">Исключения!</b> <b>Być – bądź! Mieć – miej! Widzieć – patrz! Wziąć
+                            – weź!</b>
                     </p>
                     <p class="p20">
-                        К <b>формам ty</b> можно <b>добавить окончание –my, или –cie</b>, образуя, таким способом, множественное
+                        К <b>формам ty</b> можно <b>добавить окончание –my, или –cie</b>, образуя, таким способом,
+                        множественное
                         число, напр. <br><b class="fiolet">róbmy, róbcie, idźmy, idźcie и т.д.</b>
                     </p>
                     <p class="p20">
-                        Повелительное наклонение приобретает более <b>вежливую форму</b>, если добавим глагол <b class="fiolet">proszę</b>, напр. <br><b class="fiolet">Kup
-                        mi, proszę, tabliczkę gorzkiej czekolady</b> .
+                        Повелительное наклонение приобретает более <b>вежливую форму</b>, если добавим глагол <b
+                            class="fiolet">proszę</b>, напр. <br><b class="fiolet">Kup
+                            mi, proszę, tabliczkę gorzkiej czekolady</b> .
                     </p>
                     <p class="p18">
                         <b>Kup</b> mi paczkę wacików i chusteczki higieniczne. <br>
@@ -743,14 +930,18 @@
                         <b>Zróbmy</b> sobie przerwę i chodźmy na zakupy!<br>
                         Nie <b>słódź</b> kawy! <b>Pij</b> gorzką!
                     </p>
-                    <audio src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9mTUNB8WtBoZU_l0VaGhao)/userfiles/kursy/lektorzy_a2/l2/a2-l2-e23.mp3" controls></audio>
+                    <audio
+                        src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9mTUNB8WtBoZU_l0VaGhao)/userfiles/kursy/lektorzy_a2/l2/a2-l2-e23.mp3"
+                        controls></audio>
                 </div>
             </div>
             <!-- 25 -->
             <div class="blockZadanie">
                 <h4>str 25 </h4>
                 <div class="video">
-                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/f98d10ecb05c4658abd399a88dc55d72?themeId=22&templateId=36&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/f98d10ecb05c4658abd399a88dc55d72?themeId=22&templateId=36&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <!-- 26 -->
@@ -800,7 +991,8 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <button class="checkAnswers" onclick="checkAnswersLabel('quiz-form-226', 'q226-result')">Chek</button>
+                            <button class="checkAnswers"
+                                onclick="checkAnswersLabel('quiz-form-226', 'q226-result')">Chek</button>
                             <p id="q226-result" style="width: 20%;"></p>
                             <div class="hint2-container" onclick="toggleHint2(this)">
                                 <div class="hint2-header"></div>
@@ -814,29 +1006,36 @@
                         </div>
                     </div>
                     <div>
-                        <h4>str 28 - Согласно образцу, вставьте в предложения соответствующую форму  глагола (повелительное наклонение – 2-е лицо, ед.число  - ty).</h4>
+                        <h4>str 28 - Согласно образцу, вставьте в предложения соответствующую форму глагола
+                            (повелительное наклонение – 2-е лицо, ед.число - ty).</h4>
                         <div class="question-set" id="set28">
                             <div class="dialog italic ">
                                 <div class="colors">
                                     <p class="p20 italic ">(Jeść) – <span class="blue">Jedz</span> mniej mięsa!</p>
                                 </div>
                                 <div class="colors">
-                                    <p class="p20">- (Iść) –  => <input type="text"  data-answer="Idź" class="line_1"> szybko do sklepu!</p>
+                                    <p class="p20">- (Iść) – => <input type="text" data-answer="Idź" class="line_1">
+                                        szybko do sklepu!</p>
                                 </div>
                                 <div class="colors">
-                                    <p class="p20">- (Kupić) –   => <input type="text"  data-answer="Kup" class="line_1"> drogie perfumy!</p>
+                                    <p class="p20">- (Kupić) – => <input type="text" data-answer="Kup" class="line_1">
+                                        drogie perfumy!</p>
                                 </div>
                                 <div class="colors">
-                                    <p class="p20">- (Mówić) –  => <input type="text"  data-answer="Mów" class="line_1"> po polsku!</p>
+                                    <p class="p20">- (Mówić) – => <input type="text" data-answer="Mów" class="line_1">
+                                        po polsku!</p>
                                 </div>
                                 <div class="colors">
-                                    <p class="p20">- (Czytać) –  => <input type="text"  data-answer="Czytaj" class="line_1"> gazety!</p>
+                                    <p class="p20">- (Czytać) – => <input type="text" data-answer="Czytaj"
+                                            class="line_1"> gazety!</p>
                                 </div>
                                 <div class="colors">
-                                    <p class="p20">- (Poczekać) – => <input type="text"  data-answer="Poczekaj" class="line_1"> na mnie!</p>
+                                    <p class="p20">- (Poczekać) – => <input type="text" data-answer="Poczekaj"
+                                            class="line_1"> na mnie!</p>
                                 </div>
                                 <div class="colors">
-                                    <p class="p20">- (Uczyć się) –  => <input type="text"  data-answer="ucz się" class="line_1"> języka angielskiego!</p>
+                                    <p class="p20">- (Uczyć się) – => <input type="text" data-answer="ucz się"
+                                            class="line_1"> języka angielskiego!</p>
                                 </div>
                             </div>
                         </div>
@@ -846,7 +1045,8 @@
                                 <div class="hint2-header"></div>
                                 <div class="hint2-content">
                                     <div class="image">
-                                        <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogIyEsWeCbToQmQTA?embed=1&width=594&height=600" alt="otwet02_28">
+                                        <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogIyEsWeCbToQmQTA?embed=1&width=594&height=600"
+                                            alt="otwet02_28">
                                     </div>
                                 </div>
                             </div>
@@ -858,39 +1058,42 @@
             <div class="blockZadanie">
                 <h4>str 27</h4>
                 <div class="video">
-                    <iframe style="max-width:100%" src="https://wordwall.net/uk/embed/ec3ec151742940a3bfd2655a86a79aca?themeId=49&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/uk/embed/ec3ec151742940a3bfd2655a86a79aca?themeId=49&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
                 </div>
 
             </div>
             <!-- 29 -->
             <div class="blockZadanie">
-                <h4>str 29 - Вставьте в предложения соответствующую форму  глагола (повелительное наклонение, совершенный или несовершенный вид).</h4>
+                <h4>str 29 - Вставьте в предложения соответствующую форму глагола (повелительное наклонение, совершенный
+                    или несовершенный вид).</h4>
                 <div class="question-set" id="set29">
                     <div class="dialog italic ">
                         <div class="colors">
                             <p class="p20 italic ">
-                                1. Kup puszkę kukurydzy! => Nie <input type="text"
-                                data-answer="kupuj" class="line_1"> puszki  kukurydzy!</p>
+                                1. Kup puszkę kukurydzy! => Nie <input type="text" data-answer="kupuj" class="line_1">
+                                puszki kukurydzy!</p>
                         </div>
                         <div class="colors">
-                            <p class="p20">2. Zjedz ryż na kolację! => Nie <input type="text"
-                                    data-answer="jedz" class="line_1"> ryżu!</p>
+                            <p class="p20">2. Zjedz ryż na kolację! => Nie <input type="text" data-answer="jedz"
+                                    class="line_1"> ryżu!</p>
                         </div>
                         <div class="colors">
-                            <p class="p20">3. Wybierz ten lakier! => Nie <input type="text"
-                                    data-answer="wybieraj" class="line_1"> tego lakieru!</p>
+                            <p class="p20">3. Wybierz ten lakier! => Nie <input type="text" data-answer="wybieraj"
+                                    class="line_1"> tego lakieru!</p>
                         </div>
                         <div class="colors">
-                            <p class="p20">4. <input type="text"
-                                    data-answer="Zapytaj" class="line_1"> o cenę dezodorantu! => Nie pytaj o cenę dezodorantu!.</p>
+                            <p class="p20">4. <input type="text" data-answer="Zapytaj" class="line_1"> o cenę
+                                dezodorantu! => Nie pytaj o cenę dezodorantu!.</p>
                         </div>
                         <div class="colors">
-                            <p class="p20">5.  <input type="text"
-                                    data-answer="Napisz" class="line_1">  adres! => Nie pisz adresu!</p>
+                            <p class="p20">5. <input type="text" data-answer="Napisz" class="line_1"> adres! => Nie pisz
+                                adresu!</p>
                         </div>
                         <div class="colors">
-                            <p class="p20">6.  <input type="text"
-                                    data-answer="Zrób" class="line_1"> mi zakupy! => Nie rób mi zakupów!</p>
+                            <p class="p20">6. <input type="text" data-answer="Zrób" class="line_1"> mi zakupy! => Nie
+                                rób mi zakupów!</p>
                         </div>
                     </div>
                 </div>
@@ -900,7 +1103,8 @@
                         <div class="hint2-header"></div>
                         <div class="hint2-content">
                             <div class="image" style="width: 50%;">
-                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogJHcr2bZvvTtLsYg?embed=1&width=1192&height=560" alt="otwet02_29">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogJHcr2bZvvTtLsYg?embed=1&width=1192&height=560"
+                                    alt="otwet02_29">
                             </div>
                         </div>
                     </div>
@@ -914,60 +1118,47 @@
                     <div class="dialog italic ">
                         <div class="colors">
                             <p class="p20">1. Купи мне хороший стиральный порошок!</p>
-                            <p class="p20 italic "><input type="text"
-                                data-answer="Kup" class="line_1"> <input type="text"
-                                data-answer="mi" class="line_1"> <input type="text"
-                                data-answer="dobry" class="line_1"> <input type="text"
-                                data-answer="proszek" class="line_1"> <input type="text"
-                                data-answer="do" class="line_1"> <input type="text"
-                                data-answer="prania" class="line_1">!</p>
+                            <p class="p20 italic "><input type="text" data-answer="Kup" class="line_1"> <input
+                                    type="text" data-answer="mi" class="line_1"> <input type="text" data-answer="dobry"
+                                    class="line_1"> <input type="text" data-answer="proszek" class="line_1"> <input
+                                    type="text" data-answer="do" class="line_1"> <input type="text" data-answer="prania"
+                                    class="line_1">!</p>
                         </div>
                         <div class="colors">
                             <p class="p20">2. Возьми мне банку меда!</p>
-                            <p class="p20"> <input type="text"
-                                    data-answer="Weź" class="line_1"> <input type="text"
-                                    data-answer="mi" class="line_1"> <input type="text"
-                                    data-answer="słoik" class="line_1"> <input type="text"
-                                    data-answer="miodu" class="line_1">!</p>
+                            <p class="p20"> <input type="text" data-answer="Weź" class="line_1"> <input type="text"
+                                    data-answer="mi" class="line_1"> <input type="text" data-answer="słoik"
+                                    class="line_1"> <input type="text" data-answer="miodu" class="line_1">!</p>
                         </div>
                         <div class="colors">
                             <p class="p20">3. Мне, пожалуйста, две пачки масла!</p>
-                            <p class="p20"> <input type="text"
-                                    data-answer="Poproszę" class="line_1"> <input type="text"
-                                    data-answer="dwie" class="line_1"> <input type="text"
-                                    data-answer="kostki" class="line_1"> <input type="text"
-                                    data-answer="masła" class="line_1">!</p>
+                            <p class="p20"> <input type="text" data-answer="Poproszę" class="line_1"> <input type="text"
+                                    data-answer="dwie" class="line_1"> <input type="text" data-answer="kostki"
+                                    class="line_1"> <input type="text" data-answer="masła" class="line_1">!</p>
                         </div>
                         <div class="colors">
                             <p class="p20">4. Мне, пожалуйста, шампунь для волос!</p>
-                            <p class="p20"> <input type="text"
-                                    data-answer="Poproszę" class="line_1"> <input type="text"
-                                    data-answer="szampon" class="line_1"> <input type="text"
-                                    data-answer="do" class="line_1"> <input type="text"
-                                    data-answer="włosów" class="line_1">!</p>
+                            <p class="p20"> <input type="text" data-answer="Poproszę" class="line_1"> <input type="text"
+                                    data-answer="szampon" class="line_1"> <input type="text" data-answer="do"
+                                    class="line_1"> <input type="text" data-answer="włosów" class="line_1">!</p>
                         </div>
                         <div class="colors">
                             <p class="p20">5. Пойдем в магазин!</p>
-                            <p class="p20"> <input type="text"
-                                    data-answer="Chodźmy" class="line_1"> <input type="text"
-                                    data-answer="do" class="line_1"> <input type="text"
-                                    data-answer="sklepu" class="line_1">!</p>
+                            <p class="p20"> <input type="text" data-answer="Chodźmy" class="line_1"> <input type="text"
+                                    data-answer="do" class="line_1"> <input type="text" data-answer="sklepu"
+                                    class="line_1">!</p>
                         </div>
                         <div class="colors">
                             <p class="p20">6. Купите мне несколько банок колы!</p>
-                            <p class="p20"> <input type="text"
-                                    data-answer="Kupcie" class="line_1"> <input type="text"
-                                    data-answer="kilka" class="line_1">  <input type="text"
-                                    data-answer="puszek" class="line_1"> <input type="text"
-                                    data-answer="coli" class="line_1">!</p>
+                            <p class="p20"> <input type="text" data-answer="Kupcie" class="line_1"> <input type="text"
+                                    data-answer="kilka" class="line_1"> <input type="text" data-answer="puszek"
+                                    class="line_1"> <input type="text" data-answer="coli" class="line_1">!</p>
                         </div>
                         <div class="colors">
                             <p class="p20">7. У тебя есть крем для рук?</p>
-                            <p class="p20"> <input type="text"
-                                    data-answer="Masz" class="line_1"> <input type="text"
-                                    data-answer="krem" class="line_1"> <input type="text"
-                                    data-answer="do" class="line_1"> <input type="text"
-                                    data-answer="rąk" class="line_1">?</p>
+                            <p class="p20"> <input type="text" data-answer="Masz" class="line_1"> <input type="text"
+                                    data-answer="krem" class="line_1"> <input type="text" data-answer="do"
+                                    class="line_1"> <input type="text" data-answer="rąk" class="line_1">?</p>
                         </div>
                     </div>
                 </div>
@@ -977,7 +1168,8 @@
                         <div class="hint2-header"></div>
                         <div class="hint2-content">
                             <div class="image" style="width: 60%;">
-                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogKs56OAJvsYpK_ZA?embed=1&width=1232&height=1538" alt="otwet02_30">
+                                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogKs56OAJvsYpK_ZA?embed=1&width=1232&height=1538"
+                                    alt="otwet02_30">
                             </div>
                         </div>
                     </div>
@@ -985,8 +1177,11 @@
             </div>
             <!-- 31 -->
             <div class="blockZadanie">
-                <h4>str 31 - Слушайте запись и пишите. Вы можете также слушать и писать на листочке, а затем переписать текст.</h4>
-                <audio src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9mTUNB8WtBpYk_l0VaGhao)/userfiles/kursy/lektorzy_a2/l2/a2-l2-e30.mp3" controls></audio>
+                <h4>str 31 - Слушайте запись и пишите. Вы можете также слушать и писать на листочке, а затем переписать
+                    текст.</h4>
+                <audio
+                    src="http://www.polskijazyk.pl/files/(wl2YhKjUcGJc65tVnmyd11htirKSXs2EZp5xm1uqnJaee2eNZlRc4ZtWn71nnGlsQ9mTUNB8WtBpYk_l0VaGhao)/userfiles/kursy/lektorzy_a2/l2/a2-l2-e30.mp3"
+                    controls></audio>
                 <div class="question">
                     <label for="answer1"></label>
                     <textarea id="answer1" class="answer-input"
@@ -995,13 +1190,15 @@
                 </div>
 
                 <div class="flex">
-                    <button id="checkAnswersButton" >Проверить</button>
+                    <button id="checkAnswersButton">Проверить</button>
                     <div id="result"></div>
                     <div class="hint2-container" onclick="toggleHint2(this)">
                         <div class="hint2-header"></div>
                         <div class="hint2-content">
                             <div>
-                                <p style="font-size: 28px;padding: 0 3%;">Idziemy na zakupy. Kupujemy paczkę makaronu, butelkę wody, orzeszki i kilogram pomidorów. W drogerii kupujemy szampon do włosów, dezodorant i papier toaletowy. Chodź z nami!</p>
+                                <p style="font-size: 28px;padding: 0 3%;">Idziemy na zakupy. Kupujemy paczkę makaronu,
+                                    butelkę wody, orzeszki i kilogram pomidorów. W drogerii kupujemy szampon do włosów,
+                                    dezodorant i papier toaletowy. Chodź z nami!</p>
                             </div>
                         </div>
                     </div>
@@ -1017,6 +1214,8 @@
 
     <script src="../../scripts/script.js"></script>
     <script src="../../scripts/scriptchexBox.js"></script>
+    <script src="../../modalImage.js"></script>
+
 
 </body>
 
