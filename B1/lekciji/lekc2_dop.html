@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B1-lekcja02_dop</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../text.css">
+    <link rel="stylesheet" href="../../styleModalImage.css">
+
+</head>
+
+<body>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+    <div class="wrapper">
+        <header class="header">
+            <ul class="list">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../A1/indexA1.html">A1</a></li>
+                <li><a href="../../A2/indexA2.html">A2</a></li>
+                <li><a href="../indexB1.html">B1</a></li>
+                <li><a href="../../B2/indexB2.html">B2</a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <h1>Kurs Polski Online B1</h1>
+            <h2>Урок 02 - Smacznie gotujemy <br> Готовим вкусно</h2>
+            <!-- 2 -->
+            <div class="blockZadanie">
+                <h4>str 2. Proszę uzupełnić tekst słowami z listy.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/pl/embed/5286d630e00b4f44a0a4be3ea15f1b4b?themeId=57&templateId=36&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="blockZadanie">
+                <h4>str 3 - Proszę wybrać poprawne słowo z listy.</h4>
+                <form id="quiz-form-3" class="marginLeft">
+                    <ol style="width: 90%;">
+                        <li style="margin-top: 2%;line-height: 1.5;">
+                            Żeby typowe dania kuchni narodowej smakowały obcokrajowcom, trzeba je naprawdę dobrze
+                            <select name="q1">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">ugotować</option>
+                                <option value="incorrect">usmażyć</option>
+                                <option value="correct">przyrządzić</option>
+                            </select>. Jeśli ktoś umie
+                            <select name="q2">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">przygotować</option>
+                                <option value="incorrect">serwować</option>
+                                <option value="correct">gotować</option>
+                            </select>, czyli ma talent, smak i doświadczenie, może
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="correct">przygotować</option>
+                                <option value="incorrect">przyrządzić</option>
+                                <option value="incorrect">nakryć</option>
+                            </select> degustację dla zagranicznych gości. Prezentując kuchnię polską zimą można np.
+                            <select name="q4">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">gotować</option>
+                                <option value="correct">ugotować</option>
+                                <option value="incorrect">zagotować</option>
+                            </select> rosół, a latem
+                            <select name="q5">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">ugotować</option>
+                                <option value="incorrect">obsłużyć</option>
+                                <option value="correct">zrobić</option>
+                            </select> chłodnik. Na drugie danie o każdej porze roku można
+                            <select name="q6">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">robić</option>
+                                <option value="incorrect">upiec</option>
+                                <option value="correct">podać</option>
+                            </select> pierogi. Na deser zawsze warto
+                            <select name="q7">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">ugotować</option>
+                                <option value="incorrect">usmażyć</option>
+                                <option value="correct">upiec</option>
+                            </select> sernik lub szarlotkę. Trzeba pamiętać, że zapraszając gości, musimy się dobrze do
+                            ich wizyty
+                            <select name="q8">
+                                <option value="">-- Select --</option>
+                                <option value="correct">przygotować</option>
+                                <option value="incorrect">gotować</option>
+                                <option value="incorrect">nakryć</option>
+                            </select>.
+                        </li>
+                    </ol>
+
+                    <div class="flex">
+                        <button type="button" onclick="checkAnswersForm('quiz-form-3')">Sprawdź</button>
+                        <div class="hint2-container" onclick="toggleHint2(this)">
+                            <div class="hint2-header italic fiolet"></div>
+                            <div class="hint2-content">
+                                <p>
+                                    Żeby typowe dania kuchni narodowej smakowały obcokrajowcom, trzeba je naprawdę
+                                    <b>przyrządzić</b>. Jeśli ktoś umie <b>gotować</b>, czyli ma talent, smak i
+                                    doświadczenie, może <b>przygotować</b> degustację dla zagranicznych gości.
+                                    Prezentując kuchnię polską zimą
+                                    można np. <b>ugotować</b> rosół, a latem <b>zrobić</b> chłodnik. Na drugie danie o
+                                    każdej porze roku można <b>podać</b> pierogi. Na deser zawsze warto <b>upiec</b>
+                                    sernik lub szarlotkę. Trzeba pamiętać, że zapraszając gości, musimy się dobrze do
+                                    ich wizyty <b>przygotować</b>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- 5 -->
+            <div class="blockZadanie">
+                <h4>str. 5 - Proszę uporządkować wg kategorii.</h4>
+                <fiv class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/pl/embed/ffe9c8711b644dcfba0d823911b45fe3?themeId=65&templateId=2&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </fiv>
+            </div>
+
+            <!--  6 -->
+            <div class="blockZadanie">
+                <h4>str. 6 -Proszę uzupełnić pytania słowami z listy. </h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/pl/embed/2222db1d4a7b4d37844c9d89e36980e7?themeId=66&templateId=36&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!--  7 -->
+            <div class="blockZadanie">
+                <h4>str. 7 - Proszę uzupełnić tekst poprawnymi formami słów w nawiasie.</h4>
+                <div class="question-set" id="set7">
+                    <div class="dialog italic pText">
+                        <div class="colors">
+                            <p class="p20">Każda tradycyjna „dobra gospodyni”, czyli współcześnie osoba, która zna się
+                                na gotowaniu, powinna mieć w swoim „repertuarze” dania przygotowywane z (różne produkty)
+                                <input type="text" data-answer="różnych produktów" class="line_1">. Na pewno warto umieć
+                                robić tradycyjne dania mięsne z (wieprzowina) <input type="text"
+                                    data-answer="wieprzowiny" class="line_1"> i (wołowina) <input type="text"
+                                    data-answer="wołowiny" class="line_1">. Jeśli chcemy podać coś bardziej oryginalnego
+                                warto przygotować danie z (dziczyzna) <input type="text" data-answer="dziczyzny"
+                                    class="line_1">. Jeżeli znamy jakieś ciekawe, dobre danie z (drób) <input
+                                    type="text" data-answer="drobiu" class="line_1">, możemy zaskoczyć nim gości. Warto
+                                pamiętać, że nietrudno przyrządzić pyszne dania z (owoce morza) <input type="text"
+                                    data-answer="owoców morza" class="line_1">. Na pewno można też robić mnóstwo
+                                znakomitych dań z (warzywa), <input type="text" data-answer="warzyw" class="line_1">, a
+                                także z (grzyby) <input type="text" data-answer="grzybów" class="line_1">. Warto mieć
+                                jakąś specjalność, bo coraz więcej osób nie je (mięso) <input type="text"
+                                    data-answer="mięsa" class="line_1">.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set7')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header italic fiolet">Odpowiedź</div>
+                        <div class="hint2-content">
+                            <p>Każda tradycyjna „dobra gospodyni”, czyli współcześnie osoba, która zna się na gotowaniu,
+                                powinna mieć w swoim „repertuarze” dania przygotowywane z (różne produkty) <b>różnych
+                                    produktów</b>. Na pewno warto umieć robić tradycyjne dania mięsne z (wieprzowina)
+                                <b>wieprzowiny</b> i (wołowina) <b>wołowiny</b>. Jeśli chcemy podać coś bardziej
+                                oryginalnego warto przygotować danie z (dziczyzna) <b>dziczyzny</b>. Jeżeli znamy jakieś
+                                ciekawe, dobre danie z (drób) <b>drobiu</b>, możemy zaskoczyć nim gości. Warto pamiętać,
+                                że nietrudno przyrządzić pyszne dania z (owoce morza) <b>owoców morza</b>. Na pewno
+                                można też robić mnóstwo znakomitych dań z (warzywa) <b>warzyw</b>, a także z (grzyby)
+                                <b>grzybów</b>. Warto mieć jakąś specjalność, bo coraz więcej osób nie je (mięso)
+                                <b>mięsa</b>.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <h5>🔥 Главное правило</h5>
+                <p>👉 после предлога „z” (с / из) используется: <em>🧠 Родительный падеж <span class="open-modal"
+                            data-img="../../imagesPrzypadki/dopełniacz_l-mn.png">(dopełniacz l.mn)</span> oraz <span
+                            class="open-modal" data-img="../../imagesPrzypadki/dopełniacz_l_p.png">(dopełniacz
+                            l.poj)</span></em></p>
+            </div>
+            <!-- 8 -->
+            <div class="blockZadanie">
+                <h4>str 8 - Proszę zaznaczyć wszystkie poprawne odpowiedzi.</h4>
+                <div class="video">
+                    <iframe style="max-width:100%"
+                        src="https://wordwall.net/pl/embed/6853a6d24c5349e288b688016d476341?themeId=46&templateId=5&fontStackId=0"
+                        width="500" height="380" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- 10 -->
+            <div class="blockZadanie">
+                <h4>str. 10 - Proszę uzupełnić dialog poprawnymi formami czasowników: <br><em>zamawiać, układać,
+                        nakrywać, podawać, przygotowywać, gotować, przyrządzać.</em> </h4>
+                <div class="question-set" id="set10">
+                    <div class="dialog italic pText">
+                        <div class="colors">
+                            <p class="p20">Olga: Jak przygotowujesz się do przyjęcia gości?</p>
+                            <p class="p20">
+                                Nina: Najpierw <input type="text" data-answer="przygotowuję" class="line_1"> menu na
+                                wieczór, potem robię zakupy. Wiele produktów <input type="text" data-answer="zamawiam"
+                                    class="line_1"> przez Internet. Zupę <input type="text" data-answer="gotuję"
+                                    class="line_1"> przed południem, mięsem zajmuję się w ciągu dnia.
+                            </p>
+                            <p class="p20">
+                                Olga: Kiedy stół?
+                            </p>
+                            <p class="p20">
+                                Nina: Zdarza się, że nawet rano. Skupiam się wtedy na dekoracji stołu i wszystko
+                                starannie <input type="text" data-answer="nakrywasz" class="line_1"> – talerze, sztućce,
+                                szklanki, kieliszki, serwetki. I kwiaty, oczywiście.
+                            </p>
+                            <p class="p20">Olga: Jesteś dobrze zorganizowana, niczego nie zostawiasz na ostatnią
+                                chwilę...</p>
+                            <p class="p20">
+                                Nina: W ostatniej chwili <input type="text" data-answer="układam" class="line_1">
+                                sałatki ze świeżych warzyw, np. sałatę z sosem winegret.
+                            </p>
+                            <p class="p20">
+                                Olga: Czy zawsze <input type="text" data-answer="przyrządzam" class="line_1"> deser?
+                            </p>
+                            <p class="p20">Nina: Tak, zimą domowe ciasto, latem sorbet albo sałatkę owocową.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button onclick="checkAnswers('set10')">Sprawdź</button>
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header italic fiolet">Odpowiedź</div>
+                        <div class="hint2-content">
+                            <p>
+                                Olga: Jak przygotowujesz się do przyjęcia gości?
+                                Nina: Najpierw <b>przygotowuję</b> menu na wieczór, potem robię zakupy. Wiele produktów
+                                <b>zamawiam</b> przez Internet. Zupę <b>gotuję</b>
+                                przed południem, mięsem zajmuję się w ciągu dnia. <br>
+                                Olga: Kiedy stół? <br>
+                                Nina: Zdarza się, że nawet rano. Skupiam się wtedy na dekoracji stołu i wszystko
+                                starannie <b>nakrywasz</b> – talerze, sztućce, szklanki, kieliszki, serwetki. I kwiaty,
+                                oczywiście. <br>
+                                Olga: Jesteś dobrze zorganizowana, niczego nie zostawiasz na ostatnią chwilę... <br>
+                                Nina: W ostatniej chwili <b>układam</b> sałatki ze świeżych warzyw, np. sałatę z sosem
+                                winegret. <br>
+                                Olga: Czy zawsze <b>przyrządzam</b> deser? <br>
+                                Nina: Tak, zimą domowe ciasto, latem sorbet albo sałatkę owocową.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 11 -->
+            <div class="blockZadanie">
+                <h4>str. 11 - Proszę wybrać poprawną formę z listy.</h4>
+                <form id="quiz-form-11" class="marginLeft">
+                    <ul>
+                        <li style="margin-top: 2%;">Na czym smażyć, na czym gotować?</li>
+                        <li style="margin-top: 2%;">
+                            Coraz chętniej używamy w kuchni oliwy. Wiedząc, że jest zdrowa, sądzimy, że zdrowe jest też
+                            smażenie na
+                            <select name="q1">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">oliwy</option>
+                                <option value="incorrect">oliwą</option>
+                                <option value="correct">oliwie</option>
+                            </select>. Okazuje się jednak, że idealna do sałatek oliwa z pierwszego tłoczenia nie nadaje
+                            się do smażenia. Najlepiej smażyć na
+                            <select name="q2">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">olej</option>
+                                <option value="correct">oleju</option>
+                                <option value="incorrect">olejem</option>
+                            </select>
+                            rzepakowym, bo ma wysoką temperaturę smażenia i jest neutralny w smaku. Owoce morza, jak
+                            krewetki czy małże, najlepiej smakują przyrządzone na
+                            <select name="q3">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">masłem</option>
+                                <option value="incorrect">masła</option>
+                                <option value="correct">maśle</option>
+                            </select>. Choć dietetycy próbują wyeliminować z diet smalec, to kucharze uważają, że
+                            najlepsze są mięsa smażone właśnie na
+                            <select name="q4">
+                                <option value="">-- Select --</option>
+                                <option value="correct">smalcu</option>
+                                <option value="incorrect">smalcem</option>
+                                <option value="incorrect">smalcowi</option>
+                            </select>. Do gotowania zup potrzebny jest wywar z mięsa lub warzyw. I tak na przykład
+                            krupnik gotujemy na
+                            <select name="q5">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">żeberka</option>
+                                <option value="incorrect">żeberek</option>
+                                <option value="correct">żeberkach</option>
+                            </select>, rosół na
+                            <select name="q6">
+                                <option value="">-- Select --</option>
+                                <option value="incorrect">mięso</option>
+                                <option value="incorrect">mięsu</option>
+                                <option value="correct">mięsie</option>
+                            </select>
+                            wołowym, a zupę pomidorową najlepiej przyrządzić na
+                            <select name="q7">
+                                <option value="">-- Select --</option>
+                                <option value="correct">wieprzowinie</option>
+                                <option value="incorrect">wieprzowiny</option>
+                                <option value="incorrect">wieprzowiną</option>
+                            </select>.
+                        </li>
+
+                    </ul>
+
+                    <div class="flex">
+                        <button type="button" onclick="checkAnswersForm('quiz-form-11')">Sprawdź</button>
+                        <div class="hint2-container" onclick="toggleHint2(this)">
+                            <div class="hint2-header italic fiolet"></div>
+                            <div class="hint2-content">
+                                <p class="p20">
+                                    Na czym smażyć, na czym gotować?
+                                    Coraz chętniej używamy w kuchni oliwy. Wiedząc, że jest zdrowa, sądzimy, że zdrowe
+                                    jest też smażenie na
+                                    oliwie
+                                    oliwie . Okazuje się jednak, że idealna do sałatek oliwa z pierwszego tłoczenia nie
+                                    nadaje się do smażenia. Najlepiej smażyć na
+                                    oleju
+                                    oleju rzepakowym, bo ma wysoką temperaturę smażenia i jest neutralny w smaku. Owoce
+                                    morza, jak krewetki czy małże, najlepiej smakują przyrządzone na
+                                    maśle
+                                    maśle . Choć dietetycy próbują wyeliminować z diet smalec, to kucharze uważają, że
+                                    najlepsze są mięsa smażone właśnie na
+                                    smalcu
+                                    smalcu . Do gotowania zup potrzebny jest wywar z mięsa lub warzyw. I tak na przykład
+                                    krupnik gotujemy na
+                                    żeberkach
+                                    żeberkach , rosół na
+                                    mięsie
+                                    mięsie wołowym, a zupę pomidorową najlepiej przyrządzić na
+                                    wieprzowinie
+                                    wieprzowinie . </p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="../../scripts/script.js"></script>
+    <script src="../../scripts/checkRadioB1.js"></script>
+    <script src="../../modalImage.js"></script>
+
+
+</body>
+
+</html>
