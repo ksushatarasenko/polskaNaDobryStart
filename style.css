@@ -275,7 +275,7 @@ button{
  /* Раскрытие блока */
  .hint2-container.active .hint2-content {
     padding: 0 2px 5px 2px;
-    max-height: 1000px; /* Достаточно для раскрытия текста */
+    max-height: 2000px; /* Достаточно для раскрытия текста */
     opacity: 1; /* Плавное появление */
     
     max-width: 100%;

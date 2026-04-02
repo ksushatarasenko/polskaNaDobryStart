@@ -3,45 +3,62 @@
 
 <!-- pole dla wpisania -->
 
-<div class="question-set" id="set2">
+<div class="question-set" id="set3">
     <div class="dialog italic pText">
         <div class="colors">
-            <p class="p18">- zielona, ale też niebieska jak woda i żółta jak słonce. => <span class="blue">lato</span>
+            <p class="p20">Niektórzy marzą o (na wsi) <b class="fiolet">wiejskim</b> domu, inni pragną
+                mieć mieszkanie w dużym mieście. W Warszawie na rynku wtórnym najłatwiej kupić
+                mieszkanie w bloku z wielkiej płyty z lat 60., 70. i 80–tych. Niestety, bloki te nie
+                mają parkingów (pod ziemią) <input type="text" data-answer="podziemnych" class="line_1">. Mieszkania w
+                tzw. (prestiż) <input type="text" data-answer="prestiżowych" class="line_1"> dzielnicach, jak Żoliborz
+                czy Mokotów
+                mogą być nieco droższe. Rynek pierwotny oferuje nowe mieszkania na osiedlach (strzec)
+                <input type="text" data-answer="strzeżonych" class="line_1">. Deweloperzy mają w ofercie
+                też (luksus) <input type="text" data-answer="luksusowe" class="line_1"> apartamenty dla
+                zamożnych klientów. Kto potrzebuje więcej przestrzeni i prywatności, może pytać w
+                agencjach nieruchomości o domy (dla jednej rodziny) <input type="text" data-answer="jednorodzinne"
+                    class="line_1">. Najładniejsze są w Wilanowie, na
+                Mokotowie oraz na Kabatach w pobliżu lasu.
             </p>
         </div>
-        <div class="colors">
-            <p class="p18">- bardzo zielona, ale też różowa, żółta, biała jak kwiaty. => <input type="text" data-answer="" class="line_1"></p>
-        </div>
+
     </div>
 </div>
 <div class="flex">
-    <button onclick="checkAnswers('set6')">Sprawdź</button>
+    <button onclick="checkAnswers('set3')">Sprawdź</button>
     <div class="hint2-container" onclick="toggleHint2(this)">
-        <div class="hint2-header"></div>
+        <div class="hint2-header italic fiolet">Odpowiedź</div>
         <div class="hint2-content">
-            <div class="image" style="width: 60%;">
-                <img src="https://1drv.ms/i/s!Av5Voug-ar1TgogurNNojqrKXJANmw?embed=1&width=1238&height=502" alt="">
+            <div class="image">
+                <p>Niektórzy marzą o (na wsi) <b>wiejskim</b> domu, inni pragną mieć mieszkanie w dużym mieście. W
+                    Warszawie na rynku wtórnym najłatwiej kupić mieszkanie w bloku z wielkiej płyty z lat 60., 70. i
+                    80–tych. Niestety, bloki te nie mają parkingów (pod ziemią) <b>podziemnych</b>. Mieszkania w tzw.
+                    (prestiż) <b>prestiżowych</b> dzielnicach, jak Żoliborz czy Mokotów mogą być nieco droższe. Rynek
+                    pierwotny oferuje nowe mieszkania na osiedlach (strzec) <b>strzeżonych</b>. Deweloperzy mają w
+                    ofercie też (luksus) <b>luksusowe</b> apartamenty dla zamożnych klientów. Kto potrzebuje więcej
+                    przestrzeni i prywatności, może pytać w agencjach nieruchomości o domy (dla jednej rodziny)
+                    <b>jednorodzinne</b>. Najładniejsze są w Wilanowie, na Mokotowie oraz na Kabatach w pobliżu lasu.
+                </p>
             </div>
         </div>
     </div>
 </div>
 <!-- tłumaczenie-->
- <!--  -->
+<!--  -->
 
 <div class="hint2-container" onclick="toggleHint2(this)">
     <div class="hint2-header italic fiolet">tłumaczenie</div>
     <div class="hint2-content">
         <div class="image" style="width: 45%;">
-            <img src="https://1drv.ms/i/s!Av5Voug-ar1TgolE8XdjdoPPriku_Q?embed=1&width=1220&height=742"
-                alt="tlumacz9">
+            <img src="https://1drv.ms/i/s!Av5Voug-ar1TgolE8XdjdoPPriku_Q?embed=1&width=1220&height=742" alt="tlumacz9">
         </div>
     </div>
 </div>
 <!--  -->
 
-<p class="slowa p22"> 
-    <span class="coral">za</span> | 
-    <span class="coral">po</span> | 
+<p class="slowa p22">
+    <span class="coral">za</span> |
+    <span class="coral">po</span> |
     <span class="coral">do</span> |
     <span class="coral">wpół</span>
 </p>
@@ -87,7 +104,7 @@
         <div class="task">
             <div class="options">
                 <div class="textRadio">
-                   <p class="p20">2. Udział w konkursie brało dwóch chłopców i jedna dziewczynka.</p> 
+                    <p class="p20">2. Udział w konkursie brało dwóch chłopców i jedna dziewczynka.</p>
                 </div>
                 <div class="boxRadio">
                     <label><input type="radio" name="question2" value="1"> Prawda</label>
@@ -120,9 +137,9 @@
         <div class="task">
             <div class="options">
                 <div class="textRadio">
-                     <p class="p20">5. Trzecie miejsce zajął chłopiec.</p>
+                    <p class="p20">5. Trzecie miejsce zajął chłopiec.</p>
                 </div>
-               
+
                 <div class="boxRadio">
                     <label><input type="radio" name="question5" value="1"> Prawda</label>
                     <label><input type="radio" name="question5" value="2"> Falsz</label>
@@ -439,7 +456,7 @@
             <div class="hint2-container" onclick="toggleHint2(this)">
                 <div class="hint2-header italic fiolet">tłumaczenie</div>
                 <div class="hint2-content">
-                    <div class="pText" >
+                    <div class="pText">
                         <p class="p16">
 
                         </p>
@@ -450,7 +467,7 @@
     </div>
 
     <!-- КЛИК НА СЛОВО - МОДАЛКА КАРТИНКИ -->
-     <div id="modal" class="modal">
+    <div id="modal" class="modal">
         <div class="modal-content">
             <img id="modalImage" src="" alt="">
         </div>
