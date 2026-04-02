@@ -264,7 +264,12 @@ button{
     transition: opacity 0.3s ease-in-out, max-height 0.6s ease-in-out, padding 0.6s ease-in-out;
  }
  .hint2-content p{
-    font-size: 18px;
+    font-size: 19px;
+ }
+ .hint2-content>div>h6{
+    font-size: 24px;
+    color: rgb(111, 109, 109);
+    text-align: left;
  }
  
  /* Раскрытие блока */
